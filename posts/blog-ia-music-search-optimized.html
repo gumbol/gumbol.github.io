@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>How to search for full length music on the internet archive | Tarik Alyahya</title>
+  <link rel="shortcut icon" href="../logo64.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- IMPORTANT: fill the content attribute -->
+  <meta name="description" content="guide on how to find full length music on internet archive website">
+  <!-- IMPORTANT: fill the content attribute -->
+  <meta name="keywords" content="music, creative common, internet archive">
+  <!-- IMPORTANT: adjust the relative links as nessecary -->
+  <link rel="stylesheet" type="text/css" href="../styles/start-layout.css">
+  <link rel="stylesheet" type="text/css" href="../styles/taniacss.css">
+<style>
+
+.navigate{
+			position:fixed;
+			background-color:inherit;
+			border:2px solid #000;
+		}
+
+</style>
+
+</head>
+
+<body>
+  <main>
+    <!--target="_blank" rel="noreferrer noopener"-->
+    <header id="page-top">
+      <!-- The site main-nav menu -->
+      <nav class="navigate">
+        <ul class="nav-links">
+            <img class="logo" src="../logo64.png" alt="logo">
+          <li><a href="../index.html">Home</a></li>
+          <li class="current"><a href="blog.html">Articles</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="../about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <h1>How to search for full length music on The Internet Archive</h1>
+
+      <p>When i search the <a href="https://www.archive.org/details/audio">Archive.org</a>
+        for music the results i get are almost always sample music.
+        <br>
+        I needed to listen to full length music so i did some research and found
+        out a neat solution. </p>
+      <p>
+        By including the CreativeCommon (CC) license
+        metadata in the search query
+        I always get full length music. But how to search for it you might ask?
+        The first thing i did was to take a look at the
+        <a href="https://www.creativecommons.org/licenses/">CC license types.</a>
+
+      </p>
+      <p>There are 6 CC license types</p>
+      <ul>
+        <li>by</li>
+        <li>by-sa</li>
+        <li>by-nd</li>
+        <li>by-nc</li>
+        <li>by-nc-sa</li>
+        <li>by-nc-nd</li>
+      </ul>
+      <p>I tried all the CC types
+        and the results were full length music!.
+        The syntax for the search query looks like this</p>
+
+      <code><p>
+        [&lt;SEARCH TERM&gt;][;licenseurl:http&lt;*insert license type here*&gt;]
+      </p></code>
+
+      Example: <code><p>jazz; licenseurl:http*by*</p></code>
+
+      <p>you can include more than one license type in the same query</p>
+
+      Example: <code><p>jazz; licenseurl:http*by-nc
+          OR by-nd*</p></code>
+
+      <p>Hope this helped you
+        Until next time
+      </p>
+
+      <p class="end"> Sincerly Tarik</p>
+    </div>
+
+<h3>About the Author</h3>
+<section class="blurb">
+    <div class="container">
+      <div>
+        <img class="avatar" src="me-256w-01.png" width="256" alt="Tarik">
+      </div>
+
+
+      <div>
+        <h3>Hi I am Tarik Alyahya.</h3>
+        <p>I'm a web developer, writer, and open-source creator.
+          This website is my digital canvas — a collection of the things
+          I've learned and created over the years.
+        </p>
+        <p class="stack-mobile"><a class="button" href="about.html">About me</a>
+          <!--<a class="button" href="https://etarik.substack.com" target="_blank" rel="noreferrer">
+              Join newsletter</a>-->
+          <a class="button" href="https://github.com/gumbol" target="_blank" rel="noreferrer">GitHub</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+
+  </main>
+
+  <footer class="footer flex">
+    <section class="container">
+      <nav class="footer-links">
+        <a href="blog.html">Articles</a>
+        <!--  <a href="/guides">Guides</a>
+            <a href="https://.substack.com/subscribe" target="_blank" rel="noopener noreferrer">Newsletter</a>
+            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
+            <a href="/rss.xml">RSS</a>
+            <a href="https://ko-fi.com/" target="_blank" rel="noopener noreferrer">Donate</a>
+            <a href="https://patreon.com/" target="_blank" rel="noopener noreferrer">Patreon</a>
+            -->
+      </nav>
+
+      <nav class="flex justify-center">
+        <a href="https://github.com/gumbol" title="Open-source on GitHub" target="_blank" rel="noopener noreferrer"
+          class="img">
+          <img src="../github.png" class="footer-img" alt="GitHub">
+        </a>
+      </nav>
+      <p id="sig">&copy; 2020 Tyah</p>
+    </section>
+  </footer>
+</body>
+
+</html>

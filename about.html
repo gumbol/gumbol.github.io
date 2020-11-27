@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>About Me | Tarik Alyahya</title>
+	<link rel="shortcut icon" href="logo64.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- IMPORTANT: fill the content attribute -->
+	<meta name="description" content="An introduction about me and my projects and what inspire me ">
+	<!-- IMPORTANT: fill the content attribute -->
+	<meta name="keywords" content="about, my resume">
+	<!-- IMPORTANT: adjust the relative links as nessecary -->
+	<link rel="stylesheet" type="text/css" href="styles/start-layout.css">
+	<link rel="stylesheet" type="text/css" href="styles/taniacss.css">
+	<link rel="stylesheet" type="text/css" href="styles/card-layout.css">
+	<style>
+		.band {
+			width: 100%;
+			max-width: 960px;
+			margin: 0 auto;
+			display: flex;
+			flex-wrap: wrap;
+	
+		/*	grid-template-columns: 1fr;
+			grid-template-rows: auto;
+			grid-gap: 10px;*/
+		}
+
+		@media (min-width: 485px) {
+			.band {
+
+				grid-template-columns: 1fr 1fr;
+
+			}
+		}
+
+		@media (min-width: 960px) {
+			.band {
+				grid-template-columns: repeat(4, 1fr);
+			}
+		}
+
+		@media (min-width: 60em) {
+			.item-1 {
+				grid-column: 1 / span 2;
+			}
+
+			.item-1 h1 {
+				font-size: 10px;
+			}
+		}
+
+
+
+		.card {
+			min-height: 200px;
+			width: 200px;
+		}
+
+		.card .thumb {
+			padding-bottom: 100%;
+			background-size: cover;
+
+		}
+		.navigate{
+			position:fixed;
+			background-color:inherit;
+			border:2px solid #000;
+		}
+	</style>
+</head>
+
+<body>
+	<header id="page-top">
+	</header>
+	<!-- The site main-nav menu -->
+	<nav class="navigate">
+		<ul class="nav-links">
+				<img class="logo" src="logo64.png" alt="logo">
+			<li><a href="index.html">Home</a></li>
+		<!--	<li><a href="posts/story.html">Stories</a></li> -->
+			<li><a href="posts/blog.html">Articles</a></li>
+			<li><a href="posts/gallery.html">Gallery</a></li>
+			<li class="current"><a href="about.html">About</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<section class="blurb">
+			<div class="container">
+				<div>
+					<img class="avatar" src="me-256w-01.png" width="256" alt="Tarik">
+				</div>
+
+
+				<div>
+					<h3>Hi I am Tarik Alyahya.</h3>
+					<p>I'm a web developer, writer, and open-source creator.
+						This website is my digital canvas — a collection of the things
+						I've learned and created over the years.
+					</p>
+					<p class="stack-mobile"><a class="button" href="about.html">About me</a>
+						<!--<a class="button" href="https://etarik.substack.com" target="_blank" rel="noreferrer">
+								Join newsletter</a>-->
+						<a class="button" href="https://github.com/gumbol" target="_blank" rel="noreferrer">GitHub</a>
+					</p>
+				</div>
+			</div>
+		</section>
+
+
+		<h2>Goals</h2>
+		<ul>
+			<li>
+				<p>To learn something new everyday.
+			</li>
+			<li>
+				To
+				share my learning journey with everyone and to inspire
+				others to do the same.</p>
+			</li>
+			<li>
+				<p>To make useful things and to feel good doing it.</p>
+			</li>
+			<li>
+				<p>Make free story books more accessable to everyone.</p>
+			</li>
+		</ul>
+
+		<h3>Projects</h3>
+		<ul>
+
+			<li><a href="gumbol.github.io">This Website</a></li>
+
+		</ul>
+		<!--<p><a href="goldenbooks.github.io">This project</a> is a web app that combine <a
+				href="https://librivox.org">Librivox audiobooks</a> and
+			<a href="gutenberg.org">project gutenberg textbooks</a>
+			into one page. It is an audio player</p>
+		-->
+
+		<h2>People that inspire me</h2>
+<section>
+
+		<div class="item-6">
+				<a class="card" href="https://www.kayray.org" target="_blank" rel="noreferrer noopener">
+					<div class="thumb" style="background-image: url(media/about/kayray160-01.png);"></div>
+					<article>
+						<h1>Kara Shallenberg</h1>
+						<span>
+							<p>A professional quilter and Audiobook reader.
+				
+							</p>
+						</span>
+					</article>
+				</a>
+			</div>
+
+			
+			<div class="item-6">
+					<a class="card" href="https://www.taniarascia.com" target="_blank" rel="noreferrer noopener">
+						<div class="thumb" style="background-image: url(media/about/tania160-01.jpg);"></div>
+						<article>
+							<h1>Tania Rascia</h1>
+							<span>
+								<p>A software engineer, writer, and open-source creator
+					
+								</p>
+							</span>
+						</article>
+					</a>
+				</div>
+</section>
+
+		<section>
+			<h2>Websites that inspire me</h2>
+			<div class="band">
+				<div class="item-1">
+					<a class="card" href="https://archive.org/" target="_blank" rel="noreferrer noopener">
+						<div class="thumb" style="background-image: url(media/about/ia160-01.png);">
+						</div>
+						<article>
+							<h1>The Internet Archive</h1>
+							<span>
+								<p>A nonprofit digital library offering free universal access
+									to books, movies and music.
+								</p>
+							</span>
+						</article>
+					</a>
+				</div>
+
+
+
+				<div class="item-2">
+					<a class="card" href="https://khanacademy.org/" target="_blank" rel="noreferrer noopener">
+						<div class="thumb" style="background-image: url(media/about/ka160-01.png);"></div>
+						<article>
+							<h1>Khan Academy</h1>
+							<span>
+								<p>A nonprofit with a mission of providing a free,
+									world-class education for anyone anywhere.</p>
+							</span>
+						</article>
+					</a>
+				</div>
+
+
+				<div class="item-3">
+					<a class="card" href="https://librivox.org/" target="_blank" rel="noreferrer noopener">
+						<div class="thumb" style="background-image: url(media/about/lv160-01.png);"></div>
+						<article>
+							<h1>Librivox</h1>
+							<span>
+								<p>A website that host free public domain audiobooks</p>
+							</span>
+						</article>
+					</a>
+				</div>
+
+
+				<div class="item-4">
+					<a class="card" href="https://www.mayoclinic.org" target="_blank" rel="noreferrer noopener">
+						<div class="thumb" style="background-image: url(media/about/mayo160-01.png);"></div>
+						<article>
+							<h1>Mayo Clinic</h1>
+							<span>
+								<p>A nonprofit academic medical center that has a mission to
+									inspire hope and contribute to health and well being.</p>
+							</span>
+						</article>
+					</a>
+				</div>
+
+
+
+
+
+				<div class="item-5">
+					<a class="card" href="https://www.scratch.mit.edu/" target="_blank" rel="noreferrer noopener">
+						<div class="thumb" style="background-image: url(media/about/scratch160-01.png);"></div>
+						<article>
+							<h1>Scratch</h1>
+							<span>
+								<p>A block based programming language app.</p>
+							</span>
+						</article>
+					</a>
+				</div>
+
+
+
+
+
+		</section>
+
+
+
+
+	</main>
+
+
+	<footer class="footer flex">
+
+
+		<section class="container">
+			<nav class="footer-links">
+				<a href="posts/blog.html">Articles</a>
+				<!--	 <a href="/guides">Guides</a>
+					 <a href="https://.substack.com/subscribe" target="_blank" rel="noopener noreferrer">Newsletter</a>
+					 <a href="https://twitter.com/taniarascia" target="_blank" rel="noopener noreferrer">Twitter</a>
+					 <a href="/rss.xml">RSS</a>
+					 <a href="https://ko-fi.com/" target="_blank" rel="noopener noreferrer">Donate</a>
+					 <a href="https://patreon.com/" target="_blank" rel="noopener noreferrer">Patreon</a>
+				   -->
+			</nav>
+
+			<nav class="flex justify-center">
+				<a href="https://github.com/gumbol" title="Open-source on GitHub" target="_blank"
+					rel="noopener noreferrer" class="img">
+					<img src="github.png" class="footer-img" alt="GitHub">
+				</a>
+
+			</nav>
+			<p>&copy; 2020 Tyah</p>
+		</section>
+
+	</footer>
+</body>
+
+</html>

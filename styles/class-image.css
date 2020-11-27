@@ -1,0 +1,40 @@
+/* Image Classes */
+
+/* @books image size */
+
+/* GIMP recommendation for images across different screen sizes */
+.gimp{
+	width:600px;
+	height:800px;
+}
+
+
+.cover300{
+	width:300px;
+	height:300px;}
+	
+.favicon{
+	width:16px;
+	height:16px;}
+
+/* @California Public Library recommendation */
+.thumbnail-150w{
+	width:150px;
+	height:200px;}
+/* @end */		
+
+/* @Denver Public Library recommendation */	
+.thumbnail160{
+	width:160px;
+	height:160px;}
+/* @end */		
+
+.thumbnail75{
+	width:75px;
+	height: 75px;}
+
+.photo250{
+	width:250px;
+	height:250px;}
+
+

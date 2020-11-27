@@ -1,0 +1,83 @@
+
+
+/* single selector styles */
+
+
+a[href]{
+	text-decoration-thickness: 0.03875em;
+	text-underline-offset: 0.2em;
+	text-decoration-color: hsl(13deg,13%,67%);
+	color:hsl(13deg,33%,42%);
+	
+}
+
+a[href]:hover, a[href]:focus{
+	text-decoration-thickness: 0.125em;
+	text-underline-offset: 0.15em;
+	text-decoration-color: currentColor;
+	color: hsl(33deg,99%,33%);
+}	
+
+a:active{
+	border: .12em dashed;
+	
+	color: hsl(33deg,99%,33%);
+}	
+/* @end */
+
+/* @header Section styles */
+
+#page-top {
+
+	grid-column: 1 / -1;
+	grid-row: 1;
+	min-height: 10em;
+	position: relative;
+	mix-blend-mode: darken;
+}
+
+/* @end */
+
+
+/* @navigation styles */
+
+.navigate{
+	max-width: 960px;
+	min-width: 320px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 42;
+	font-size: 1.125em;
+}
+
+.nav-links {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 1em 1em 0;
+	margin: 0;
+	list-style: none;
+	font-family: "IM Fell English",Georgia,serif;
+}
+
+.nav-links li{
+	text-align: center;
+	padding: 0.25em 0.5em;
+}
+
+.nav-links a[href] {
+	display: block;
+	padding: 0;
+	color: hsla(33deg,50%,10%,0.75);
+	font-style:normal;
+}
+
+/* @end */
+
+/* @main styles */
+.main{
+
+}
+/* @end */
