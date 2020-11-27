@@ -9,11 +9,13 @@ starter style sheet
 ***********************
 */
 .logo{
-	top:0;
+	top:1;
 	left:0;
+	
 		position: absolute;
-		width:64px;
-		height:100%;
+		width:32px;
+		height:32px;
+	
 	}
 /* @selector styles */
 *{margin:0; padding:0; box-sizing:border-box;}
