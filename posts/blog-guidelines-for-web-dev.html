@@ -13,7 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="../styles/start-layout.css">
 	<link rel="stylesheet" type="text/css" href="../styles/taniacss.css">
 	<link rel="stylesheet" type="text/css" href="../styles/card-layout.css">
-   
+
   </head>
   <body>
 
@@ -31,55 +31,58 @@
           </ul>
         </nav>
 
-
-
-    <br>
-    <h1> Guidelines For Web Development<br>
+        <article>
+    <h1> Guidelines For Web Development
     </h1>
-    This is a summary of my study and research of a standard to website
-    development. I found some answers to the how to start and where to
-    start questions. but did i find a standard? No. It turns out that
-    web development is more flexible than that.<br>
-    <br>
-    Who is this for?<br>
-    This is for users of all learning stages. It is a collection of
+  
+    <p>This guidlines a collection of conventions to website
+    development suggested by many universities and promenant technology vendors.
+    (i'll add sources as we read). 
+    But is there a standard? as far as i saw no. 
+    It turns out that
+    web development is more flexible than that. and there are general guidelines
+  that are adopted by most web developers which i will be going through here</p>
+    
+    <h3>Who is this for?<h3>
+   <p> This is for users of all learning stages. It is a collection of
     basic guidelines makes the development much easier and enhance
-    productivity whether you are a beginner or an expert.<br>
-    <br>
-    Web development at the basic level can be broken down into 3 phases<br>
-    <br>
-    Directory structure<br>
-    Web page structure<br>
-    Web page presentation<br>
-    <br>
-    With that said let us dive in.<br>
+    productivity whether you are a beginner or an expert.
+    </p>
+
+  <p>Web development process can be broken down into 3 steps</p>
     <ol>
-      <li>
-        <h2>Directory Structure</h2>
-      </li>
+    <li>Directory structure</li>
+   <li> Web page structure</li>
+    <li>Web page presentation</li>
     </ol>
+    
+        <h2>Directory Structure</h2>
+    
     <ul>
       <li>
-        <h4>Folder name</h4>
+        <p>Folder name</p>
       </li>
       <li>
-        <h4>File name</h4>
+        <p>File name</p>
       </li>
     </ul>
+
+
     <p>When i started this website the first thing i had to work with
       was the website directory. I quickly realized i needed to properly
-      structure the website directory before it gets messy.<br>
+      structure the website directory before it gets messy.
       A good directory structure is like code organization and code
       comments. It is not only important to understand the code but to
       know the content without extra clicks.</p>
-    <ul>
-    </ul>
+    
     <h3>Folder name:</h3>
-    The root folders of a website typically has the following
+    <p>The root folders of a website typically has the following
     structure(note that all names are in lowercase<br>
-    except for the README file).<br>
-    Note also that I included several names for each folder. I found
-    that htese are the most used (they are separated by a backslash):<br>
+    except for the README file).</p>
+    
+    <p>Note also that I included several names for each folder. I found
+    that htese are the most used (they are separated by a backslash):</p>
+    
     <ul>
       <li> <b>js/scripts</b>: Include the scripting files that take
         care of the web page behavior</li>
@@ -102,11 +105,13 @@
         best to include one README file inside all root folders. <br>
       </li>
     </ul>
-    <h3> File name:</h3>
-    After naming and structuring the root folders i had to create my
-    file naming scheme. <br>
-    <br>
-    I made my decisions based on the following guidelines:<br>
+
+    <h3>File name:</h3>
+    
+  <p>After naming and structuring the root folders i had to create my
+    file naming scheme. I made my decisions based on the following guidelines:
+   </p> 
+
     <ul>
       <li><b>Make it meaningful: </b>Do not use arbitrary names like
         "myimage.jpg". This makes it hard to know what the image is
@@ -128,49 +133,51 @@
       <li><b>Be consistent: </b>with whatever style you decide to
         pursue.</li>
     </ul>
-    <p>Below are my own guidelines for this website:<br>
-    </p>
+    
+    <h4>Which to use underscore or hyphen?</h4>
+
     <ul>
       <li><b>Use hyphen instead of underscore.</b> why? SEO support,
         visible when hyperlink is rendered in screen, and some SE do not
         recognize underscore.</li>
+
       <li><b>Use all lowercase characters: </b>This is to avoid
         operating systems compatibility and usability issues (i.e linux
         treat my-file and My-file as two different files but windows
-        does not)<b><br>
+        does not)<b>
         </b></li>
+
       <li><b>Use leading zeros:</b> when naming sequential files use a
-        leading zero (i.e file-01, file-001, etc).<br>
-        <br>
+        leading zero (i.e file-01, file-001, etc).
+        
       </li>
     </ul>
-    <b>Naming example 1:</b> this-is-a-blog-post.html<br>
-    <b>Naming example 2:</b> sunflower-200w-01.png<br>
-    <br>
+  <p> <b>Naming example 1:</b> this-is-a-blog-post.html</p>
+  <p>    <b>Naming example 2:</b> sunflower-200w-01.png</p>
+    
     For a complete examples look up <a
       href="https://www.github.com/gumbol/gumbol.github.io">the
-      directory of my website.</a><br>
-    <br>
-    <br>
-    <ol>
-      <li value="2">
+      directory of my website.</a>
+
+  
+      
+
+
         <h2>Web Page development</h2>
-      </li>
-    </ol>
+
     <ul>
       <li>
-        <h4>html and web page structure</h4>
+        <p>html and web page structure</p>
       </li>
       <li>
-        <h4>CSS and web page presentation</h4>
+        <p>CSS and web page presentation</p>
       </li>
     </ul>
-    <ol>
-    </ol>
-    After getting the directory structure figured out and you have
+    
+  <p>After getting the directory structure figured out and you have
     created a naming plan that fits your needs (and that you should be
-    consistent with). It is time to check how to develop a page.<br>
-    <br>
+    consistent with). It is time to check how to develop a page.</p>
+    
     <h4>html and web page structure</h4>
     html is used to structure the raw content into (meaningful)
     sections. I When structuring a web page your users you should code
@@ -228,44 +235,8 @@
     <br>
     This is self explanatory. you should use colors that does not
     obfuscate the words<br>
-    <br>
-    <br>
-    What this means is <br>
-    Fonts<br>
-    <br>
-    <br>
-    Be formatted in a way that makes it accessible to as much users as
-    possible.<br>
-    This means using proper html markup for screen readers.<br>
-    <br>
-    <b>Fonts</b><br>
-    <br>
-    I needed a font that is presentable but also readable. Most widely
-    used font is Arial. That is because it is a good font to read.<br>
-    <br>
-    Images need to include titles because some users use screen readers
-    and these devices scan the imag element alt attribute. It is
-    important to include the alt<br>
-    <br>
-    Search engine optimization (SEO) <br>
-    SEO benefits from the web page development guidlines<br>
-    but there are some elements you can use to increase<br>
-    the SEO using the meta element with the description and keywords.
-    This information is read<br>
-    by the search engines, it is the snippit that gets listed in the
-    search results.<br>
-    <ul>
-      <li>Directory organization</li>
-    </ul>
-    <ul>
-      <li>Text style<br>
-      </li>
-      <li>Image/Media management</li>
-      <li>Accessibility management<br>
-      </li>
-      <li>SEO optimization<br>
-      </li>
-    </ul>
+
+  </article>
    
 
     <footer class="footer flex">

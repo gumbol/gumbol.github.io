@@ -42,15 +42,30 @@ a:active{
 /* @navigation styles */
 
 .navigate{
-	max-width: 960px;
+/*
+@This is the original style
+max-width: 960px;
 	min-width: 320px;
-	position: absolute;
+*/	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
 	z-index: 42;
 	font-size: 1.125em;
+
+/* @custom style */
+	position:fixed;
+/*	background-color:inherit;*/
+background-color:antiquewhite;
+	border:2px solid #000;
+width:98%;
+max-width:960px;
+min-width: 320px;
+margin: 0 auto 0;
+
 }
+
+
 
 .nav-links {
 	display: flex;

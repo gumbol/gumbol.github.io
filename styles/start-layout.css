@@ -12,6 +12,8 @@ starter style sheet
 	top:0;
 	left:0;
 		position: absolute;
+		width:64px;
+		height:100%;
 	}
 /* @selector styles */
 *{margin:0; padding:0; box-sizing:border-box;}
@@ -19,8 +21,7 @@ starter style sheet
 html{background-color: white;}
 /* @body */
 body {
-	font-family: Arial, "Times New Roman", 
-	Times, sans-serif, serif;
+	font-family: Arial, "Times New Roman", Times, sans-serif, serif;
 	color: black;
 	background-color: #fffded;
 	border-style: solid;
