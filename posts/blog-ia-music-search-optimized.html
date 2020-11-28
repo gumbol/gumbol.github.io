@@ -21,24 +21,24 @@
   <main>
     <!--target="_blank" rel="noreferrer noopener"-->
     <header id="page-top"> </header>
-      <!-- The site main-nav menu -->
-      <nav class="navigate">
-        <ul class="nav-links">
-            <img class="logo" src="../logo64.png" alt="logo">
-          <li><a href="../index.html">Home</a></li>
-          <li class="current"><a href="blog.html">Articles</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="../about.html">About</a></li>
-        </ul>
-      </nav>
-   
+    <!-- The site main-nav menu -->
+    <nav class="navigate">
+      <ul class="nav-links">
+        <img class="logo" src="../logo64.png" alt="logo">
+        <li><a href="../index.html">Home</a></li>
+        <li class="current"><a href="blog.html">Articles</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="../about.html">About</a></li>
+      </ul>
+    </nav>
+
 
     <div class="container">
       <h1>How to search for full length music on Internet Archive</h1>
 
       <p>When i search the <a href="https://www.archive.org/details/audio">Archive.org</a>
-        for music the results i get are almost always sample music.
-        <br>
+        for music the results i get are almost always sample music.</p>
+        <p>
         I needed to listen to full length music so i did some research and found
         out a neat solution. </p>
       <p>
@@ -58,46 +58,49 @@
         <li>by-nc-sa</li>
         <li>by-nc-nd</li>
       </ul>
-      <p>I tried all the CC types
-        and the results were full length music!.
+
+      <p>
         The syntax for the search query looks like this</p>
 
       <code><p>
-        [&lt;SEARCH TERM&gt;][;licenseurl:http&lt;*insert license type here*&gt;]
+        [&lt;SEARCH TERM&gt;][licenseurl:http&lt;*LICENSE TYPE*&gt;]
       </p></code>
 
-      Example: <code><p>jazz; licenseurl:http*by*</p></code>
+      <p>You can use "by" to include music that include any
+        of the license types. Or you can use a more specific type.
+        You can also include more than one type in the search query.
+       </p>
+      Example: <code><p>jazz licenseurl:http*by*</p></code>
 
-      <p>you can include more than one license type in the same query</p>
+      <p>To include more than one license type you separate them with "OR" operator</p>
+      Example: <code><p>jazz licenseurl:http*by-nc OR by-nd*</p></code>
 
-      Example: <code><p>jazz; licenseurl:http*by-nc
-          OR by-nd*</p></code>
-
-  
+<p> I tried all the CC types
+    and the results were full length music!.</p>
     </div>
 
-<h3>About the Author</h3>
-<section class="blurb">
-    <div class="container">
-      <div>
-        <img class="avatar" src="me-256w-01.png" width="256" alt="Tarik">
-      </div>
+    <h3>About the Author</h3>
+    <section class="blurb">
+      <div class="container">
+        <div>
+          <img class="avatar" src="me-256w-01.png" width="256" alt="Tarik">
+        </div>
 
 
-      <div>
-        <h3>Hi I am Tarik Alyahya.</h3>
-        <p>I'm a web developer, writer, and open-source creator.
-          This website is my digital canvas — a collection of the things
-          I've learned and created over the years.
-        </p>
-        <p class="stack-mobile"><a class="button" href="about.html">About me</a>
-          <!--<a class="button" href="https://etarik.substack.com" target="_blank" rel="noreferrer">
+        <div>
+          <h3>Hi I am Tarik Alyahya.</h3>
+          <p>I'm a web developer, writer, and open-source creator.
+            This website is my digital canvas — a collection of the things
+            I've learned and created over the years.
+          </p>
+          <p class="stack-mobile"><a class="button" href="about.html">About me</a>
+            <!--<a class="button" href="https://etarik.substack.com" target="_blank" rel="noreferrer">
               Join newsletter</a>-->
-          <a class="button" href="https://github.com/gumbol" target="_blank" rel="noreferrer">GitHub</a>
-        </p>
+            <a class="button" href="https://github.com/gumbol" target="_blank" rel="noreferrer">GitHub</a>
+          </p>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
 
 

@@ -50,9 +50,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /* @main styles */
 
-p{margin: 2em;}
-main{width:100%;
-	}
+p, main li{margin: 2em !important;}
+
+main{width:100%;}
 
 /* @end */
 
