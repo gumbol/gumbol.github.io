@@ -27,7 +27,7 @@
 			grid-gap: 10px;*/
 		}
 
-	
+
 
 		.card {
 			min-height: 200px;
@@ -38,13 +38,13 @@
 		.item-6 .card {
 			min-height: 200px;
 			width: auto;
-			max-width:400px;
+			max-width: 400px;
 			text-align: center;
 			margin-right: 10%;
 		}
-.item-6{
 
-}
+		.item-6 {}
+
 		.card .thumb {
 			padding-bottom: 80%;
 
@@ -54,9 +54,11 @@
 		article h1 {
 			font-size: 10px;
 		}
-	
 
-	main{margin-top:0;}
+
+		main {
+			margin: 0;
+		}
 	</style>
 </head>
 
@@ -175,7 +177,7 @@
 				<div class="thumb" style="background-image: url(media/cover/cover-gallery-wall160-01.jpg);"></div>
 				<article>
 					<h1>A collection of videos, images and drawings i created</h1>
-					<span>Tarik alyahya</span>
+					<span>Tarik Alyahya</span>
 				</article>
 			</a>
 		</div>
@@ -183,25 +185,28 @@
 	</main>
 
 
-	<footer class="footer flex">
-		<section class="container">
-			<nav class="footer-links">
-				<a href="posts/blog.html">Articles</a>
-				<!--	 <a href="/guides">Guides</a>
+	<footer class="footer flex" id="global">
+
+		<div>
+			<section class="container">
+				<nav class="footer-links">
+					<a href="posts/blog.html">Articles</a>
+					<!--	 <a href="/guides">Guides</a>
 				 <a href="https://.substack.com/subscribe" target="_blank" rel="noopener noreferrer">Newsletter</a>
 				 <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
 				 <a href="/rss.xml">RSS</a>
 				 <a href="https://ko-fi.com/" target="_blank" rel="noopener noreferrer">Donate</a>
 				 <a href="https://patreon.com/" target="_blank" rel="noopener noreferrer">Patreon</a>
 			  -->
-			</nav>
-			<nav class="flex justify-center">
-				<a href="https://github.com/gumbol" title="Open-source on GitHub" target="_blank"
-					rel="noopener noreferrer" class="img">
-					<img src="github.png" class="footer-img" alt="GitHub"></a>
-			</nav>
-			<p id="sig">&copy; 2020 Tyah</p>
-		</section>
+				</nav>
+				<nav class="flex justify-center">
+					<a href="https://github.com/gumbol" title="Open-source on GitHub" target="_blank"
+						rel="noopener noreferrer" class="img">
+						<img src="github.png" class="footer-img" alt="GitHub"></a>
+				</nav>
+				<p id="sig">&copy; 2020 Tyah</p>
+			</section>
+		</div>
 	</footer>
 </body>
 

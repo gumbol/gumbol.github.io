@@ -1,6 +1,7 @@
 @import url("normalize.css");
 @import url("start-navbar.css");
 @import url("meyer-navbar.css");
+@import url("meyercss.css");
 @import url("class-image.css");
 
 /*
@@ -50,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* @main styles */
 
-p, main li{margin: 2em !important;}
+main > p, main li{margin: 2em !important;}
 
 main{width:100%;}
 
