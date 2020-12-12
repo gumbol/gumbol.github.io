@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Golden Books | Tarik Alyahya </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="../../logos/logo-brown-brown.ico">
+	<!--<link rel="shortcut icon" href="../favicon.ico">-->
+	<link rel="stylesheet" type="text/css" href="../styles/start-layout.css">
+	<link rel="stylesheet" type="text/css" href="../styles/taniacss.css">
+	<link rel="stylesheet" type="text/css" href="../styles/my-audioplayer.css">
+	<script type="text/javascript" src="../scripts/lib/jquery-3.3.1.min.js"></script>
+
+</head>
+
+
+
+<body>
+
+	<header id="site-top">
+	</header>
+
+	<!--@main navigation-->
+
+	<nav class="navigate">
+		<ul class="nav-links">
+	
+			<li><a href="blog.html">Articles</a></li>
+			<li><a href="/gallery.html">Gallery</a></li>		
+			<li><a href="../about.html">About</a></li>
+		</ul>
+	</nav>
+
+	<!-- @end -->
+
+	<main>
+
+		<!-- @audioplayer container -->
+
+		<div id="container">
+
+			<div id="audio-player">
+
+				<!-- @soundtrack information -->
+
+				<div id="track-info">
+					<img class="cover" width="160" type="image/jpeg">
+					<span class="artist"></span> - <span class="title"></span>
+				</div>
+
+				<!-- @end -->
+
+				<div class="clearfix"></div>
+
+
+				<!-- @progress bar -->
+
+				<div id="progress-bar">
+					<!-- this uses native progress element-->
+					<div><progress id="progress-seeker" id="example"></progress></div>
+					<div id="progress-seeker"></div>
+				</div>
+
+				<!-- @end -->
+
+
+				<!-- @soundtrack time information -->
+
+				<div class="track-time">
+					<span id="current-time">00:00</span>
+					<span id="duration">00:00</span>
+				</div>
+
+				<!-- @end -->
+
+
+				<!-- @audioplayer controls -->
+
+				<div class="controls">
+
+					<!-- @volume controls -->
+
+					<div class="volume">
+						<div class="volume-bar">
+							<p>Volume: <input id="volume-slider" type="range" min="0" max="100" value="0"></p>
+						</div>
+					</div>
+
+					<div class="clearfix"></div>
+
+					<!-- @main buttons controls -->
+
+					<div id="main-buttons">
+						<span>
+							<button id="prev"></button>
+							<button id="play"></button>
+							<button id="pause"></button>
+					<!-- 
+		Stop button, has little use in audio players specially
+		in phones.
+		<button id="stop"></button> 
+		-->
+							<button id="next"></button>
+
+							<button id="auto-play"></button>
+						</span>
+					</div>
+
+
+				</div>
+				<!-- @end -->
+
+
+
+
+				<!-- @Playlist-->
+				<div>
+					<ul id="playlist" class="hidden">
+						<li song="hobbit-01.ogg" cover="cover-the-hobbit-1920w-02.png" artist="The Hobbit by J.R.R.Tolkine">Chapter 1
+						</li>
+						<li  song  cover artist>Chapter 2
+						</li>
+						<li  song  cover artist>Chapter 3
+						</li>
+						<li  song  cover artist>Chapter 4
+						</li>
+						<li  song  cover artist>Chapter 5
+						</li>
+						<li  song  cover artist>Chapter 6
+						</li>
+						<li  song  cover artist>Chapter 7
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+
+
+<!--
+	 @related keywords section 
+
+		<section class="keywords">
+
+			<p>Tags:
+				<a href="#">Horror</a>
+				<a href="#">Gothic</a>
+				<a href="#">Dracula</a>
+			</p>
+		</section>
+	-->
+
+
+<h2>The Textbook</h2>
+<div><embed src="../media/hobbit/the-hobbit-(enhanced-edition)-j.r.r.tolkine.pdf#page=1&view=fit"
+	type="application/pdf" width=95% height=520px></div>
+
+	<h2>Download the Textbook</h2>
+		<!--@Textbooks section -->
+		<section class="textbooks">
+			<table class="textbooks-items">
+				<tr>
+					<th>Format</th>
+					<th>Size</th>
+				</tr>
+				<tr>
+					<td><a href="#">Read this book online: HTML</a></td>
+					<td>918 kB</td>
+				</tr>
+				<tr>
+					<td><a href="#">EPUB (with images)</a></td>
+					<td>390 kB</td>
+				</tr>
+				<tr>
+					<td><a href="#">EPUB (no images)</a></td>
+					<td>388 kB</td>
+				</tr>
+				<tr>
+					<td><a href="#">Kindle (with images)</a></td>
+					<td>1.5 MB</td>
+				</tr>
+				<tr>
+					<td><a href="#">Kindle (no images)</a></td>
+					<td>1.5 MB</td>
+				</tr>
+				<tr>
+					<td><a href="#">Plain Text UTF-8</a></td>
+					<td>862 kB</td>
+				</tr>
+			</table>
+		</section>
+
+
+
+
+		<!-- @related audiobooks section -->
+
+		<section class="related-audiobooks">
+			<h3>Related books</h3>
+			<div class="audiobooks-items">
+				<img class="audiobook-item" src="../media/placeholder-images/placeholder160-01.jpg" alt="1" title="1"
+					width="160" height="200">
+				<img class="audiobook-item" src="../media/placeholder-images/placeholder160-01.jpg" alt="2" title="2"
+					width="160" height="200">
+				<img class="audiobook-item" src="../media/placeholder-images/placeholder160-01.jpg" alt="3" title="3"
+					width="160" height="200">
+				<img class="audiobook-item" src="../media/placeholder-images/placeholder160-01.jpg" alt="4" title="4" width="160"
+					height="200">
+			</div>
+		</section>
+
+		<!-- @end -->
+
+
+	</main>
+
+	<footer>
+
+		<p><a href="https://librivox.org">To Librivox</a></p>
+		<p><a href="https://gutenberg.org">To Project Gutenberg</a></p>
+		<p>&copy; 2020 Tyah</p>
+	</footer>
+
+	<script src="../scripts/my-audioplayer.js"></script>
+</body>
+
+</html>

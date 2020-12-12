@@ -1,0 +1,236 @@
+/*
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  }
+*/
+
+.clearfix { clear: both; }
+
+/* @audio player container */
+#container {
+  max-width:540px;
+  min-width:320px;
+  width: 100%;
+  background: -webkit-linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* Chrome 10+, Saf5.1+ */
+  background: -moz-linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* FF3.6+ */
+  background: -ms-linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* IE10 */
+  background: -o-linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* Opera 11.10+ */
+  background: linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* W3C */
+  overflow: auto;
+  margin: 20px 0;
+  text-align:center;
+  border-radius: 13px;
+  box-shadow: 0 10px 8px -8px #333;
+  
+  }
+
+/* @end */
+
+/* @soundtrack information */
+
+#track-info { text-align: center; }
+
+#track-info .cover { width: 100%; }
+
+#track-info .artist{
+	font-family: Symbol;
+	font-weight: bold; 
+  }
+  
+#track-info .title { 
+	font-family: Symbol;
+	font-weight: bold; 
+	}
+
+/* @end */
+
+
+/* @volume controls */
+
+.volume-bar p{color:#fff;}
+
+input#volume-slider {
+  width: 40%;
+  margin-right: 40%;
+  margin-top:20px;
+ 
+  background: #ccc;
+  height: 8px;
+  margin-bottom: 0px;
+}
+
+input#volume-slider::-webkit-slider-thumb {
+ -webkit-appearance:none !important;
+ background:url(images/knob.png) no-repeat;
+ height:100px;
+}
+
+/*@end*/
+
+/* @track time information */
+
+#track-time {
+  width: 100%;
+  margin:0;
+  padding: 0;
+  }
+
+#current-time{
+   margin-right:65%;
+  }
+  
+#duration, #current-time {
+    padding: 4px;
+    background: #000;
+    border-radius: 5px;
+    color: #fff;
+  }
+
+  /* @end */
+
+
+/* @progress bar styles */    
+#progress-bar{
+	
+/* for native progress bar */  
+
+  width: 100%;
+  margin-left: 0%;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  height: 10px;
+  background-color:black;
+  
+  
+/* for custom  progress bar */ 
+
+/*  
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  height: 10px;
+  background: url(../media/my-audioplayer/progress_bg.png) no-repeat;
+  float: left;
+*/
+
+}
+
+#progress-seeker {
+
+/* for native progress seeker */
+	display: block;
+	width:0;
+	margin:10px 0;
+	height: 10px;
+	
+/* for custom progress seeker */
+
+/*	
+  display: block;
+	width:10px;
+	background: url(../media/my-audioplayer/progress.png ) no-repeat;
+	height: 10px;
+*/
+	
+}
+/* @end */
+
+
+
+/* @buttons styles */
+
+#main-buttons {
+  width: 100%;
+  display: block;
+  text-align:center;
+  letter-spacing:20px;
+  margin-top:20px;
+
+}
+
+button#play, button#pause, button#stop, button#next, button#prev{
+  width: 70px;
+  height: 70px;
+}
+
+button#play {background: url(../media/my-audioplayer/play.png) no-repeat;}
+
+button#pause {background: url(../media/my-audioplayer/pause.png) no-repeat;}
+
+button#stop {background: url(../media/my-audioplayer/stop.png) no-repeat;}
+
+button#prev {background: url(../media/my-audioplayer/prev.png) no-repeat;}
+
+button#next {background: url(../media/my-audioplayer/next.png) no-repeat;}
+
+
+.toggle-button{
+  margin-left: 50px;
+  width:100%;
+  }
+  
+  #auto-play{
+    display: block;
+    width:50px;
+    height: 50px;
+    background-color: black;
+    
+  }
+
+/* @end */
+
+
+/* @Playlist Styles */
+
+#playlist {
+	list-style: none;
+	margin:40px 0 30px;
+	column-count:3;
+	column-rule: highlight;
+	column-rule-width:thin;
+	column-rule-style: outset;
+	column-fill: balance;
+	font-size:100%;
+	}
+
+#playlist li {
+  cursor: pointer;
+  margin: 5px;
+  padding:3px;
+}
+
+#playlist li.active {
+  font-weight: bold;
+  padding: 3px;
+  background: #666;
+}
+/* @end */
+
+/* @textbook section styles */
+.textbooks{
+  width:100%;
+  background-color: #666;
+  margin: 20px 0 20px;
+}
+
+.textbooks td{
+  padding:10px;
+}
+
+/* @end */
+
+/* @donation styles */
+.donations{
+  margin: 0 0 20px;
+  background-color: rgb(218, 221, 26);
+}
+.donations p {font-family: Arial, Helvetica, sans-serif;
+font-weight: bolder;
+font-size: 120%;
+padding:10px; }
+
+/* @end */
