@@ -12,10 +12,15 @@
 	<meta name="keywords" content="about, my resume">
 	<!-- IMPORTANT: adjust the relative links as nessecary -->
 	<link rel="stylesheet" type="text/css" href="styles/start-layout.css">
-	<link rel="stylesheet" type="text/css" href="styles/taniacss.css">
+	<link rel="stylesheet" type="text/css" href="styles/tania-css.css">
 	<link rel="stylesheet" type="text/css" href="styles/card-layout.css">
 
 	<style>
+		.ppl img {
+			border-radius: 50%;
+			float: left;
+		}
+
 		.band {
 			width: 100%;
 			max-width: 960px;
@@ -52,22 +57,23 @@
 			}
 		}
 
-	.card {
+		.card {
 			min-height: 200px;
 			width: 200px;
-		
+
 		}
+
 		.ppl.card {
 			min-height: 150px;
 			width: 150px;
-			border-radius:10%;
+			border-radius: 10%;
 		}
 
 		.card .thumb {
 			padding-bottom: 100%;
 			background-size: cover;
 			width: 100%;
-		
+
 		}
 
 		article p {
@@ -135,10 +141,10 @@
 						This website is my digital canvas — a collection of the things
 						I've learned and created over the years.
 					</p>
-				<!--	<p class="stack-mobile"><a class="button" href="about.html">About me</a>
+					<!--	<p class="stack-mobile"><a class="button" href="about.html">About me</a>
 						<a class="button" href="https://etarik.substack.com" target="_blank" rel="noreferrer">
 								Join newsletter</a>-->
-						<a class="button" href="https://github.com/gumbol" target="_blank" rel="noreferrer">GitHub</a>
+					<a class="button" href="https://github.com/gumbol" target="_blank" rel="noreferrer">GitHub</a>
 					</p>
 				</div>
 			</div>
@@ -158,7 +164,7 @@
 				<p>To make useful things online and offline.</p>
 			</li>
 			<li>
-<p></p>
+				<p></p>
 
 			</li>
 		</ul>
@@ -167,8 +173,12 @@
 		<ul>
 
 			<li><a href="gumbol.github.io">This Website</a></li>
-			<li><p>A dozen Java programs that i need to polish</p></li>
-			<li><a href="posts/my-audioplayer.html">Custom Audioplayer</a></li>
+			<li>
+				<p>A dozen Java programs that i need to polish</p>
+			</li>
+			<li><a href="posts/test-audioplayer-01.html">Custom Audioplayer</a> <p>, 
+				It combines audio and text formats in a single page.
+			</p></li>
 		</ul>
 		<!--<p><a href="goldenbooks.github.io">This project</a> is a web app that combine <a
 				href="https://librivox.org">Librivox audiobooks</a> and
@@ -180,8 +190,8 @@
 
 
 		<h2>People that inspire me</h2>
-		<section>
-			<div class="band">
+		<section class="ppl">
+			<!--		<div class="band"></div>
 				<div class="item-6">
 					<a class="ppl card" href="https://www.kayray.org" target="_blank" rel="noreferrer noopener">
 						<div class="thumb" style="background-image: url(media/about/kayray160-01.png); border-radius:50%;"></div>
@@ -193,7 +203,14 @@
 						</article>
 					</a>
 				</div>
-
+			-->
+			<div>
+				<img src="media/about/kayray160-01.png" width="160">
+				<div>
+					<h3>Kara Shallenberg</h3>
+					<p>A professional quilter and Audiobook reader.</p>
+				</div>
+			</div>
 
 			<!--	<div class="item-6">
 					<a class="ppl card" href="https://www.taniarascia.com" target="_blank" rel="noreferrer noopener">
@@ -208,7 +225,7 @@
 				</div>
 			</div>-->
 		</section>
-
+		<br>
 		<h2>Websites that inspire me</h2>
 		<section>
 

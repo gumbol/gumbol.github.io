@@ -1,7 +1,6 @@
 @import url("normalize.css");
 @import url("start-navbar.css");
-@import url("meyer-navbar.css");
-@import url("meyercss.css");
+@import url("meyer-css.css");
 @import url("class-image.css");
 
 /*
@@ -10,13 +9,10 @@ starter style sheet
 ***********************
 */
 .logo{
-	top:-5px;
-	left:-80px;
+	
+width:10%;
+margin-left:0;
 
-	position: relative;
-	text-align: left;
-	width:32px;
-	height:32px;
 	}
 /* @selector styles */
 *{margin:0; padding:0; box-sizing:border-box;}
