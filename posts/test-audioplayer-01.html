@@ -8,8 +8,19 @@
 	<link rel="shortcut icon" href="../favicon.ico">
 	<link rel="stylesheet" type="text/css" href="../styles/start-layout.css">
 	<link rel="stylesheet" type="text/css" href="../styles/tania-css.css">
-	<link rel="stylesheet" type="text/css" href="../styles/css-test-code/test-audioplayer-01.css">
-
+	<link rel="stylesheet" type="text/css" href="../styles/test-audioplayer-01.css">
+	<style>
+		.nav-links {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			padding: .1em .1em 0;
+			margin: 0;
+			list-style: none;
+			font-family: "IM Fell English", Georgia, serif;
+			font-size: 100%;
+		}
+	</style>
 </head>
 
 
@@ -30,33 +41,52 @@
 	</nav>
 
 	<main>
+
+		<h3>The Hobbit by J.R.R.Tolkine</h3>
 		<div class="container">
 
-			<h3>The Hobbit by J.R.R.Tolkine</h3>
+			<div class="cover-img">
+				<img src="../media/hobbit/cover-the-hobbit-1920w-02.png">
+			</div>
 
-			<img src="../media/hobbit/cover-the-hobbit-1920w-02.png" width=100px;>
 
-			<audio id="audio1" controls="controls">
-				<source src="../media/hobbit/hobbit-03.ogg">
-			</audio>
 
-			<div class="buttons">
+				<div class="playlist">
+
+					<p>Chapter 1</p>
+					<p>Chapter 2</p>
+					<p>Chapter 3</p>
+					<p>Chapter 4</p>
+					<p>Chapter 5</p>
+					<p>Chapter 6</p>
+					<p>Chapter 7</p>
+					<p>Chapter 8</p>
+
+
+				</div>
+
+				<div class="player">
+				<audio id="audio1" controls="controls">
+					<source src="../media/hobbit/hobbit-03.ogg">
+				</audio>
+<br>
 				<button id="play">PLAY</button>
 				<button id="pause">PAUSE</button>
 			</div>
 
 		</div>
 
-		<!--
-		<div class="playlist">
-			<p>Chapter 1</p>
-			<p>Chapter 2</p>
-			<p>Chapter 3</p>
-		</div>
-		-->
 
+
+
+
+
+
+
+
+		<h2>The Textbook</h2>
 		<div class="textbook">
-			<h2>The Textbook</h2>
+
 			<object data="../media/hobbit/the-hobbit-(enhanced-edition)-j.r.r.tolkine.pdf#page=63&view=FitH&toolbar=0"
 				type="application/pdf" title="The Hobbit by J.R.R.Tolkine" width=95% height=520px>
 			</object>
@@ -74,29 +104,29 @@
 	<footer class="footer flex">
 
 
-			<section class="container">
-				<nav class="footer-links">
-					<a href="posts/blog.html">Articles</a>
-					<!--	 <a href="/guides">Guides</a>
+		<section class="container">
+			<nav class="footer-links">
+				<a href="posts/blog.html">Articles</a>
+				<!--	 <a href="/guides">Guides</a>
 							 <a href="https://.substack.com/subscribe" target="_blank" rel="noopener noreferrer">Newsletter</a>
 							 <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
 							 <a href="/rss.xml">RSS</a>
 							 <a href="https://ko-fi.com/" target="_blank" rel="noopener noreferrer">Donate</a>
 							 <a href="https://patreon.com/" target="_blank" rel="noopener noreferrer">Patreon</a>
 						   -->
-				</nav>
-	
-				<nav class="flex justify-center">
-					<a href="https://github.com/gumbol" title="Open-source on GitHub" target="_blank"
-						rel="noopener noreferrer" class="img">
-						<img src="../github.png" class="footer-img" alt="GitHub">
-					</a>
-	
-				</nav>
-				<p>&copy; 2020 Tyah</p>
-			</section>
-	
-		</footer>
+			</nav>
+
+			<nav class="flex justify-center">
+				<a href="https://github.com/gumbol" title="Open-source on GitHub" target="_blank"
+					rel="noopener noreferrer" class="img">
+					<img src="../github.png" class="footer-img" alt="GitHub">
+				</a>
+
+			</nav>
+			<p>&copy; 2020 Tyah</p>
+		</section>
+
+	</footer>
 </body>
 
 </html>
