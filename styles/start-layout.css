@@ -9,9 +9,14 @@ starter style sheet
 ***********************
 */
 .logo{
-
-	width:50%;
-	margin-left:0;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 402;
+	margin-left:10px;
+}
+.logo img{
+	width:60%;
 }
 
 /* @selector styles */

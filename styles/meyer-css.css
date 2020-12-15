@@ -20,6 +20,12 @@
 
 /* Anchor selector styles */
 
+.bg{
+	back
+	
+}
+
+
 a[href]{
 	text-decoration-thickness: 0.03875em;
 	text-underline-offset: 0.2em;
@@ -69,6 +75,7 @@ a:active{
 	min-width: 320px;
 	top: 0;
 	z-index: 42;
+
 	/*font-size: 2.125em;*/
 
 
@@ -76,9 +83,9 @@ a:active{
 	position:fixed;
 	background-color:inherit;
 	background-color:antiquewhite;
-	width:100%;
+	width:97.6%;
 	font-size: 80%;
-	padding: 1em 1em 0;
+	padding: .9em;
 	margin: 0 0 0;
 
 }
