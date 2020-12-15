@@ -52,32 +52,56 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .card h1 {
-    font-size: 15px;
+  .websites .card h1 {
+    font-size: 20px;
     margin: 0;
     color: #333;
+    border-bottom:2px solid black;
   }
-  .card p {
+  .card h1 {
+    font-size: 14px;
+    margin: 0;
+    color: #333;
+  
+  }
+  /*.card p {
     flex: 1;
     line-height: 1.4;
+    color:red;
+  }*/
+
+  .card p {
+   color:black;
+   font-size: 12px;
+   font-weight: bold;
+   padding:5px;
+ 
   }
   .card span {
     font-size: 12px;
     font-weight: bold;
     color: #999;
-   text-transform: uppercase;
+     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin: 2em 0 0 0;
   }
   .card img {
    
- width: 200px;
+ width: 100%;
  
   }
+  .item-6{
+    width:320px;
+    text-align: center;
+  }
+
+  /*.card .thumb {
+    padding-bottom: 60%;
+    background-size: cover;
+    background-position: center center;
+  }
   @media (min-width: 60em) {
-    .item-1 {
-      grid-column: 1 / span 2;
-    }
+   
     .item-1 h1 {
       font-size: 24px;
     }
@@ -88,7 +112,8 @@
   .item-6 img{
     width:100%;
    
-  }
+  }*/
+
   /*
   .band{
   border:3px solid black;
