@@ -18,98 +18,108 @@
 </head>
 
 <body>
-  
-    <!--target="_blank" rel="noreferrer noopener"-->
-    <header id="page-top"> </header>
-    <!-- The site main-nav menu -->
-  	<nav class="navigate">
-				<a class="logo" href="../index.html">
-						<img src="../logo64.png" alt="logo"></a>
-			<a href="blog.html">Articles</a>
-			<a href="gallery.html">Gallery</a>
-			<a href="../about.html">About</a>
-	
-    </nav>
-    
-    <main>
+
+  <!--target="_blank" rel="noreferrer noopener"-->
+  <header id="page-top"> </header>
+  <!-- The site main-nav menu -->
+  <nav class="navigate">
+    <a class="logo" href="../index.html">
+      <img src="../logo64.png" alt="logo"></a>
+    <a href="blog.html">Articles</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="../about.html">About</a>
+
+  </nav>
+
+  <main>
 
     <div class="container">
-      <h1>How to search for full length music on Internet Archive</h1>
+      <article>
+        <header class="article-header">
 
-      <p>When i search the <a href="https://www.archive.org/details/audio">Archive.org</a>
-        for music the results i get are almost always sample music.</p>
-        <p>
-        I needed to listen to full length music so i did some research and found
-        out a neat solution. </p>
-      <p>
-        By including the CreativeCommon (CC) license
-        metadata in the search query
-        I always get full length music. But how to search for it you might ask?
-        The first thing i did was to take a look at the
-        <a href="https://www.creativecommons.org/licenses/">CC license types.</a>
+          <h1>How to search for full length music on Internet Archive</h1>
 
-      </p>
-      <p>There are 6 CC license types</p>
-      <ul>
-        <li>by</li>
-        <li>by-sa</li>
-        <li>by-nd</li>
-        <li>by-nc</li>
-        <li>by-nc-sa</li>
-        <li>by-nc-nd</li>
-      </ul>
+        </header>
 
-      <p>
-        The syntax for the search query looks like this</p>
+        <div class="article-post">
 
-      <code><p>
+
+          <p>When i search the <a href="https://www.archive.org/details/audio">Archive.org</a>
+            for music the results i get are almost always sample music.</p>
+          <p>
+            I needed to listen to full length music so i did some research and found
+            out a neat solution. </p>
+          <p>
+            By including the CreativeCommon (CC) license
+            metadata in the search query
+            I always get full length music. But how to search for it you might ask?
+            The first thing i did was to take a look at the
+            <a href="https://www.creativecommons.org/licenses/">CC license types.</a>
+
+          </p>
+          <p>There are 6 CC license types</p>
+          <ul>
+            <li>by</li>
+            <li>by-sa</li>
+            <li>by-nd</li>
+            <li>by-nc</li>
+            <li>by-nc-sa</li>
+            <li>by-nc-nd</li>
+          </ul>
+
+          <p>
+            The syntax for the search query looks like this</p>
+
+          <code><p>
         [&lt;SEARCH TERM&gt;][licenseurl:http*&lt;LICENSE TYPE&gt;*]
       </p></code>
 
-      <p>You can use "by" to include music that include any
-        of the license types. Or you can use a more specific type.
-        You can also include more than one type in the search query.
-       </p>
-      Example: <code><p>jazz licenseurl:http*by*</p></code>
+          <p>You can use "by" to include music that include any
+            of the license types. Or you can use a more specific type.
+            You can also include more than one type in the search query.
+          </p>
+          Example: <code><p>jazz licenseurl:http*by*</p></code>
 
-      <p>To include more than one license type you separate them with "OR" operator</p>
-      Example: <code><p>jazz licenseurl:http*by-nc OR by-nd*</p></code>
+          <p>To include more than one license type you separate them with "OR" operator</p>
+          Example: <code><p>jazz licenseurl:http*by-nc OR by-nd*</p></code>
 
-<p> I tried all the CC types
-    and the results were full length music!.</p>
+          <p> I tried all the CC types
+            and the results were full length music!.</p>
+        </div>
+      </article>
     </div>
-
-    <h3>About the Author</h3>
-    <section class="blurb">
-      <div class="container">
-        <div>
-          <img class="avatar" src="me-256w-01.png" width="256" alt="Tarik">
-        </div>
-
-
-        <div>
-          <h3>Hi I am Tarik Alyahya.</h3>
-          <p>I'm a web developer, writer, and open-source creator.
-            This website is my digital canvas — a collection of the things
-            I've learned and created over the years.
-          </p>
-          <p class="stack-mobile"><a class="button" href="about.html">About me</a>
-            <!--<a class="button" href="https://etarik.substack.com" target="_blank" rel="noreferrer">
-              Join newsletter</a>-->
-            <a class="button" href="https://github.com/gumbol" target="_blank" rel="noreferrer">GitHub</a>
-          </p>
-        </div>
-      </div>
-    </section>
-
-
-
   </main>
+
+  <section class="blurb">
+    <div class="container">
+
+      <div>
+        <img class="avatar" src="me-256w-01.png" width="256" alt="Me">
+      </div>
+
+
+      <div>
+        <h3>About the author</h3>
+        <p>Hi I am <a href="../about.html">Tarik</a>, I'm a web developer, writer, and open-source creator.
+          This website is my digital canvas — a collection of the things
+          I've learned and created over the years.
+        </p>
+
+        <!--<p><a class="button" href="https://etarik.substack.com" target="_blank" rel="noreferrer">
+              Join newsletter</a>
+              <a class="button" href="https://ko-fi.com/" target="_blank" rel="noreferrer">Buy me a coffee</a>
+            <a class="button" href="https://github.com/gumbol" target="_blank" rel="noreferrer">GitHub</a>
+          </p>-->
+      </div>
+    </div>
+  </section>
+
 
   <footer class="footer flex">
     <section class="container">
       <nav class="footer-links">
         <a href="blog.html">Articles</a>
+        <a href="gallery.html">Gallery</a>
         <!--  <a href="/guides">Guides</a>
             <a href="https://.substack.com/subscribe" target="_blank" rel="noopener noreferrer">Newsletter</a>
             <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
