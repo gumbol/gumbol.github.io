@@ -15,90 +15,20 @@
 	<link rel="stylesheet" type="text/css" href="styles/tania-css.css">
 	<link rel="stylesheet" type="text/css" href="styles/card-layout.css">
 
-	<style>
-		.ppl img {
-			border-radius: 50%;
-			float: left;
-		}
-
-		.band {
-			width: 100%;
-			max-width: 960px;
-			margin: 0 auto;
-			display: flex;
-			flex-wrap: wrap;
-
-			/*	grid-template-columns: 1fr;
-			grid-template-rows: auto;
-			grid-gap: 10px;*/
-		}
-
-		@media (min-width: 485px) {
-			.band {
-
-				grid-template-columns: 1fr 1fr;
-
-			}
-		}
-
-		@media (min-width: 960px) {
-			.band {
-				grid-template-columns: repeat(4, 1fr);
-			}
-		}
-
-		@media (min-width: 60em) {
-			.item-1 {
-				grid-column: 1 / span 2;
-			}
-
-			.item-1 h1 {
-				font-size: 10px;
-			}
-		}
-
-		.card {
-			min-height: 200px;
-			width: 200px;
-
-		}
-
-		.ppl.card {
-			min-height: 150px;
-			width: 150px;
-			border-radius: 10%;
-		}
-
-		.card .thumb {
-			padding-bottom: 100%;
-			background-size: cover;
-			width: 100%;
-
-		}
-
-		article p {
-			font-size: 120%;
-		}
-
-		main {
-
-			margin: 0;
-		}
-	</style>
 </head>
 
 <body>
 	<header id="page-top">
 	</header>
 	<!--<img class="logo" src="logo64.png" alt="logo">
- The site main-nav menu -->
+	 The site main-nav menu -->
 	<!--<nav class="navigate">
 		<div class="nav-links container">
-<div class="flex">
+	<div class="flex">
 			<img class="logo" src="logo64.png" alt="logo">
 
 			<a href="index.html">Home</a>
-			<li><a href="posts/story.html">Stories</a></li> 
+			<li><a href="posts/story.html">Stories</a></li>
 			<a href="posts/blog.html">Articles</a>
 			<a href="posts/gallery.html">Gallery</a>
 			<a class="current" href="about.html">About</a>
@@ -125,32 +55,30 @@
 		</div>
 	</nav>
 
+	<section class="blurb top">
+		<div class="container">
 
-	<main>
-		<section class="blurb">
-			<div class="container">
+			<div>
+				<img class="avatar" src="me-256w-01.png" width="256" alt="Me">
+			</div>
 
-				<div>
-					<img class="avatar" src="me-256w-01.png" width="256" alt="Me">
-				</div>
+			<div>
+				<h3>About the author</h3>
+				<p>Hi I am <a href="../about.html">Tarik</a>, I'm a web developer, writer, and open-source creator.
+					This website is my digital canvas — a collection of the things
+					I've learned and created over the years.
+				</p>
 
-
-				<div>
-					<h3>About the author</h3>
-					<p>Hi I am <a href="../about.html">Tarik</a>, I'm a web developer, writer, and open-source creator.
-						This website is my digital canvas — a collection of the things
-						I've learned and created over the years.
-					</p>
-
-					<!--<p><a class="button" href="https://etarik.substack.com" target="_blank" rel="noreferrer">
+				<!--<p><a class="button" href="https://etarik.substack.com" target="_blank" rel="noreferrer">
 							Join newsletter</a>
 							<a class="button" href="https://ko-fi.com/" target="_blank" rel="noreferrer">Buy me a coffee</a>
 						  <a class="button" href="https://github.com/gumbol" target="_blank" rel="noreferrer">GitHub</a>
 						</p>-->
-				</div>
 			</div>
-		</section>
+		</div>
+	</section>
 
+	<main>
 
 		<h2>Goals</h2>
 		<ul>
@@ -315,7 +243,7 @@
 				<nav class="flex justify-center">
 					<a href="https://github.com/gumbol" title="Open-source on GitHub" target="_blank"
 						rel="noopener noreferrer" class="img">
-						<img src="../github.png" class="footer-img" alt="GitHub">
+						<img src="github.png" class="footer-img" alt="GitHub">
 					</a>
 				</nav>
 				<p id="sig">&copy; 2020 Tyah</p>
