@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="../styles/start-layout.css">
 	<link rel="stylesheet" type="text/css" href="../styles/tania-css.css">
 	<link rel="stylesheet" type="text/css" href="../styles/test-audioplayer-01.css">
+	<script type="text/javascript" src="../scripts/lib/jquery-3.3.1.min.js"></script>
 
 </head>
 
@@ -43,8 +44,8 @@
 
 			<div class="playlist">
 
-				<p>Chapter 1</p>
-				<p>Chapter 2</p>
+				<button class = "a" song = "../media/hobbit/hobbit-03.ogg">Chapter 1</button>
+				<button  class= "a" song = "../media/hobbit/hobbit-03.ogg">Chapter 2</button>
 				<p>Chapter 3</p>
 				<p>Chapter 4</p>
 				<p>Chapter 5</p>
@@ -57,7 +58,7 @@
 
 			<div class="player">
 				<audio id="audio1" controls="controls">
-					<source src="../media/hobbit/hobbit-03.ogg">
+					<source id="aud" src="">
 				</audio>
 				<br>
 				<button id="play">PLAY</button>
@@ -67,17 +68,10 @@
 		</div>
 
 
-
-
-
-
-
-
-
 		<h2>The Textbook</h2>
 		<div class="textbook">
 
-			<object data="../media/hobbit/the-hobbit-(enhanced-edition)-j.r.r.tolkine.pdf#page=63&view=FitH&toolbar=0"
+			<object data="../media/hobbit/the-hobbit-(enhanced-edition)-j.r.r.tolkine.pdf#page=63&view=Fit"
 				type="application/pdf" title="The Hobbit by J.R.R.Tolkine" width=95% height=520px>
 			</object>
 
