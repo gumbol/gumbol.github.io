@@ -18,10 +18,25 @@ starter style sheet
 .logo img{
 	width:60%;
 }
+
+.note {
+	border: 1px solid #000;
+	background-color: rgba(164, 164, 238, 0.815);
+	max-width: 480px;
+	padding:10px;
+	margin: 10px 0;
+
+  }
+
+  .note p, .note li {
+	margin: 10px;
+	width:95%;
+  }
 .ppl img {
 	border-radius: 50%;
 	float: left;
 }
+
 /* @selector styles */
 *{margin:0; padding:0; box-sizing:border-box;}
 
@@ -55,7 +70,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* @main styles */
 
-main > p, main li{margin: 2em !important;}
 
 main{width:100%;}
 
