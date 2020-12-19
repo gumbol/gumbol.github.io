@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>web-desgin-guidelines | Tarik Alyahya</title>
+    <link rel="shortcut icon" href="../logo64.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- IMPORTANT: fill the content attribute -->
+    <meta name="description" content="A discription page about the site owner ">
+    <!-- IMPORTANT: fill the content attribute -->
+    <meta name="keywords" content="about, my resume">
+    <!-- IMPORTANT: adjust the relative links as nessecary -->
+    <link rel="stylesheet" type="text/css" href="../styles/start-layout.css">
+    <link rel="stylesheet" type="text/css" href="../styles/tania-css.css">
+    <link rel="stylesheet" type="text/css" href="../styles/card-layout.css">
+
+</head>
+
+<body>
+
+    <header id="page-top">
+    </header>
+    <!-- The site main-nav menu -->
+    <nav class="navigate">
+        <a class="logo" href="../index.html">
+            <img src="../logo64.png" width="64" alt="logo"></a>
+        <a href="blog.html">Articles</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="../about.html">About</a>
+
+    </nav>
+    <main>
+        <div class="container">
+            <article>
+
+
+                <h1> Create a strong HTML page structure</h1>
+
+
+                <div class="article-post">
+
+
+                    <p>After getting the directory structure figured out and you have
+                        created a naming plan that fits your needs (and that you should be
+                        consistent with). It is time to check how to develop a page.</p>
+
+                    <h4>html and web page structure</h4>
+                    html is used to structure the raw content into (meaningful)
+                    sections. I When structuring a web page your users you should code
+                    the element it in a way that makes the code itself easy to read
+                    later that it is meaningfull normal users and users that use screen
+                    readers to navigate.<br>
+                    <br>
+                    Best practice<br>
+                    <ul>
+                        <li>Use as little markup as possible: this makes the page more
+                            readable and more meaningful (avoid using too much div element)
+                            <br>
+                        </li>
+                        <li>Make the elements meaningful: This means choosing an element
+                            that best describe the content it contain. (i.e using &lt;p&gt;
+                            for paragraphs and &lt;li&gt; for lists)</li>
+                    </ul>
+                    &nbsp;&nbsp; <br>
+                    finding the and the right elements will benefit you and your users
+                    greatly. Just like we did with structuring the directory.<br>
+                    <ul>
+                        <li>It will make the code more readable to you and your team.</li>
+                        <li>It will be more meaningful and that will help users who use
+                            screen readers to navigate through the site.</li>
+                        <li>It will improve the site SEO</li>
+                    </ul>
+                    <p>I have a ready made template that i use for all the pages.<br>
+                        The most used html tags are &lt;p&gt; (paragraphs)<br>
+                    </p>
+
+
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <section class="blurb">
+        <div class="container">
+
+            <div>
+                <img class="avatar" src="me-256w-01.png" width="256" alt="Me">
+            </div>
+
+
+            <div>
+                <h3>About the author</h3>
+                <p>Hi I am <a href="../about.html">Tarik</a>, I'm a web developer, writer, and open-source creator.
+                    This website is my digital canvas — a collection of the things
+                    I've learned and created over the years.
+                </p>
+
+                <!--<p><a class="button" href="https://etarik.substack.com" target="_blank" rel="noreferrer">
+            Join newsletter</a>
+            <a class="button" href="https://ko-fi.com/" target="_blank" rel="noreferrer">Buy me a coffee</a>
+          <a class="button" href="https://github.com/gumbol" target="_blank" rel="noreferrer">GitHub</a>
+        </p>-->
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer flex">
+        <section class="container">
+            <nav class="footer-links">
+                <a href="blog.html">Articles</a>
+                <a href="gallery.html">Gallery</a>
+                <!--  <a href="/guides">Guides</a>
+          <a href="https://.substack.com/subscribe" target="_blank" rel="noopener noreferrer">Newsletter</a>
+          <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
+          <a href="/rss.xml">RSS</a>
+          <a href="https://ko-fi.com/" target="_blank" rel="noopener noreferrer">Donate</a>
+          <a href="https://patreon.com/" target="_blank" rel="noopener noreferrer">Patreon</a>
+          -->
+            </nav>
+
+            <nav class="flex justify-center">
+                <a href="https://github.com/gumbol" title="Open-source on GitHub" target="_blank"
+                    rel="noopener noreferrer" class="img">
+                    <img src="../github.png" class="footer-img" alt="GitHub">
+                </a>
+            </nav>
+            <p id="sig">&copy; 2020 Tyah</p>
+        </section>
+    </footer>
+</body>
+
+</html>

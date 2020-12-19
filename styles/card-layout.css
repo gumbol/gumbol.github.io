@@ -10,53 +10,50 @@
     margin: 0 auto;
   }*/
   .band {
-    width: 95%;
-    max-width: 1240px;
+    width: 96%;
+    max-width: 960px;
+  
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    grid-gap: 20px;
+    grid-gap: 10px;
+    overflow: auto;
   }
   @media (min-width: 30em) {
     .band {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
     }
   }
+
   @media (min-width: 60em) {
     .band {
       grid-template-columns: repeat(3, 1fr);
     }
   }
   .card {
-
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100%;
     background: rgba(255, 255, 255, 0.815);
     text-decoration: none;
     color: #444;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-    position: relative;
     top: 0;
     transition: all 0.1s ease-in;
   }
+
   .card:hover {
     top: -2px;
-    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
   }
-  .card article {
+
+  .card article{
+    display: flex;
     padding: 20px;
     flex: 1;
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
-  .websites .card h1 {
-    font-size: 20px;
-    margin: 0;
-    color: #333;
-    border-bottom:2px solid black;
   }
   .card h1 {
     font-size: 14px;
@@ -85,12 +82,48 @@
     letter-spacing: 0.05em;
     margin: 2em 0 0 0;
   }
+
   .card img {
-   
- width: 100%;
- 
+    width: 100%;
+ }
+
+.websites .card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  min-height: 100%;
+  background: rgba(255, 255, 255, 0.815);
+  text-decoration: none;
+  color: #444;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  top: 0;
+  transition: all 0.1s ease-in;
+}
+
+.websites article{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    flex: 1;
+    justify-content: space-between;
   }
-  .item-6{
+
+.websites .card h1 {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+    border-bottom:2px solid black;
+  }
+
+.websites .card article{
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+.item-6{
     width:320px;
     text-align: center;
   }

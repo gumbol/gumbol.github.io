@@ -138,6 +138,10 @@ ul {
 ul {
  padding:0 1rem
 }
+
+li{
+    padding:1rem 0;
+   }
 @media screen and (min-width:800px) {
  blockquote,
  dl,
