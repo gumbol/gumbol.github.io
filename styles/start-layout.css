@@ -8,15 +8,19 @@
 starter style sheet
 ***********************
 */
-.logo{
-	position: absolute;
-	top:0;
-	left:0;
-	z-index: 402;
-	margin-left:10px;
-}
-.logo img{
-	width:60%;
+
+
+/* @selector styles */
+*{margin:0; padding:0; box-sizing:border-box;}
+ .logo{
+
+position: absolute;
+margin:0;
+padding:0;
+top:-2px;
+left:10px;
+max-width:44px;
+
 }
 
 .note {
@@ -33,12 +37,21 @@ starter style sheet
 	width:95%;
   }
 .ppl img {
-	border-radius: 50%;
-	float: left;
-}
+margin:5px;
+padding:0;
 
-/* @selector styles */
-*{margin:0; padding:0; box-sizing:border-box;}
+	float: left;
+
+}
+/*
+.avatar{
+	border-radius: 50%;
+	border:10px solid black;
+	border-top:none;
+	border-bottom: none;
+	border-right: none;
+}
+*/
 
 html{background-color: white;}
 /* @body */
@@ -89,7 +102,7 @@ a:link{color:blue;}
 
 a:visited{color:purple}
 
-a:active{}
+a:active,  a:focus{border:1px dashed black;}
 
 a:hover, a:focus{font-style:italic;}
 

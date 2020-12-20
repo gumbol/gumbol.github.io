@@ -12,8 +12,9 @@
 	<meta name="viewport" content="width=device-width scale-1">
 	<!-- NOTE: check the relative link location -->
 	<link rel="stylesheet" type="text/css" href="styles/start-layout.css">
-	<link rel="stylesheet" type="text/css" href="styles/tania-css.css">
+
 	<link rel="stylesheet" type="text/css" href="styles/card-layout.css">
+	<link rel="stylesheet" type="text/css" href="styles/tania-css.css">
 
 </head>
 
@@ -21,11 +22,14 @@
 
 	<header id="page-top"></header>
 	<!-- The site main-nav menu -->
+
 	<nav class="navigate">
 
 
-		<a class="logo" href="index.html"><img src="logo64.png" alt="logo">
+		<a class="logo link-img" href="index.html">
+			<img src="logo64.png" alt="logo">
 		</a>
+
 		<a href="posts/blog.html">Articles</a>
 		<a href="posts/gallery.html">Gallery</a>
 		<a href="about.html">About</a>
@@ -36,10 +40,8 @@
 	<section class="blurb top">
 		<div class="container">
 
-			<div>
-				<img class="avatar" src="me-256w-01.png" width="256" alt="Me">
-			</div>
-
+				<img class="avatar" src="me1-254x-02.png" width="254" alt="Me">
+		
 
 			<div>
 				<h3>About the author</h3>
@@ -48,7 +50,7 @@
 					I've learned and created over the years.
 				</p>
 
-				<!--<p><a class="button" href="https://etarik.substack.com" target="_blank" rel="noreferrer">
+				<!--<p><a class="button" href="https://substack.com" target="_blank" rel="noreferrer">
 							Join newsletter</a>
 							<a class="button" href="https://ko-fi.com/" target="_blank" rel="noreferrer">Buy me a coffee</a>
 						  <a class="button" href="https://github.com/gumbol" target="_blank" rel="noreferrer">GitHub</a>
@@ -56,6 +58,7 @@
 			</div>
 		</div>
 	</section>
+
 	<main>
 
 		<h2>Articles</h2>
@@ -99,6 +102,9 @@
 			<a href="posts/blog-create-a-strong-html-page-structure.html" class="card">
 				<article>
 					<h1>Create a strong HTML page structure</h1>
+					<p>A set of guidlines to help create a W3C
+						recommended HTML page that
+					</p>
 					<span>Tarik Alyahya</span>
 				</article>
 			</a>
@@ -112,79 +118,6 @@
 
 		</div>
 
-		<!--<div class="band">
-
-			<div >
-				<a class="card" href="posts/blog-how-to-handle-meat.html" >
-					<img src="media/cover/cover-meat-products160-01.jpg">
-
-					<article>
-						<h1>How to handle meat products</h1>
-						<span>Tarik alyahya</span>
-					</article>
-				</a>
-			</div>
-
-
-			<div >
-				<a class="card" href="posts/blog-ia-music-search-optimized.html">
-
-					<img src="media/cover/cover-ia-music160-01.jpg">
-
-					<article>
-						<h1>How to search for full length music on Internet Archive</h1>
-						<span>Tarik Alyahya</span>
-					</article>
-
-				</a>
-			</div>
-
-
-			<div class="item-3">
-				<a href="posts/blog-build-a-gaming-pc.html" class="card">
-
-					<div class="thumb" style="background-image: url(media/cover/cover-gaming-pc160-01.jpg);">
-					</div>
-
-					<article>
-						<h1>A guide to building your own PC</h1>
-						<span>Tarik Alyahya</span>
-					</article>
-				</a>
-			</div>
-		
-
-
-			<div >
-
-				<a class="card" href="posts/blog-guidelines-for-web-dev.html" >
-
-					<img src="media/cover/cover-web-dev160-02.jpg">
-
-					<article>
-						<h1>Guidelines for website development</h1>
-						<span>Tarik Alyahya</span>
-					</article>
-
-				</a>
-			</div>
-
-
-			<div>
-				<a  class="card" href="posts/blog-a-guide-to-buying-a-display-monitor.html">
-
-					<img src="media/cover/cover-display-monitor160-01.jpg">
-
-					<article>
-						<h1>A guide for buying a Display monitor</h1>
-						<span>Tarik Alyahya</span>
-					</article>
-
-				</a>
-			</div>
-
-		</div>
--->
 
 		<h2>Gallery</h2>
 
@@ -205,28 +138,26 @@
 	</main>
 
 
-	<footer class="footer flex">
-		<section class="container">
-			<nav class="footer-links">
-				<a href="blog.html">Articles</a>
-				<a href="gallery.html">Gallery</a>
-				<!--  <a href="/guides">Guides</a>
+	<footer class="footer">
+
+		<nav class="footer-links">
+			<a href="blog.html">Articles</a>
+			<a href="gallery.html">Gallery</a>
+			<!--  <a href="/guides">Guides</a>
 					<a href="https://.substack.com/subscribe" target="_blank" rel="noopener noreferrer">Newsletter</a>
 					<a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
 					<a href="/rss.xml">RSS</a>
 					<a href="https://ko-fi.com/" target="_blank" rel="noopener noreferrer">Donate</a>
 					<a href="https://patreon.com/" target="_blank" rel="noopener noreferrer">Patreon</a>
 					-->
-			</nav>
+		</nav>
 
-			<nav class="flex justify-center">
-				<a href="https://github.com/gumbol" title="Open-source on GitHub" target="_blank"
-					rel="noopener noreferrer" class="img">
-					<img src="github.png" class="footer-img" alt="GitHub">
-				</a>
-			</nav>
-			<p id="sig">&copy; 2020 Tyah</p>
-		</section>
+		<a class="img" href="https://github.com/gumbol" title="Open-source on GitHub" target="_blank"
+			rel="noopener noreferrer">
+			<img class="footer-img" src="github.png" alt="GitHub">
+		</a>
+		<p id="sig">&copy; 2020 Tyah</p>
+
 	</footer>
 </body>
 
