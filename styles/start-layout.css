@@ -12,15 +12,17 @@ starter style sheet
 
 /* @selector styles */
 *{margin:0; padding:0; box-sizing:border-box;}
- .logo{
-
+.current{
+	border:1px dashed;
+	
+}
+.logo{
 position: absolute;
 margin:0;
 padding:0;
 top:-4px;
 left:10px;
 max-width:44px;
-
 }
 
 .note {
@@ -29,27 +31,34 @@ max-width:44px;
 	max-width: 480px;
 	padding:10px;
 	margin: 10px 0;
-
   }
 
-  .note p, .note li {
+.note p, .note li {
 	margin: 10px;
 	width:95%;
   }
+
 .ppl img {
-margin:5px;
+margin:0px 5px 5px;
 padding:0;
+float: left;
+border-radius: 50%;
+border:5px solid rgb(0, 0, 0);
+border-top:5px dashed rgb(202, 16, 16);
+border-bottom: none;
+border-right: none;
+}
 
-	float: left;
-
+.ppl div{
+	display:flex;
+	flex-direction: column;
+	width:100%;
+	margin:10px;
+	padding:0;
 }
 /*
 .avatar{
-	border-radius: 50%;
-	border:10px solid black;
-	border-top:none;
-	border-bottom: none;
-	border-right: none;
+
 }
 */
 
@@ -62,7 +71,7 @@ body {
 	border-style: solid;
 	width:99%;
 	max-width:960px;
-	min-width: 320px;
+	min-width: 310px;
 	margin: 0 auto 0;
 	border: 3px solid #931420;
 	font-size: 100%;
@@ -116,6 +125,20 @@ code p{
 
 }
 
+kbd {
+	background-color:#f7f7f7;
+	border:2px solid rgba(0,0,0,.3);
+	border-radius:3px;
+	box-shadow:0 1px 0 rgba(0,0,0,.2),inset 0 0 0 2px #fff;
+	color:#333;
+	display:inline-block;
+	font-family:"Helvetica Neue",Inter,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;
+	line-height:1.4;
+	margin:0 .1em;
+	padding:.1em .6em;
+	text-shadow:0 1px 0 #fff;
+	font-size:14px
+   }
 /* footer */
 
 footer{
@@ -123,7 +146,7 @@ footer{
 	padding:2em 0;
 	border-top: 3px solid #931420;
 	clear:both;}
-	
+
 #sig {text-align:center;}
 
 /* @end */

@@ -26,16 +26,16 @@ html {
  font-weight:400;
  font-size:1rem;
  line-height:1.5;
+background: #2ca8e6;
+ padding: 0 0 0 10px;
 }
 
 section {
- margin:0;
+    margin:0;
 }
-section:first-of-type, section>h2 {
-    margin-top:50px;
-}
+
 section.blurb.top{
-margin-top:0px;
+    margin-top:0px;
 }
 section > h2 {
  display:flex;
@@ -48,14 +48,8 @@ section > h2 {
   margin-bottom:2rem;
  }
 }
-.index h2, section>h2 {
- border-bottom-width:0
-}
-@media screen and (min-width:800px) {
- .index h2, section>h2 {
-  border-bottom-width:4px
- }
-}
+
+
 a.section-button {
  font-weight:500;
  background:var(--light-background);
@@ -133,9 +127,7 @@ ul li ul li {
 ol li ol {
  margin-bottom:0
 }
-.task-list-item [type=checkbox] {
- margin-right:.5rem
-}
+
 blockquote {
  margin:2rem 0;
  padding:1rem;
@@ -508,45 +500,46 @@ main {
 }
 @media screen and (min-width:800px) {
  .emoji {
-  margin:0 .5rem 0 .1rem
+  margin:0 .5rem 0 .1rem;
  }
  .navbar {
   position:static;
   padding:1.5rem 0;
   background:transparent;
-  box-shadow:none
+  box-shadow:none;
  }
  .navbar .flex {
-  justify-content:space-between
+  justify-content:space-between;
  }
  .navbar a {
   padding:.75rem 1.25rem;
   margin:0 .25rem;
   font-size:1.2rem;
   font-weight:400;
-  color:var(--font-color)
+  color:var(--font-color);
  }
  .navbar a.brand {
   font-size:1.3rem;
   margin-right:3rem;
   border:none;
   background:transparent!important;
-  color:var(--dark-font-color)
+  color:var(--dark-font-color);
  }
  .navbar a.brand img {
   height:26px;
   width:26px;
-  margin-right:.25rem
+  margin-right:.25rem;
  }
  .navbar a:first-of-type {
-  margin-left:-1.5rem
+  margin-left:-1.5rem;
  }
  
  .navbar a.brand:hover {
   background:var(--light-background)!important
  }
  #dark-mode-button:hover {
-  background:var(--light-background)
+    
+    background:var(--light-background);
  }
 }
 @media print {
@@ -555,17 +548,21 @@ main {
  }
 }
 #dark-mode-button {
+    border:none;
+    padding:.2rem .5rem .2rem .4rem;
+    border-radius:.35rem;
+    cursor:pointer;
+ 
+/*
  display:flex;
- border:none;
- padding:.2rem .7rem .2rem .5rem;
- border-radius:.35rem;
+font-size:1.1rem;
+background:transparent
  box-sizing:content-box;
- cursor:pointer;
- font-size:1.1rem;
- background:transparent
+
+*/ 
 }
 #dark-mode-button:focus {
- outline:none
+ outline:none;
 }
 @media screen and (min-width:800px) {
  #dark-mode-button {
@@ -638,17 +635,3 @@ main {
  }
 }
 
-kbd {
- background-color:#f7f7f7;
- border:2px solid rgba(0,0,0,.3);
- border-radius:3px;
- box-shadow:0 1px 0 rgba(0,0,0,.2),inset 0 0 0 2px #fff;
- color:#333;
- display:inline-block;
- font-family:"Helvetica Neue",Inter,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;
- line-height:1.4;
- margin:0 .1em;
- padding:.1em .6em;
- text-shadow:0 1px 0 #fff;
- font-size:14px
-}
