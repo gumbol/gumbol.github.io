@@ -118,11 +118,16 @@ html {
     justify-content: space-between;
   }
 
-.item-6{
-    width:320px;
+  .card .item-6 {
+    width:100%;
     text-align: center;
+    margin: 10px;
+  
   }
+ .item-6 img{
+  margin: 10px;
 
+  }
   /*.card .thumb {
     padding-bottom: 60%;
     background-size: cover;

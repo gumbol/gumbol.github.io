@@ -17,7 +17,7 @@ starter style sheet
 position: absolute;
 margin:0;
 padding:0;
-top:-2px;
+top:-4px;
 left:10px;
 max-width:44px;
 
@@ -123,6 +123,7 @@ footer{
 	padding:2em 0;
 	border-top: 3px solid #931420;
 	clear:both;}
+	
 #sig {text-align:center;}
 
 /* @end */

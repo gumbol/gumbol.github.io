@@ -34,17 +34,18 @@ a:active{
 	display: flex;
 	flex-wrap: wrap;
 	position:fixed;
-	justify-content: center;
-	font-family: "IM Fell English",Georgia,serif;
 	left:0;
 	top: 0;
+	justify-content: right;
+	font-family: "IM Fell English",Georgia,serif;
+	
 	z-index: 200;
 	width:100%;
 	background-color:antiquewhite;
 	font-size: 80%;
 	padding: 1em;
 	margin: 0;
-	border:3px solid black;
+	border:1px solid black;
 }
 
 .navigate a[href] {
@@ -54,16 +55,13 @@ a:active{
 	font-style:normal;
 	
 }
-.navigate a[href] {
+.navigate a {
 	text-align: center;
 	margin:0 10px 0;
+	
 }
 
-.navigate a img{
-	top:0;
-	width:100%;
 
-}
 .nav-links {
 	display: flex;
 	flex-wrap: wrap;
