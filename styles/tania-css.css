@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=VT323&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap);
-/*! Tania Rascia's website style. Written with plain CSS in one file. Why not? */
 :root {
  --font-color:#495057;
  --heading-color:#343a40;
@@ -27,7 +26,7 @@ html {
  font-size:1rem;
  line-height:1.5;
 background: #2ca8e6;
- padding: 0 0 0 10px;
+ margin: 0 0 0 5px;
 }
 
 section {
@@ -50,23 +49,6 @@ section > h2 {
 }
 
 
-a.section-button {
- font-weight:500;
- background:var(--light-background);
- color:var(--dark-font-color);
- padding:.4rem .6rem;
- font-size:.8rem;
- border-radius:.3rem;
- border-width:0!important;
- white-space:nowrap;
- line-height:1;
- margin-left:2rem;
- margin-top:.5rem
-}
-a.section-button:hover {
- background:var(--light-background-hover);
- color:var(--heading-color)
-}
 @media screen and (min-width:800px) {
  section {
   margin:0;
@@ -76,41 +58,49 @@ a.section-button:hover {
   margin:0 0 1rem
  }
 }
+
 .container {
  max-width:825px;
  padding:0 1.5rem;
  margin-left:auto;
  margin-right:auto;
 }
+
 .container.page p {
  max-width:600px
 }
+
 @media screen and (min-width:800px) {
  .container {
   padding:0 2rem
  }
 }
+
 img {
- display:inline-block;
- max-width:100%;
- height:auto;
+
+
+ 
 }
+
 blockquote,dl,ol,p,table,ul {
  font-size:1.05rem;
  margin:0 0 1.5rem
 }
+
 ul {
  padding:0 1rem
 }
 
 li{
     padding:1rem 0;
-   }
+}
+
 @media screen and (min-width:800px) {
  blockquote,dl,ol,p,table,ul {
   font-size:1.125rem
  }
- ul {
+
+ ul{
   padding:0 2rem
  }
 }
@@ -136,12 +126,15 @@ blockquote {
  border-radius:.3rem;
  border-left:3px solid var(--link-color)
 }
+
 blockquote :last-child {
  margin:0
 }
+
 blockquote :not(pre)>code[class*=language-] {
  background:rgba(0,0,0,.1)!important
 }
+
 blockquote.quotation {
  margin:2rem 0;
  padding:0;
@@ -149,13 +142,15 @@ blockquote.quotation {
  border:none;
  background:transparent
 }
+
 blockquote.quotation p {
  font-family:Georgia,serif;
  line-height:1.6;
  color:var(--medium-font-color);
  font-size:1.1rem;
- margin:0 0 2rem
+ margin:0 0 2rem;
 }
+
 @media screen and (min-width:800px) {
  blockquote {
   padding:2rem
@@ -252,7 +247,6 @@ h5 {
 }
 
 .blurb {
-
  padding:2rem 0;
  background:#0004a5;
  font-family: VT323, monospace;
@@ -279,9 +273,7 @@ h5 {
  line-height:1;
  font-weight:400;
 }
-.blurb p:last-of-type {
- margin-bottom:.5rem;
-}
+
 .blurb h3 {
  padding-left:1rem;
  font-size:32px;
@@ -320,16 +312,12 @@ h5 {
  background:#fff;
  color:#000
 }
-
-
 .avatar {
 	display:none;
 	max-width:100px;
-	margin-right:1rem
+	margin-right:1rem;
    }
  
-
-
 @media screen and (min-width:800px) {
  .blurb {
   padding:3.5rem 0
@@ -340,32 +328,22 @@ h5 {
  }
 
  .blurb p {
-  font-size:32px
+  font-size:32px;
  }
  .blurb h3 {
-  font-size:40px
+  font-size:40px;
  }
  .blurb a.button {
-  font-size:32px
+  font-size:32px;
  }
 
  .avatar {
 	display:block;
-	max-width:180px
+	max-width:180px;
    }
 }
 
-a.link {
- display:block;
- padding:.25rem 0;
- margin:.25rem 0;
- border-radius:.35rem;
- font-weight:600;
- color:var(--dark-font-color)
-}
-a.link:hover {
- color:var(--link-color)
-}
+
 a.button {
  display:inline-block;
  border:2px solid var(--link-color);
@@ -375,17 +353,9 @@ a.button {
  background:var(--link-color);
  color:#fff;
  border-radius:.35rem;
- font-size:.9rem
+ font-size:.9rem;
 }
-a.button.large {
- padding:.8rem 1rem;
- font-size:1.05rem
-}
-a.button.secondary {
- border:2px solid #edf2ff;
- background:#edf2ff;
- color:#3b5bdb
-}
+
 a.button.secondary:hover,
 a.button:hover {
  border:2px solid var(--link-color-darker);
@@ -394,15 +364,15 @@ a.button:hover {
 }
 @media screen and (min-width:800px) {
  a.button {
-  font-size:.9rem
+  font-size:.9rem;
  }
  a.button.large {
   padding:1rem 1.5rem;
-  font-size:1.1rem
+  font-size:1.1rem;
  }
 }
 
-
+/* @anchor styles */
 a {
  color:var(--heading-color);
  text-decoration:none;
@@ -417,13 +387,6 @@ a.image-link {
  border-width:0;
 }
 
-a code[class*=language-] {
- color:var(--link-color)!important;
-}
-a code[class*=language-]:hover {
- background:var(--link-color)!important;
- color:#fff!important;
-}
 main {
  margin-top:0px;
 }
@@ -443,14 +406,8 @@ main {
  background:var(--navbar-color);
  box-shadow:0 3px 13px rgba(100,110,140,.1),0 2px 4px rgba(100,110,140,.15);
  z-index:2;
- padding:.5rem
+ padding:.5rem;
 }
-.navbar .flex {
- justify-content:space-between
-}
-.justify-center {
-    justify-content:center
-   }
 
 .navbar a {
  border-radius:.35rem;
@@ -462,9 +419,7 @@ main {
  padding:0 .3rem;
  background:transparent
 }
-.blurb{
-    margin-top:0px;
-}
+
 .navbar button {
  font-size:1rem;
  margin-right:-1rem
@@ -533,12 +488,10 @@ main {
  .navbar a:first-of-type {
   margin-left:-1.5rem;
  }
- 
  .navbar a.brand:hover {
   background:var(--light-background)!important
  }
  #dark-mode-button:hover {
-    
     background:var(--light-background);
  }
 }
@@ -552,14 +505,13 @@ main {
     padding:.2rem .5rem .2rem .4rem;
     border-radius:.35rem;
     cursor:pointer;
- 
 /*
  display:flex;
 font-size:1.1rem;
 background:transparent
  box-sizing:content-box;
 
-*/ 
+*/
 }
 #dark-mode-button:focus {
  outline:none;
@@ -567,7 +519,7 @@ background:transparent
 @media screen and (min-width:800px) {
  #dark-mode-button {
   padding:.95rem .75rem;
-  font-size:1.2rem
+  font-size:1.2rem;
  }
 }
 .footer {
@@ -575,16 +527,16 @@ background:transparent
  margin:0;
 }
 .footer > .flex {
- flex-direction:column
+ flex-direction:column;
 }
 .footer-links,
 .footer>.flex {
  align-items:center;
- justify-content:center
+ justify-content:center;
 }
 .footer-links {
  display:flex;
- flex-wrap:wrap
+ flex-wrap:wrap;
 }
 
 .flex nav {
@@ -620,7 +572,6 @@ background:transparent
   margin-left:-1.5rem;
   margin-right:-1.5rem
  }
-
  .footer a {
   padding:.75rem
  }

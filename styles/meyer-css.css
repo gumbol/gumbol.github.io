@@ -6,7 +6,6 @@ a[href]{
 }
 
 a[href]:hover, a[href]:focus{
-
 	text-decoration-color: currentColor;
 	color: hsl(33deg,99%,33%);
 }
@@ -38,7 +37,6 @@ a:active{
 	top: 0;
 	justify-content: right;
 	font-family: "IM Fell English",Georgia,serif;
-	
 	z-index: 200;
 	width:100%;
 	background-color:antiquewhite;
