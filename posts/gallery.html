@@ -14,7 +14,16 @@
     <link rel="stylesheet" type="text/css" href="../styles/tania-css.css">
     <link rel="stylesheet" type="text/css" href="../styles/gallery.css">
 
+    <style>
+        #test {
+            width: 100%;
+        }
 
+        main>div {
+            width: 50%;
+            height: 20%;
+        }
+    </style>
 
 </head>
 
@@ -42,10 +51,15 @@
 
 
             <div class="gallery-item">
+
                 <div>
                     <h4>Flycatcher searching for its mate</h4>
                 </div>
-                <video src="../media/gallery/birds-flycatcher-02.mp4" type="video/mp4" controls></video>
+
+                <video controls>
+                    <source src="../media/gallery/birds-flycatcher-02.mp4" type="video/mp4">
+                </video>
+
                 <p>A flycatcher lost his flock.
                     But not long for before he knew it the wind brought back his flock again.</p>
             </div>
@@ -54,8 +68,11 @@
                 <div>
                     <h4>Flycatcher just finished bathing</h4>
                 </div>
-                <video src="../media/gallery/birds-flycatcher-01.m4v" type="video/mp4" controls></video>
-                <p>A flycatcher drying itself after a morning bath.</p>
+                
+                    <video controls>
+                        <source src="../media/gallery/birds-flycatcher-01.m4v" type="video/mp4">
+                    </video>
+                    <p>A flycatcher drying itself after a morning bath.</p>
             </div>
 
             <div class="gallery-item">
@@ -107,14 +124,18 @@
                     <h4>Can you locate the hidden moth in the picture below?</h4>
                 </div>
                 <img src="../media/gallery/butterflies-moth-600w-01.jpg" width="600">
-                <div>
-                    <h4>Click on the image below for the answer.</h4>
-                </div>
+
+                <h4>Click on the image below for the answer.</h4>
+
                 <input type="checkbox" id="isblur">
                 <label for="isblur">
                     <img id="isblur" src="../media/gallery/butterflies-moth-600w-01-show.jpg" width="600">
                     <span id="isblur">
-                        <h4>Amazing camouflage is it not?</h4>
+                        <br>
+                        <br>
+                        <div>
+                            <h4>Amazing camouflage is it not?</h4>
+                        </div>
                     </span>
                 </label>
             </div>
