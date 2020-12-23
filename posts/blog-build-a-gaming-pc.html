@@ -14,7 +14,13 @@
 	<link rel="stylesheet" type="text/css" href="../styles/start-layout.css">
 	<link rel="stylesheet" type="text/css" href="../styles/tania-css.css">
 
+<style>
 
+.flex img{
+	margin:10px;
+}
+
+</style>
 
 </head>
 
@@ -36,216 +42,194 @@
 	<main>
 		<div class="container">
 			<article>
-				<header class="article-header">
 
-					<h1>Building a gaming PC</h1>
 
-				</header>
+				<h2>Building a gaming PC</h2>
 
-				<div class="article-post">
+
+
+				<div class="flex">
 
 					<p>A gaming PC needs:</p>
 
-					<img class="thumb160" src="../media/blog-build-a-gaming-pc/motherboard-160w-01.png">
+					<a href="#mb"><img src="../media/blog-build-a-gaming-pc/mb-100x-02.webp" width="100"></a>
 
-					<img class="thumb160" src="../media/blog-build-a-gaming-pc/cpu-160w-01.png">
-
-
-					<img class="thumb160" src="../media/blog-build-a-gaming-pc/ram-160w-01.png">
+					<a href="#cpu"> <img src="../media/blog-build-a-gaming-pc/cpu-100x-02.webp" width="100"></a>
 
 
-					<img class="thumb160" src="../media/blog-build-a-gaming-pc/fan-160w-01.png">
+					<a href="#ram"><img src="../media/blog-build-a-gaming-pc/ram-100x-02.webp" width="100"></a>
 
 
-					<img class="thumb160" src="../media/blog-build-a-gaming-pc/monitor-160w-01.png">
+					<a href="#fan"><img src="../media/blog-build-a-gaming-pc/fan1-100x-03.webp" width="100"></a>
 
 
-					<img class="thumb160" src="../media/blog-build-a-gaming-pc/ps-160w-01.png">
+					<a href="#display"><img src="../media/blog-build-a-gaming-pc/monitor-100x-02.webp" width="100"></a>
 
 
-
-					<img class="thumb160" src="../media/blog-build-a-gaming-pc/storage-160w-01.png">
-
-
-					<img class="thumb160" src="../media/blog-build-a-gaming-pc/kb-160w-01.png">
-
-					<img class="thumb160" src="../media/blog-build-a-gaming-pc/gpu-160w-01.png">
+					<a href="#psu"><img src="../media/blog-build-a-gaming-pc/psu-100x-02.webp" width="100"></a>
 
 
 
+					<a href="#storage"> <img src="../media/blog-build-a-gaming-pc/storage-100x-02.webp" width="100"></a>
+
+
+					<a href="#kb"><img src="../media/blog-build-a-gaming-pc/kb-200w-02.webp" width="200"></a>
+
+					<a href="#gpu"><img src="../media/blog-build-a-gaming-pc/gpu-200w-01.webp" width="200"></a>
+
+
+			
 
 					<h3>Optional:</h3>
 
-					<img class="thumb160" src="../media/blog-build-a-gaming-pc/chassis-160w-01.png">
+					<a href="#case"><img src="../media/blog-build-a-gaming-pc/case-100x-02.webp" width="100"></a>
+
+
+				</div>
+				<div>
+
+
+					<p class="note">
+						I will be using the game <b>Assasin Creed Valhalla</b>
+						system requirments as a reference. I have not played the game
+						. it was picked randomly</p>
 
 
 
-
-
-
-
-
-					<p>
-						After knowing the parts needed,
-						the next step is to figure out the parts you need.
-
-						<div class="note">
-							I will be using <b>Assasin Creed Valhalla</b>
-							system requirments as a reference. I have not played the game
-							And i just picked at random</div>
-
-
-					</p>
 
 					<p> According to gamespot to be able to play
 						<b>Assasin Creed Valhalla</b>
-						at 1080p, 30 FPS you would need: <br>
-						CPU: 3.2 - 3.6GHz
-						RAM: 8GB
-						GPU: RX 570 - 8GB/GTX 1060 - 6GB
-						Storage: 50GB</p>
-					<!--	<img style="float:left;" class="thumb200" src="../media/blog-build-a-gaming-pc/motherboard-160w-01.png" width:"75">-->
-					<h2>Motherboard</h2>
+						at 1080p, 30 FPS you would need:
+						<ul>
+							<li>CPU: 3.2 - 3.6GHz</li>
+							<li>RAM: 8GB</li>
+							<li>GPU: RX 570 - 8GB/GTX 1060 - 6GB</li>
+							<li>Storage: 50GB</li>
+						</ul>
+						<p>With that in mind lets check each part</p>
+
+						<div id="mb"></div>
+						<br>
+
+						<h2>Motherboard</h2>
 
 
 
-					<p>
-						This is the part
-						that combines the rest of the parts
-						and facilitate the communication
-						between all the parts.
-						For that reason it is important to choose a good motherboard
-					</p>
-
-					<h3>Things to look for in a motherboard:</h3>
-					<ul>
-
-						<li>What CPU chipset does it support?</li>
 						<p>
-							motherboard models are manufactored to serve certain CPU chipsets.
-							It is important to decide on the CPU before purchasing a motherboard.
-							
-							<div class="note">
-								<p> if you go with an old model you would need to
-									update the BIOS and to access it you
-									need to have an old
-									CPU.</p>
-							</div>
+							The motherboard combines the rest of the parts
+							and facilitate the communication
+							between all the parts.
+							For that reason it is important to choose a good motherboard
+						</p>
 
+						<h3>Things to look for in a motherboard:</h3>
+						<ul>
 
+							<li>What CPU chipset does it support?</li>
+							<p>
+								motherboard models are manufactored to serve certain CPU chipsets.
+								It is important to decide on the CPU before purchasing a motherboard.
 
-							<li>What type and version of PCI-e does it have
-								<p> Peripheral Component Interconnect Express (PCI-e)
-									are the slots where you plug
-									your expansion cards.
-									expansion cards come with a set of pins that goes into these slots.
-									x1, x4, x8 and x16. GPUs typically come in x16.
-									In some motherboards they can be plugged into x8
-									but using only the x8 throughput.
-									A test made by <a
-										href="www.gamersnexus.net/guides/2488-pci-e-x8-vs-x16-performance-impace-on-gpus">
-										gamersnexus</a>
-									showed that there is no real difference in
-									performance between x8 and x16
-									If it came to this pick the one that is cheaper.
-									start from version 2.0 @ x16 and up.
-
-									you want to aim at
-									at a minimum
-									you would need
-									1 GPU slot and 1 RAM slot.</p>
-							</li>
-
-							<li>What size is it.
-								<p> bigger forms have more expansion slots and therefore more options
-									but smaller form factors are more compact and portable.</p>
-								<p>Below are the 3 common sizes.</p>
-							</li>
-					</ul>
-
-
-					<img src="../media/blog-build-a-gaming-pc/form-factor-300w-01.png" width="300">
-
-					<p>Once you have picked the motherboard it is time to
-						pick the main brain or the CPU</p>
-
-
-					<h2>Central Processing Unit (CPU)</h2>
-					<!--	<img class="thumb200" src="../media/blog-build-a-gaming-pc/cpu200-01.png">-->
-					<p>Your first part to pick should be the CPU because other parts depend on the chipset you choose
-					</p>
-					<p>
-						CPU purpose is to process software instructions.
-						It is important to have a fast processor
-						because slow processor contribute to the game lag.
-
-
-					</p>
-
-					<h3>Things to look for in a CPU:</h3>
-					<ul>
-						<li>CPU clock speed (in GHz)
-							A 3.2GHz process
-							3.2 billion instructions per second.
-
-						</li>
-
-
-						<li>Number of Cores it has.
-							<p> Modern CPU chips come in multiple "cores".
-								Each core acts as a an independent CPU.
 								<div class="note">
-									more cores does not mean faster CPU.
-									A 4 cores CPU is not 4x faster than 1 core CPU.
-									It does however affect program performance</p>
+									<p> if you go with an old motherboard model
+										you would need to update the BIOS and to do
+										 that you need a CPU that is compatable
+										 with the current BIOS in order to access it
+										</p>
+								</div>
+
+								<li>What type and version of PCI-e does it have
+									<p> Peripheral Component Interconnect Express (PCI-e)
+										are the slots where you plug
+										your expansion cards.
+										expansion cards come with a set of pins that goes into these slots.
+										x1, x4, x8 and x16. GPUs typically come in x16.
+										In some motherboards they can be plugged into x8
+										but using only the x8 throughput.
+										<p class="note">
+										A test made by <a
+											href="www.gamersnexus.net/guides/2488-pci-e-x8-vs-x16-performance-impace-on-gpus">
+											gamersnexus</a>
+										showed that there is no real difference in
+										performance between x8 and x16</p>
+										If it came to this pick the one that is cheaper but make sure that
+										the x8 solt is open ended to accomedate the x16.
+										start from version 2.0 @ x16 and up.
+
+										you want to aim at
+										at a minimum
+										you would need
+										1 GPU slot and 1 RAM slot.</p>
+								</li>
+
+								<li>What size is it.
+									<p> bigger forms have more feauters
+										and expansion slot. Smaller ones are more expensive</p>
+									<p>Below are the 3 common sizes.</p>
+								</li>
+						</ul>
+
+						<img src="../media/blog-build-a-gaming-pc/form-factor-300w-01.png" width="300">
+
+						<div id="cpu"></div>
+						<br>
+						<h2>Central Processing Unit (CPU)</h2>
+						<!--	<img class="thumb200" src="../media/blog-build-a-gaming-pc/cpu200-01.png">-->
+						<p>Your first part to pick should be the CPU because other parts depend on the chipset you
+							choose
+						</p>
+						<p>
+							CPU purpose is to process software instructions.
+							It is important to have a fast processor
+							because slow processor contribute to the game lag.
+
+
+						</p>
+
+						<h3>Things to look for in a CPU:</h3>
+						<ul>
+							<li>CPU clock speed (in GHz)
+								A 3.2GHz process
+								3.2 billion instructions per second.
+
+							</li>
+
+
+							<li>Number of Cores it has.
+								<p> Modern CPU chips come in multiple "cores".
+									Each core acts as a an independent CPU.
+									<div class="note">
+										more cores does not mean faster CPU.
+										A 4 cores CPU is not 4x faster than 1 core CPU.
+										It does however affect program performance</p>
 				</div>
 				Based on my research it seems that 4 cores is a good number for most games.
 
 
 
-
+				<div id="ram"></div>
+				<br>
 				<h2>Random Access Memory (RAM)</h2>
-				<!--	<img class="thumb200" src="../media/blog-build-a-gaming-pc/ram200-01.png">-->
-				<p>
-					RAM is used for temporary storage.
-					its faster to retrieve information from RAM than
-					directly from the long term storage.
-
-
-					Current Gen4 comes in 7 speeds (Mhz)
-					• DDR4 1600
-					• DDR4 1866
-					• DDR4 2133
-					• DDR4 2400
-					• DDR4 2666
-					• DDR4 2933
-					• DDR4 3200
-
-
+	
 
 					<h3>Things to look for in a RAM</h3>
 
 					<ul>
 						<li> Capacity (in GB)</li>
-						Capacity determine the max data the RAM can
-						retain.
+
 
 						<li> speed (in Mhz)</li>
 						Speed determine the time it takes the RAM to retrieve
 						Data from its table.
 					</ul>
 					<br>
-					<p> Speed or size?
+					<p class="note"> Speed or size?
 						More RAM. RAMs are fairly fast in storing and retrieving data.
 
-						A 6 to 8GB DDR4 RAM with 2133-2400Mhz should good for most games.
-
-						The next RAM gen DDR5 comes out in 2020 with speeds reaching 4800Mhz. but adoption by CPU
-						makers wont be
-						till 21-22.
-
+						A 6 to 8GB DDR4 RAM with 2133-2400Mhz (2.133Ghz-2.4Ghz) should good for most games.
 					</p>
-
+					<p id="gpu"></p>
+					<br>
 					<h2>Graphical Processing Unit (GPU)</h2>
 					<p> GPU like CPU but it process graphical instructions.
 						These instructions are passed to the GPU for processing.
@@ -261,23 +245,25 @@
 						<li>Memory bandwidth (GB/s)</li>
 					</ul>
 
-
+					<div id="storage"></div>
+					<br>
 					<h2>Long Term Persistent Storage</h2>
-					
-					<p>
-						This is a non-volatile storage medium.
-						It is slower than a RAM
+					<p>These unlike RAM will not lose the data when the PC is turned off.
+						There is two types:
+						HDD Hard Disk Drive
+						SSD Solid State Drive
+						The HDD is an old model. It is slower but cheaper than SSD specially when buying a significant
+						amount of storage space.
+						SSD is is the new storage model
+						it has a faster boot time and faster file transfers than HDD but it is expensive as well.
 
-						SSD are faster than a HDD and more expensive too.
-						it comes with different forms.
+						Every year technology gets cheaper so the comparison only holds when you
+						want to buy a huge amount of storage (say in the terabyte range).
 
-
-						If you want faster boot time and faster file transfers then SSD cards are desirable. They
-						are typically
-						less heavy and can be portable.
-						HDD uses a moving disk to store data and that is slower than SSD.
-
+						Below are different forms of SSD
+						<img src="../media/blog-build-a-gaming-pc/storage-type-300w-01.webp" width="300">
 					</p>
+
 					<h4>Things to look for in storage device:</h4>
 
 
@@ -290,7 +276,8 @@
 
 
 
-
+					<div id="fan"></div>
+					<br>
 					<h2>Cooling sources</h2>
 					<p>You need some cooling device for your system to avoid
 						overheating, like a car radiator.
@@ -310,72 +297,67 @@
 
 
 
-
+					<div id="psu"></div>
+					<br>
 					<h2>Power Supply</h2>
+
+					PSUs come in 3 forms
+					<img src="../media/blog-build-a-gaming-pc/psu-300w-01-linustechtips.webp" width="300">
+
+					<p><b>Non-Modular:</b> Comes with all the cables soldered</p>
+
+					<p><b>Semi-Modular:</b> will have the basic cables soldered to
+						the unit, like the motherboard connector, the CPU cable,
+						and the PCIe power connector</p>
+
+					<p><b>Modular:</b>Comes without any cables soldered to the unit.</p>
+
+
+					Modular is the most expensive. The non-modular is the most practical, the other two are more for
+					aesthtic
+					features.
+
+
 					<p>
-
-
-						PSU comes with 2 ratings:
-						The 80+
-						And labels like
-						original,bronze,silver,gold,platinum, or titanium
-
-						The number is a rating that means a PSU
-						is at least 80% effecient at different workloads.
-						so at 100% workload.
+						PSU comes with an 80+ rating which means that
+						the unit is at least 80% effecient at different workloads
+						(20%,50% and 100%). so at 100% workload
 						a PSU will supply at least 80%.
 
-						The labels indicate extra effeciency at different workload
-						ranging from 86% to 94%
+						some PSU also come with different labels like
 
+						bronze,silver,gold,platinum, or titanium.
 
-						If you are going to pick a PSU with a label
-
-						keep in mind that most PSU are
-						most effecient at 50% workload.
-						That means using 50% of what the PSU supply.
-
-
-						After gathering the rest of the PC parts
-						you need to figure out the amount of power you need.
-						p50 = total-sys-power/.5
-						p80 = total-sys-power/.8
-
-
-						80+ means that it will work at 80% effecincy.
-						so if your system need 350W and you have a
-						350W PSU then it will supply 350*.8W.
-
-						The ratings are for effecincy at different workloads
 						for example
-						80+ bronze has 82% effecincy at 20 to 100% workload.
-						but 85% at 50%.
-						titanium works at 90,92, and 94%
-					</p>
+						an 80+ bronze unit would have 82% effecincy at 20% and 100% workload.
+						but 85% at 50% workload.
+						titanium works out at at 90%,92%, and 94%.
 
+						<p class="note">PSUs are
+							most effecient at 50% workload.
+							If you want to take advantage of the labeled (and more expensive)
+							PSU, aim for 50% workload otherwise a regular 80+ PSU is fine.</p>
+
+
+
+
+						In either case you want to aim for at
+						least 20% more power than what your system needs.
+					</p>
 					<p>
-						PSUs come in different forms
-
-						Non-Modular: it comes with all the cables preconnected
-
-						Semi-Modular: will have only the basic cables attached to
-						the unit, like the 24-pin motherboard connector, the 8-pin CPU cable,
-						and the PCIe power connector that will go into your GPU
-
-						Modular: Comes without any cables attached to it.
-
-						<img src="../media/blog-build-a-gaming-pc/PSU-linustechtips.jpg">
-
-
+						when you figure out the amout of power
+						your system needs, plug the numbers in the formulars below.
 					</p>
-					<ul>
-						<li></li>
-					</ul>
+					<p>
+						<kbd> labeledPSUpower = total-sys-power/.5
+							regularPSUpower = total-sys-power/.8
+						</kbd>
+					</p>
 
 
 
-
-
+					<div id="display"></div>
+					<br>
 					<h2>Display Monitor</h2>
 					<p>
 						Why bother with a gaming setup if you
@@ -409,7 +391,8 @@
 
 
 
-
+					<p id="kb"></p>
+					<br>
 					<h2>Keyboard and Mouse</h2>
 					<p>
 						If you want to game you want a keyboard that is big enough
@@ -423,7 +406,8 @@
 
 
 
-
+					<p id="case"></p>
+					<br>
 					<h2>Chassis</h2>
 					<p>Chassis are optional, Its just a way to neatly
 						orgnize everything. you can hang them from the wall
@@ -459,7 +443,7 @@
 		<div class="container">
 
 			<div>
-				<img class="avatar" src="../me1-160x-01.png" width="160" height="160" alt="Me">
+				<img class="avatar" src="../me1-150x-01.webp" width="150" height="150" alt="Me">
 			</div>
 
 
