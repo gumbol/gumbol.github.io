@@ -555,13 +555,13 @@ background:transparent
  color:var(--heading-color);
  background:var(--light-background)
 }
-.footer a.img {
+/*.footer a.img {
  display:flex;
  align-items:center;
  padding:0;
  margin:0 .75rem;
- background:none
-}
+ background:none;
+}*/
 .footer img {
  height:30px;
  width:30px

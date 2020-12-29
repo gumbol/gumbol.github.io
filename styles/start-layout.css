@@ -140,7 +140,14 @@ footer{
 	padding:2em 0;
 /*	border-top: 3px solid #931420;*/
 	clear:both;}
-
-#sig {text-align:center;}
+	footer{
+		background: url(../love.png) 50% 99% / 4em auto no-repeat, linear-gradient(-1deg, rgba(0,0,0,0.2), 33%, transparent 90%), #EFECEE;
+		padding: 3em 3em 4em;
+	  
+	}
+#sig {
+	text-align:center;
+	margin-bottom:50px;
+	}
 
 /* @end */
