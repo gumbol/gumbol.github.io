@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Guide - Intro to Display Screens | Tarik Alyahya</title>
+  <link rel="shortcut icon" href="../logo64.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- IMPORTANT: fill the content attribute -->
+  <meta name="description" content="A guide introducting the inner workings of a display monitor
+  resolution, pixels and frame rate">
+  <!-- IMPORTANT: fill the content attribute -->
+  <meta name="keywords" content="display,resolution,frame rate, what is, pixels, screen">
+  <!-- IMPORTANT: adjust the relative links as nessecary -->
+  <link rel="stylesheet" type="text/css" href="../styles/start-layout.css">
+  <link rel="stylesheet" type="text/css" href="../styles/tania-css.css">
+  <link rel="stylesheet" type="text/css" href="../styles/card-layout.css">
+
+</head>
+
+<body>
+
+
+  <header id="page-top">
+  </header>
+  <!-- The site main-nav menu -->
+  <nav class="navigate">
+    <a class="logo" href="../index.html">
+      <img src="../logo64.png" alt="logo"></a>
+    <a href="blog.html">Articles</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="../about.html">About</a>
+
+  </nav>
+
+  <main>
+    <div class="container">
+      <article>
+        <header>
+
+          <h1>Tips to buying a display monitor</h1>
+          <b> <span id="date-update"></span></b>
+        </header>
+
+        <div class="article-post">
+          <p> Display monitor can be broken into three functions</p>
+
+          <ul>
+            <li>Frames per second</li>
+            <li>Resolution</li>
+            <li>Dimensions</li>
+          </ul>
+
+          <h2>Frames per second (FPS)</h2>
+          <p>Motion pictures are a series of pictures or images that collectevly create the illusion of movment.
+            a single picture is 1 frame. More frames per second translate to smoother motion.</p>
+          What FPS to go with?
+          <p class="note">Monitors
+            support varies. It ranges from 32 to 126 FPS and its
+            measured in MHz. A good FPS target would be 32.
+          </p>
+
+
+          <h2>Resolution</h2>
+          <p> Resolution is the amount of <a href="https://wikipedia.org/wiki/Pixel">pixels</a> on
+            a screen. Pixels are also the unit used to measure an image dimensions in
+            the digital realm since they have no physical reference. Think how you zoom on an image.
+            this "zoom" factor varies between monitors. so 1 pixel 1 one monitor is 2 in another.
+            that is why pixels are usually mapped to inches to give it a physical dimension.</p>
+          </p>
+          <p>
+            Aspect ratio is the relation between an image height and width.
+            Key points about <a href="https://wikipedia.org/wiki/Display_aspect_ratio">aspect ratio:</a>
+
+            <ul>
+              <li>The image will <strong>always</strong> be distorted in some way if the aspect ratio of the image is
+                different to the screen's native aspect ratio.
+              <li>To maintain the aspect ratio of an image, screens will keep the original aspect ratio and fill out the
+                extra space with black pillars on the sides or above and below the image.
+            </ul>
+
+            What aspect ratio to get?
+          </p>
+          <p class="note">
+            When buying a monitor make sure the screen native aspect ratio is one that is widely used. for example a
+            16:9 aspect ratio is <strong>currently</strong> the popular aspect ratio
+            used by many content developers and movie productions.
+          </p>
+
+
+
+          <h2>Dimensions</h2>
+          <p> What determine an image accuracy is the pixel density.
+            more pixels per inch means more image accuracy.
+            This goes hand in hand with the dimension of the monitor.
+            A good pixel per inch (ppi) number is between 110-120.
+          </p>
+
+          <p>Below is the resolution and ppi
+            numbers recommended for common monitor sizes.</p>
+            <p class="note">
+
+                If you want a different monitor size then you might want to use a
+                <a href="https://calculatorsoup.com/calculators/technology/ppi-calculator.php" target="_blank"
+                  rel="noreferrer">ppi calculator</a>
+              </p>
+            <ul>
+              <li> 27' (diagonal) Display should support at least a resolution of
+                2560x1440 which gives 108.79ppi
+              </li>
+              <li> 32' (diagonal) Display should support at least resolution of
+                3200x1800 which gives 114.73ppi.
+              </li>
+            </ul>
+        
+        </div>
+      </article>
+  </main>
+
+  <script>
+    var d = new Date(document.lastModified);
+    var dUpdate = document.getElementById("date-update");
+    dUpdate.innerHTML =
+      "<i> Last update: " + (1 + d.getMonth()) + " "
+      + d.getDate() + ", " + d.getFullYear() + "<i>";
+  </script>
+
+
+
+  <section class="blurb">
+    <div class="container">
+
+      <div>
+        <img class="avatar" src="../me2-150w-01.webp" width="150" height="200" alt="Me">
+      </div>
+
+      <div>
+        <h3>About the author</h3>
+        <p>Hi I am <a href="../about.html">Tarik</a>, I'm a web developer, writer, and open-source creator.
+          This website is my digital canvas — a collection of the things
+          I've learned and created over the years.
+        </p>
+
+        <!--<p><a class="button" href="https://etarik.substack.com" target="_blank" rel="noreferrer">
+            Join newsletter</a>
+            <a class="button" href="https://ko-fi.com/" target="_blank" rel="noreferrer">Buy me a coffee</a>
+          <a class="button" href="https://github.com/gumbol" target="_blank" rel="noreferrer">GitHub</a>
+        </p>-->
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer flex">
+    <section class="container">
+      <nav class="footer-links">
+        <a href="blog.html">Articles</a>
+        <a href="gallery.html">Gallery</a>
+        <!--  <a href="/guides">Guides</a>
+          <a href="https://.substack.com/subscribe" target="_blank" rel="noopener noreferrer">Newsletter</a>
+          <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
+          <a href="/rss.xml">RSS</a>
+          <a href="https://ko-fi.com/" target="_blank" rel="noopener noreferrer">Donate</a>
+          <a href="https://patreon.com/" target="_blank" rel="noopener noreferrer">Patreon</a>
+          -->
+      </nav>
+
+      <nav class="flex justify-center">
+        <a href="https://github.com/gumbol" title="Open-source on GitHub" target="_blank" rel="noopener noreferrer"
+          class="img">
+          <img src="../github.png" class="footer-img" alt="GitHub">
+        </a>
+      </nav>
+      <p id="sig">&copy; 2020 Tyah</p>
+    </section>
+  </footer>
+</body>
+
+</html>

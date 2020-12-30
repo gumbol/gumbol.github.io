@@ -577,7 +577,7 @@ background:transparent
  }
  .footer a.img {
   padding:0 .5rem;
-  margin:0 1rem
+  margin:0 1rem;
  }
 }
 @media print {
