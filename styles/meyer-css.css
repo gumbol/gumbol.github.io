@@ -18,10 +18,13 @@ a:active{
 
 /* @header Section styles */
 
-#page-top {
+#page-top  {
 	min-height: 8em;
 	width:100%;
+
 	mix-blend-mode: darken;
+
+	margin-bottom: 5px;
 }
 
 /* @end */

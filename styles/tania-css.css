@@ -253,6 +253,9 @@ h5 {
 }
 
 .blurb h3 {
+    padding-left:1rem;
+    font-size:32px;
+    line-height:1;
     font-family: VT323, monospace;
 }
 .blurb .container {
@@ -274,11 +277,6 @@ h5 {
  font-weight:400;
 }
 
-.blurb h3 {
- padding-left:1rem;
- font-size:32px;
- line-height:1
-}
 .blurb a,
 .blurb h3 {
  background:#000;
@@ -287,14 +285,36 @@ h5 {
 }
 .blurb a {
  border-width:0;
- border-bottom: 2px solid rgb(216, 136, 30);
+ font-style:normal;
+ /*border-bottom: 2px solid rgb(216, 136, 30);*/
 }
 .blurb a:hover {
  color:#fff;
  background:#04a1a1;
  font-weight:400;
- border-width:0;
-  border-bottom: 2px solid rgb(216, 136, 30);
+    border-width:0;
+  border-bottom: 3px solid white;
+ 
+}
+a.button2{
+ border-color:#04a1a1;
+ background: url(../coffee-01.gif) 50% 50% / 4em auto no-repeat, #04a1a1;
+ color:#fff;
+ border-radius:0;
+ font-size:24px;
+ padding:.25rem 0 .25rem .75rem;
+ -webkit-filter:drop-shadow(7px 8px 0 #000);
+ filter:drop-shadow(7px 8px 0 black);
+}
+a.button3{
+    border-color:#04a1a1;
+    background: #04a1a1;
+    color:#fff;
+    border-radius:0;
+    font-size:24px;
+    padding:.25rem .75rem .25rem .75rem;
+    -webkit-filter:drop-shadow(7px 8px 0 #000);
+    filter:drop-shadow(7px 8px 0 black);   
 }
 .blurb a.button {
  border-color:#04a1a1;
