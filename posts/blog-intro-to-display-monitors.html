@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="UTF-8">
   <title>Guide - Intro to Display Screens | Tarik Alyahya</title>
@@ -20,7 +19,6 @@
 
 <body>
 
-
   <header id="page-top">
   </header>
   <!-- The site main-nav menu -->
@@ -37,9 +35,8 @@
     <div class="container">
       <article>
         <header>
-
           <h1>Tips to buying a display monitor</h1>
-          <b> <span id="date-update"></span></b>
+          <b><span id="date-update"></span></b>
         </header>
 
         <div class="article-post">
@@ -98,30 +95,33 @@
 
           <p>Below is the resolution and ppi
             numbers recommended for common monitor sizes.</p>
-            <p class="note">
+          <p class="note">
 
-                If you want a different monitor size then you might want to use a
-                <a href="https://calculatorsoup.com/calculators/technology/ppi-calculator.php" target="_blank"
-                  rel="noreferrer">ppi calculator</a>
-              </p>
-            <ul>
-              <li> 27' (diagonal) Display should support at least a resolution of
-                2560x1440 which gives 108.79ppi
-              </li>
-              <li> 32' (diagonal) Display should support at least resolution of
-                3200x1800 which gives 114.73ppi.
-              </li>
-            </ul>
-        
+            If you want a different monitor size then you might want to use a
+            <a href="https://calculatorsoup.com/calculators/technology/ppi-calculator.php" target="_blank"
+              rel="noreferrer">ppi calculator</a>
+          </p>
+          <ul>
+            <li> 27' (diagonal) Display should support at least a resolution of
+              2560x1440 which gives 108.79ppi
+            </li>
+            <li> 32' (diagonal) Display should support at least resolution of
+              3200x1800 which gives 114.73ppi.
+            </li>
+          </ul>
+
         </div>
       </article>
   </main>
 
   <script>
     var d = new Date(document.lastModified);
+    var months = ["January", "February", "March", "April",
+      "May", "June", "July", "August", "September", "October",
+      "November", "December"];
     var dUpdate = document.getElementById("date-update");
     dUpdate.innerHTML =
-      "<i> Last update: " + (1 + d.getMonth()) + " "
+      "<i> Last update: " + (months[d.getMonth()]) + " "
       + d.getDate() + ", " + d.getFullYear() + "<i>";
   </script>
 
@@ -134,22 +134,22 @@
         <img class="avatar" src="../me2-150w-01.webp" width="150" height="200" alt="Me">
       </div>
 
-  
-			<div>
-          <h3>About the author</h3>
-          <p>Hi I am <a href="../about.html">Tarik</a>, I'm a web developer, writer, and open-source creator.
-            This website is my digital canvas — a collection of the things
-            I've learned and created over the years.
-          </p>
-          
-          <p>
-            <!--<p><a class="button" href="https://etarik.substack.com" target="_blank" rel="noreferrer">
+
+      <div>
+        <h3>About the author</h3>
+        <p>Hi I am <a href="../about.html">Tarik</a>, I'm a web developer, writer, and open-source creator.
+          This website is my digital canvas — a collection of the things
+          I've learned and created over the years.
+        </p>
+
+        <p>
+          <!--<p><a class="button" href="https://etarik.substack.com" target="_blank" rel="noreferrer">
             Join newsletter</a></p>-->
-            <a class="button2" href="https://ko-fi.com/tyah2" target="_blank" rel="noreferrer">Buy me a coffee
-              <img src="../coffee-01.gif" width="32"></a>
-          </p>
-  
-        </div>
+          <a class="button2" href="https://ko-fi.com/tyah2" target="_blank" rel="noreferrer">Buy me a coffee
+            <img src="../coffee-01.gif" width="32"></a>
+        </p>
+
+      </div>
     </div>
   </section>
 

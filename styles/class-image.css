@@ -1,44 +1,47 @@
-/* Image Classes */
 
-/* @books image size */
 
-/* GIMP recommendation for images across different screen sizes */
-.img-gimp{
+/**** @Photo sizes ****/
+
+/* @GIMP recommend 600x800 pixel across different screen sizes */
+.gimp-img{
 	width:600px;
 	height:800px;
 }
+/*@end*/
 
+/*@California public library recommend 800-3000 pixels in the long dimension*/
+/*@end*/
 
-.cover-300{
+/*@end photo sizes*/
+
+/* @Thumbnail sizes*/
+
+.cover-thm{
 	width:300px;
 	height:300px;}
-	
+/*@end*/
+
 .favicon{
 	width:16px;
 	height:16px;}
 
-/* @California Public Library recommendation */
-.cali1{
+/* @California Public Library recommend 150 or 200 pixels squares. (preferring 200px) */
+.cali-thm1{
 	width:150px;
 	height:150px;}
 
-.cali2{
+.cali-thm2{
 		width:200px;
 		height:200px;}
-/* @end */		
+/* @end */
 
-/* @Denver Public Library recommendation */	
-.denver{
-	width:160px;
-	height:160px;}
-/* @end */		
+/* @Denver Public Library recommend 160px in the long dimension */
+.denver-thm{}
+/* @end */
 
-.user-75x{
+
+.user-thm{
 	width:75px;
 	height:75px;}
-
-.img{
-	width:250px;
-	height:250px;}
 
 
