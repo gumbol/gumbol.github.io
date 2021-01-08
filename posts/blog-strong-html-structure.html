@@ -7,7 +7,8 @@
     <link rel="shortcut icon" href="../logo64.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- IMPORTANT: fill the content attribute -->
-    <meta name="description" content="A guide on how to create a strong HTML structure that takes into account accessability and readability">
+    <meta name="description"
+        content="A guide on how to create a strong HTML structure that takes into account accessability and readability">
     <!-- IMPORTANT: fill the content attribute -->
     <meta name="keywords" content="HTML, structure, guide">
     <!-- IMPORTANT: adjust the relative links as nessecary -->
@@ -18,14 +19,15 @@
 </head>
 
 <body>
-
-    <header id="page-top">
+    <!--target="_blank" rel="noreferrer noopener"-->
+    <header id="site-top">
+        <a href="https://gumbol.github.io">gumbol.github.io</a>
     </header>
     <!-- The site main-nav menu -->
     <nav class="navigate">
-        <a class="logo" href="../index.html">
-            <img src="../logo64.png" width="64" alt="logo"></a>
-        <a href="blog.html">Articles</a>
+        <!--	<a class="logo" href="../index.html">
+                  <img src="../logo64.png" alt="logo"></a>-->
+        <a class="current" href="blog.html">Articles</a>
         <a href="gallery.html">Gallery</a>
         <a href="../about.html">About</a>
 
@@ -34,9 +36,9 @@
         <div class="container">
             <article>
 
-
-                <h1> Create a strong HTML page structure</h1>
-
+                <header>
+                    <h1> Create a strong HTML page structure</h1>
+                </header>
 
                 <div class="article-post">
 
@@ -58,7 +60,7 @@
 
                         <li>Use as little markup as possible: this makes the page more
                             readable and more meaningful (avoid using too much of the generic div elements)
-                       
+
                         </li>
                         <li>Make the elements meaningful: This means choosing an element
                             that best describe the content it contain. (i.e using &lt;p&gt;

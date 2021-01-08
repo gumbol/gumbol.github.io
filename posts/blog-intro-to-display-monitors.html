@@ -5,11 +5,11 @@
   <title>Guide - Intro to Display Screens | Tarik Alyahya</title>
   <link rel="shortcut icon" href="../logo64.png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- IMPORTANT: fill the content attribute -->
+	<!-- Describe the page content -->
   <meta name="description" content="A guide introducting the inner workings of a display monitor
   resolution, pixels and frame rate">
-  <!-- IMPORTANT: fill the content attribute -->
-  <meta name="keywords" content="display,resolution,frame rate, pixels, screen">
+ 	<!-- Add less than 5 keywords that are relevant to the content -->
+  <meta name="keywords" content="resolution,frame rate, computer screens">
   <!-- IMPORTANT: adjust the relative links as nessecary -->
   <link rel="stylesheet" type="text/css" href="../styles/start-layout.css">
   <link rel="stylesheet" type="text/css" href="../styles/tania-css.css">
@@ -18,22 +18,25 @@
 </head>
 
 <body>
-
-  <header id="page-top">
-  </header>
-  <!-- The site main-nav menu -->
-  <nav class="navigate">
-    <a class="logo" href="../index.html">
-      <img src="../logo64.png" alt="logo"></a>
-    <a href="blog.html">Articles</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="../about.html">About</a>
-
-  </nav>
+	<!--target="_blank" rel="noreferrer noopener"-->
+	<header id="site-top">
+			<a href="https://gumbol.github.io">gumbol.github.io</a>
+		  </header>
+		  <!-- The site main-nav menu -->
+		  <nav class="navigate">
+		  <!--	<a class="logo" href="../index.html">
+			  <img src="../logo64.png" alt="logo"></a>-->
+			<a href="blog.html">Articles</a>
+			<a href="gallery.html">Gallery</a>
+			<a href="../about.html">About</a>
+		
+		  </nav>
 
   <main>
+    
     <div class="container">
       <article>
+       
         <header>
           <h1>Tips to buying a display monitor</h1>
           <b><span id="date-update"></span></b>
@@ -114,16 +117,7 @@
       </article>
   </main>
 
-  <script>
-    var d = new Date(document.lastModified);
-    var months = ["January", "February", "March", "April",
-      "May", "June", "July", "August", "September", "October",
-      "November", "December"];
-    var dUpdate = document.getElementById("date-update");
-    dUpdate.innerHTML =
-      "<i> Last update: " + (months[d.getMonth()]) + " "
-      + d.getDate() + ", " + d.getFullYear() + "<i>";
-  </script>
+ <script src="../scripts/date-update.js"></script>
 
 
 

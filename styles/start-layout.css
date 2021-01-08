@@ -29,6 +29,9 @@ max-width:44px;
 	max-width:100%;
 }
 
+.intro img{
+	width:100%;
+}
 .note {
 	border: 1px solid #000;
 	background-color: rgba(164, 164, 238, 0.815);
@@ -76,7 +79,7 @@ body {
 header{
 	/*border-bottom: 3px solid #931420;*/
 	padding: 2em 0;
-	text-align:center;
+
 	}
 
 h1, h2, h3, h4, h5, h6 {

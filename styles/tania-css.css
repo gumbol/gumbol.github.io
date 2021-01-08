@@ -34,7 +34,7 @@ section {
 }
 
 section.blurb.top{
-    margin-top:0px;
+    margin-top:50px;
 }
 section > h2 {
  display:flex;
@@ -245,7 +245,14 @@ h5 {
   font-size:1.4rem;
  }
 }
-
+header h1 {
+	font-size: 2rem;
+	font-weight: 600;
+	margin-top: 1rem;
+}
+header h1, header u {
+	display: inline-block;
+}
 .blurb {
  padding:2rem 0;
  background:#0004a5;
@@ -401,7 +408,7 @@ a {
 }
 a:hover {
  color:#101010;
- border-bottom:3px solid #96b4f9;
+ /*border-bottom:3px solid #96b4f9;*/
 }
 a.image-link {
  border-width:0;

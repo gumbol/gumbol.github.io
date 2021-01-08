@@ -18,18 +18,43 @@ a:active{
 
 /* @header Section styles */
 
-#page-top  {
-	min-height: 8em;
-	width:100%;
+#site-top  {
 
+	background: url(../media/sand.png) 0 150% / 120% 80% no-repeat;
+	min-height: 9em;
+	position: relative;
 	mix-blend-mode: darken;
-
-	margin-bottom: 5px;
+	margin-bottom: 50px;
 }
-
 /* @end */
+#site-top a[href]  {
+ 
+	box-sizing: border-box;
+	position: absolute;
+	height: 80%;
+	width: 100%;
+	padding: 0;
+	padding-right: 0.1em;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	font-family: "IM Fell English", Eczar, Georgia, serif;
+	font-style: italic;
+	font-size: 2rem;
+	font-weight: 100;
+	text-decoration: none;
+	color: inherit;
+	line-height: 1;
+	opacity: 0.75;
+}
+#site-top a {
+text-decoration: normal;
+border:none;
 
+}
+article > header img{
 
+}
 /* @navigation styles */
 
 .navigate{
@@ -51,7 +76,7 @@ a:active{
 
 .navigate a[href] {
 	display: block;
-	padding: .5em;
+	padding: .2em;
 	color: hsla(33deg,50%,10%,0.75);
 	font-style:normal;
 	
