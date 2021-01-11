@@ -19,6 +19,7 @@ $(function () {
 		//Create audio object
 		audio = new Audio('http://archive.org/download/KayrayReadsToYou2/' + song);
 
+
 		audio.volume = temp;
 
 		audio.addEventListener("loadedmetadata", function () {

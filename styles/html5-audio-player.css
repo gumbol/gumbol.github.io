@@ -84,10 +84,10 @@ margin:5px;
 
 #seeker {
   display:inline-block;
-
-background-color:red;
-height:10px;
-margin-bottom:10px;
+  /*background-color:darkolivegreen;*/
+  background-color:rgb(28, 209, 118);
+  height:10px;
+  margin-bottom:10px;
 
 }
 
