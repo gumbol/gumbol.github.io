@@ -1,5 +1,4 @@
 @import url("normalize.css");
-@import url("start-navbar.css");
 @import url("meyer-css.css");
 @import url("class-image.css");
 
@@ -29,8 +28,19 @@ max-width:44px;
 	max-width:100%;
 }
 
-.intro img{
-	width:100%;
+.button-style1{
+	border:2px solid black;
+	background-color:blue;
+}
+
+
+ a:any-link.button-style1{
+
+	color:white;
+	padding:2px;
+	border-radius: 20%;
+	font-size: .7rem;
+
 }
 .note {
 	border: 1px solid #000;

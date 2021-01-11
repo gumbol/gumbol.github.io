@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>HTML5 Audio Player | Tarik Alyhaya </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="stylesheet" type="text/css" href="../styles/start-layout.css">
+	<link rel="stylesheet" type="text/css" href="../styles/tania-css.css">
+	<link rel="stylesheet" type="text/css" href="../styles/html5-audio-player.css">
+	<script type="text/javascript" src="../scripts/lib/jquery-3.3.1.min.js"></script>
+
+</head>
+
+
+
+<body>
+	<!--target="_blank" rel="noreferrer noopener"-->
+	<header id="site-top">
+			<a href="https://gumbol.github.io">gumbol.github.io</a>
+		</header>
+		<!-- The site main-nav menu -->
+		<nav class="navigate">
+			<!--	<a class="logo" href="../index.html">
+						  <img src="../logo64.png" alt="logo"></a>-->
+			<a href="blog.html">Articles</a>
+			<a href="gallery.html">Gallery</a>
+			<a href="about.html">About</a>
+	
+		</nav>
+
+	<main>
+
+
+
+
+			<div class="audio-player">
+
+		<div class="cover">
+			<h3>The Hobbit by J.R.R.Tolkine</h3>
+			<img src="../media/hobbit/cover-the-hobbit-600w-01.webp" width="600">
+
+		</div>
+
+
+
+		
+			<div>
+				<ul id="playlist" class="hidden">
+					<li song="hobbit-01.mp3">Chapter 1</li>
+					<li song="hobbit-02.mp3">Chapter 2</li>
+				</ul>
+			</div>
+
+			<!-- @volume controls -->
+
+			
+
+
+			<!-- @progress bar -->
+
+			<div id="progress-bar">
+					<!-- this uses native progress element-->
+					<span id="seeker"></span>
+				</div>
+	
+				<!-- @end -->
+
+			<!-- @soundtrack time information -->
+
+			<div class="time-container">
+				<span id="current-time">00:00</span>
+				<span id="duration">00:00</span>
+			</div>
+			<div class="volume-container">
+					Volume: <input id="volume-slider" type="range" min="0" max="100" value="0">
+				</div>
+			<!-- @end -->
+			<div id="buttons">
+				<span>
+					<button id="prev">&Lt;</button>
+					<button id="play">&triangleright;</button>
+					<button id="pause" class="hide">&Verbar; </button>
+					<button id="next">&NestedGreaterGreater;</button>
+				</span>
+			</div>
+
+
+			<a class="button-style1" href="https://github.com/gumbol/html5-audio-player"
+			target="_blank" rel="noreferrer noopener">Source code</a>
+
+			<!--<h2>The Textbook</h2>
+			<div class="textbook">
+
+				<object data="../media/hobbit/the-hobbit-enh-ed-j.r.r.tolkine.pdf#page=63&view=Fit"
+					type="application/pdf" title="The Hobbit by J.R.R.Tolkine" width=95% height=520px>
+				</object>
+
+			</div>
+		-->
+		</div>
+	</main>
+	<script src="../scripts/custom/html5-audio-player.js"></script>
+
+
+
+	<section class="blurb">
+		<div class="container">
+
+			<div>
+				<img class="avatar" src="../me1-160x-01.png" width="160" height="160" alt="Me">
+			</div>
+
+
+			<div>
+				<h3>About the author</h3>
+				<p>Hi I am <a href="../about.html">Tarik</a>, I'm a web developer, writer, and open-source creator.
+					This website is my digital canvas — a collection of the things
+					I've learned and created over the years.
+				</p>
+
+				<!--<p><a class="button" href="https://etarik.substack.com" target="_blank" rel="noreferrer">
+					Join newsletter</a>
+					<a class="button" href="https://ko-fi.com/" target="_blank" rel="noreferrer">Buy me a coffee</a>
+				  <a class="button" href="https://github.com/gumbol" target="_blank" rel="noreferrer">GitHub</a>
+				</p>-->
+			</div>
+		</div>
+	</section>
+
+
+
+	<footer class="footer flex">
+		<section class="container">
+			<nav class="footer-links">
+				<a href="blog.html">Articles</a>
+				<a href="gallery.html">Gallery</a>
+				<!--  <a href="/guides">Guides</a>
+				  <a href="https://.substack.com/subscribe" target="_blank" rel="noopener noreferrer">Newsletter</a>
+				  <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
+				  <a href="/rss.xml">RSS</a>
+				  <a href="https://ko-fi.com/" target="_blank" rel="noopener noreferrer">Donate</a>
+				  <a href="https://patreon.com/" target="_blank" rel="noopener noreferrer">Patreon</a>
+				  -->
+			</nav>
+
+			<nav class="flex justify-center">
+				<a href="https://github.com/gumbol" title="Open-source on GitHub" target="_blank"
+					rel="noopener noreferrer" class="img">
+					<img src="../github.png" class="footer-img" alt="GitHub">
+				</a>
+			</nav>
+			<p id="sig">&copy; 2020 Tyah</p>
+		</section>
+	</footer>
+</body>
+
+</html>
