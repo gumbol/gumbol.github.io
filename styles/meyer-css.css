@@ -1,20 +1,4 @@
-/* Anchor selector styles */
 
-a[href]{
-	text-decoration-color: hsl(13deg,13%,67%);
-	color:hsl(13deg,33%,42%);
-}
-
-a[href]:hover, a[href]:focus{
-	text-decoration-color: currentColor;
-	color: hsl(33deg,99%,33%);
-}
-
-a:active{
-	border: .12em dashed;
-	color: hsl(33deg,99%,33%);
-}
-/* @end */
 
 /* @header Section styles */
 
@@ -52,9 +36,7 @@ text-decoration: normal;
 border:none;
 
 }
-article > header img{
 
-}
 /* @navigation styles */
 
 .navigate{
@@ -70,8 +52,8 @@ article > header img{
 	background-color:antiquewhite;
 	font-size: 80%;
 	padding: 1em;
-	margin: 0;
-	border:1px solid black;
+
+
 }
 
 .navigate a[href] {
@@ -88,29 +70,6 @@ article > header img{
 }
 
 
-.nav-links {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	padding: 1em 1em 0;
-	margin: 0;
-	list-style: none;
-	font-family: "IM Fell English",Georgia,serif;
-	font-size: 40%;
-}
-
-.nav-links a {
-	text-align: center;
-	margin:0 10px 0;
-}
-
-
-.nav-links a[href] {
-	display: block;
-	padding: 0;
-	color: hsla(33deg,50%,10%,0.75);
-	font-style:normal;
-}
 
 
 

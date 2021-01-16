@@ -15,7 +15,9 @@
 	<link rel="stylesheet" type="text/css" href="../styles/start-layout.css">
 	<link rel="stylesheet" type="text/css" href="../styles/tania-css.css">
 
-
+	<style>
+		.pc-parts a {}
+	</style>
 </head>
 
 <body>
@@ -69,7 +71,7 @@
 
 
 				<a href="#storage"> <img src="../media/blog-build-a-gaming-pc/storage-100x-02.webp" width="100"
-						alt="storage"></a>
+						alt="presistent storage"></a>
 
 				<a href="#kb"><img src="../media/blog-build-a-gaming-pc/kb-200w-02.webp" width="200"
 						alt="keyboard and mouse"></a>
@@ -190,7 +192,7 @@
 						</li>
 				</ul>
 
-				<img src="../media/blog-build-a-gaming-pc/form-factor-300w-01.png" width="300">
+				<img src="../media/blog-build-a-gaming-pc/form-factor-300w-01.png" width="400" height="300">
 				<br>
 				<br>
 				<a href="#list">Back to top &gt;&gt;</a>
@@ -256,11 +258,7 @@
 							<li> speed (in MHz)
 								<p> Speed determine the speed
 									the RAM communicates the data with the other part.
-									<!--	<p class="note">
-				There is another speed measure that calculate the time
-				between the RAM taking instruction and grabbing the information
-				the RAM
-			</p>-->
+
 									RAMs come in many speeds from 1,600 MHz to 3,000+
 								</p>
 							</li>
@@ -285,101 +283,95 @@
 						<p> GPU takes care of processing graphical instructions.
 						</p>
 						<p>
-							I have decided to omitt the generic GPU speed and memory speed
-							along with other factors in favor of
-							derived metrics that, in my opinion give a clearer
-							measure of performance.
+							This depends on your target resolution.
+							In our case the </p>
 
-						</p>
 						<h3>Things to look for in a GPU</h3>
 						<ul>
 							<li><kbd>Pixel Rate</kbd> = (GPU speed) * (ROP/CU).
-								<p>Measures the rate pixel render on screen</p>
+								<p>Measures the pixel render rate</p>
 							</li>
 							<li><kbd>Texture Rate</kbd> = (GPU speed) * (TMU).
-								<p>Measures the rate texture render on screen</p>
-							</li>
-							<li><kbd>Graphic layer ratio</kbd> = Texture Rate/Pixel Rate.
-								<p>relationship between texture and pixel rendering</p>
-								<p class="note">
-									This is a measure i derived and thought might be useful.
-									from what little i have read
-									the texture is a layer that is rendered on top of pixels.
-									smaller texture or greater pixel rate is better
-								</p>
+								<p>Measures the texture render rate</p>
 							</li>
 
-							<li><kbd>Bandwidth</kbd> = vRAM speed * vRAM size * card bus width.</li>
-							<li><kbd>vRAM size (GB)</kbd></li>
-							<p>
-								Affects the communication speed between the GPU and the
-								other parts of the system.
-
+							<p class="note">
+								<kbd>Graphic layer ratio</kbd> = Texture Rate/Pixel Rate.
+								<br>
+								relationship between texture and pixel rendering
+								This is a measure i derived and thought might be useful.
+								from what little i have read
+								the texture is a layer that is rendered on top of pixels.
+								smaller texture or greater pixel rate is better
 							</p>
+					</li>
+
+					<li><kbd>Bandwidth</kbd> = vRAM speed * vRAM size * card bus width.</li>
+					<li><kbd>vRAM size (GB)</kbd></li>
+					<p>
+						Affects the communication speed between the GPU and the
+						other parts of the system.
+
+					</p>
 
 
 
 
-						</ul>
+				</ul>
 
-						<br>
-						<br>
-						<a href="#list">Back to top &gt;&gt;</a>
+				<br>memory:1750 7gbps
+				<br>
+				<a href="#list">Back to top &gt;&gt;</a>
 
-						<h4>Game reference:
-							<kbd>GPU</kbd>
-							<ul>
-								<li><kbd>Pixel Rate</kbd><code> 37 - 72 GP/s</code></li>
-								<li><kbd>Texture Rate</kbd><code> 149 - 120 GT/s</code></li>
-								<li><kbd>Bandwidth</kbd><code> 223 - 192 GB/s</code></li>
-								<li><kbd>vRAM</kbd><code> 8 - 6 GB</code></li>
+				<h4>Game reference:
+					<kbd>GPU</kbd>
+					<ul>
+						<li><kbd>Pixel Rate</kbd><code> 37 - 72 GP/s</code></li>
+						<li><kbd>Texture Rate</kbd><code> 149 - 120 GT/s</code></li>
+						<li><kbd>Bandwidth</kbd><code> 224 - 192 GB/s</code></li>
+						<li><kbd>vRAM</kbd><code> 8 - 6 GB</code></li>
 
-							</ul>
-						</h4>
+					</ul>
+				</h4>
 
-						<p> While there are many factors that affects a GPU speed. The bandwidth
-							gives pretty good measure of performance. It is calculated byFor a quick gauge the GPU
-							bandwidthI
-							decided to
-							add these 4 factors because i think they </p>
+				<p><kbd>graphic throughput</kbd> = resolution*fps =
+					1920*1080*60=124.416 megapixels per second.</p>
+				Both GPUs are great but invidia is around 15% faster in processing.
 
 
+				<div id="storage"></div>
+				<br>
+				<h2>Long Term Persistent Storage</h2>
 
+				<h4>Things to look for in storage device:</h4>
 
+				<ul>
+					<li>size (GB)</li>
+					<li>speed (GHz)</li>
+				</ul>
+				<p>These unlike RAM will not lose the data when the PC is turned off.
+					There is two types:</p>
+				<ul>
+					<li>Hard Disk Drive (HDD) older model</li>
 
-						<div id="storage"></div>
-						<br>
-						<h2>Long Term Persistent Storage</h2>
+					<p>The HDD is an old model. It is slower than an SSD but cheaper.
+					</p>
 
-						<h4>Things to look for in storage device:</h4>
+					<li>Solid State Drive (SSD) newer model</li>
+					<p> SSD is is the new storage model.
+						It has a faster boot time and faster file transfers
+						than HDD but it is more expensive as well.</p>
+				</ul>
+				<br>
+				<p>where does it make a difference?</p>
+				<p class="note">
+					SSD should be you go to storage model.
+					The price comes into play only when
+					you want to buy a huge amount of storage. i.e 500GB+
+				</p>
 
-						<ul>
-							<li>size (GB)</li>
-							<li>speed (GHz)</li>
-						</ul>
-						<p>These unlike RAM will not lose the data when the PC is turned off.
-							There is two types:</p>
-						<ul>
-							<li>Hard Disk Drive (HDD) older model</li>
-
-							<p>The HDD is an old model. It is slower than an SSD but cheaper.
-							</p>
-
-							<li>Solid State Drive (SSD) newer model</li>
-							<p> SSD is is the new storage model.
-								It has a faster boot time and faster file transfers
-								than HDD but it is more expensive as well.</p>
-						</ul>
-						<br>
-						<p>where does it make a difference?</p>
-						<p class="note">
-							SSD should be you go to storage model.
-							The price comes into play only when
-							you want to buy a huge amount of storage. i.e 500GB+
-						</p>
-
-						Below are different forms of SSD
-						<img src="../media/blog-build-a-gaming-pc/storage-type-300w-01.webp" width="300">
+				Below are different forms of SSD
+				<img src="../media/blog-build-a-gaming-pc/storage-type-300w-01.webp" width="300">
 			</p>
 
 			<br>
@@ -617,49 +609,49 @@
 	<script src="../scripts/date-update.js"></script>
 
 	<section class="blurb">
-			<img class="avatar" src="../me2-150w-02.webp" width="150" height="200" alt="Me">
-		
-			<div class="author-intro">
-		
-			  <h3>About the author</h3>
-			  <p>Hi I am <a href="../about.html">Tarik</a>, I'm a web developer, writer, and open-source creator.
+		<img class="avatar" src="../me2-150w-02.webp" width="150" height="200" alt="Me">
+
+		<div class="author-intro">
+
+			<h3>About the author</h3>
+			<p>Hi I am <a href="../about.html">Tarik</a>, I'm a web developer, writer, and open-source creator.
 				This website is my digital canvas — a collection of the things
 				I've learned and created over the years.
-			  </p>
-		
-			  <nav>
+			</p>
+
+			<nav>
 				<!--<p><a class="button" href="https://etarik.substack.com" 
 					target="_blank" rel="noreferrer">
 					Join newsletter</a></p>-->
 				<a class="button2" href="https://ko-fi.com/tyah2" target="_blank" rel="noreferrer">Buy me a coffee
-				  <img src="../coffee-01.gif" width="32"></a>
-				</nav>
-			</div>
-		  </section>
-		
-		
-		
-		  <footer>
-		
-			<nav class="footer-links">
-			  <a href="blog.html">Articles</a>
-			  <a href="gallery.html">Gallery</a>
-		   <!--   <a href="https://.substack.com/subscribe" target="_blank" rel="noopener noreferrer">Newsletter</a>
+					<img src="../coffee-01.gif" width="32"></a>
+			</nav>
+		</div>
+	</section>
+
+
+
+	<footer>
+
+		<nav class="footer-links">
+			<a href="blog.html">Articles</a>
+			<a href="gallery.html">Gallery</a>
+			<!--   <a href="https://.substack.com/subscribe" target="_blank" rel="noopener noreferrer">Newsletter</a>
 			  <a href="/rss.xml">RSS</a>
 			  <a href="https://patreon.com/" target="_blank" rel="noopener noreferrer">Patreon</a>
 		   -->
-			</nav>
-		
-			<nav class="social-links">
-			  <a href="https://github.com/gumbol" title="GitHub" target="_blank" rel="noopener noreferrer">
+		</nav>
+
+		<nav class="social-links">
+			<a href="https://github.com/gumbol" title="GitHub" target="_blank" rel="noopener noreferrer">
 				<img src="../github.png" alt="GitHub mascot">
-			  </a>
-		
-			</nav>
-		
-			<p id="sig">&copy; 2020 Tyah</p>
-		
-		  </footer>
+			</a>
+
+		</nav>
+
+		<p id="sig">&copy; 2020 Tyah</p>
+
+	</footer>
 </body>
 
 </html>

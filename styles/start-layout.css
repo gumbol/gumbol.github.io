@@ -11,65 +11,10 @@ starter style sheet
 
 /* @selector styles */
 *{margin:0; padding:0; box-sizing:border-box;}
-.current{
-	border-bottom:5px solid red;
-	border-radius: 50%;
-}
-.logo{
-position: absolute;
-margin:0;
-padding:0;
-top:-4px;
-left:10px;
-max-width:44px;
-
-}
-.logo img {
-	max-width:100%;
-}
-
-.button-style1{
-	border:2px solid black;
-	background-color:blue;
-}
-
-
- a:any-link.button-style1{
-
-	color:white;
-	padding:2px;
-	border-radius: 20%;
-	font-size: .7rem;
-
-}
-.note {
-	border: 1px solid #000;
-	background-color: rgba(164, 164, 238, 0.815);
-	max-width: 480px;
-	padding:10px;
-	margin: 10px 0;
-  }
-
-.note p, .note li {
-	margin: 10px;
-	width:95%;
-  }
-
-
-.ppl img {
-margin:0px 5px 5px;
-padding:0;
-float: left;
-border-radius: 50%;
-border:5px solid rgb(0, 0, 0);
-border-top:5px dashed rgb(202, 16, 16);
-border-bottom: none;
-border-right: none;
-}
-
 
 html{background-color: white;}
-/* @body */
+
+/* @body styles */
 body {
 	font-family: Arial, "Times New Roman", Times, sans-serif, serif;
 	color: black;
@@ -79,7 +24,7 @@ body {
 	max-width:960px;
 	min-width: 310px;
 	margin: 0 auto 0;
-	/*border: 3px solid #931420;*/
+	border: 3px solid #931420;
 	font-size: 100%;
 	border: transparent;
 	}
@@ -97,26 +42,81 @@ h1, h2, h3, h4, h5, h6 {
 	}
 /* @end */
 
+.current{
+	border-bottom:5px solid red;
+	border-radius: 50%;
+}
+
+.logo{
+position: absolute;
+margin:0;
+padding:0;
+top:-4px;
+left:10px;
+max-width:44px;
+}
+
+.logo img {
+	width:100%;
+}
+
+.button-style1{
+	border:2px solid black;
+	background-color:blue;
+}
+
+ a:any-link.button-style1{
+
+	color:white;
+	padding:2px;
+	border-radius: 20%;
+	font-size: .7rem;
+}
+
+.note {
+	border: 1px solid #000;
+	background-color: rgba(164, 164, 238, 0.815);
+	max-width: 480px;
+	padding:10px;
+	margin: 10px 0;
+  }
+
+.note p, .note li {
+	margin: 10px;
+	width:95%;
+  }
+
+.ppl img {
+margin:0px 5px 5px;
+padding:0;
+float: left;
+border-radius: 50%;
+border:5px solid rgb(0, 0, 0);
+border-top:5px dashed rgb(202, 16, 16);
+border-bottom: none;
+border-right: none;
+}
+
+
 /* @main styles */
 
 
 main{width:100%;}
 
 /* @end */
-.article-post{
 
+article img {
+	max-width:600px;
+	width:98%;
 }
 
-.article-post img {
-	width:100%;
+p, article p {
+	width:98%;
 }
-/* @section */
-p > audio{width:100%}
-
 audio{max-width:270px; width:100%;}
 /* @end */
 
-/* @anchor element styles */
+/* @anchor element events styles */
 
 a{font-weight:bold;}
 
@@ -124,7 +124,7 @@ a:link{color:blue;}
 
 a:visited{color:purple}
 
-a:active,  a:focus{border:1px dashed black;}
+a:active {border:1px dashed black;}
 
 a:hover, a:focus{font-style:italic;}
 
@@ -135,7 +135,6 @@ a:hover, a:focus{font-style:italic;}
 code p{
 	border:1px solid black;
 	background-color:rgba(126, 125, 125, 0.185);
-
 }
 
 kbd {
@@ -152,21 +151,20 @@ kbd {
 	text-shadow:0 1px 0 #fff;
 	font-size:14px
    }
+
 /* footer */
 
 footer{
-	margin-top:0.5em;
-	padding:2em 0;
-/*	border-top: 3px solid #931420;*/
-	clear:both;}
-	footer{
-		background: url(../love.png) 50% 99% / 4em auto no-repeat, linear-gradient(-1deg, rgba(0,0,0,0.2), 33%, transparent 90%), #EFECEE;
-		padding: 3em 3em 4em;
-	  
+	margin-top:0em;
+	/*border-top: 3px solid #931420;*/
+	clear:both;
+	background: url(../love.png) 50% 95% / 4em auto no-repeat, linear-gradient(-1deg, rgba(0,0,0,0.2), 33%, transparent 90%), #EFECEE;
+	padding: 0 0 3em;
 	}
+
 #sig {
-	text-align:center;
-	margin-bottom:50px;
+
+margin-top:50px;
 	}
 
 /* @end */
