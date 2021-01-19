@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Find full length music on the internet archive | Tarik Alyahya</title>
+    <link rel="shortcut icon" href="../logo64.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- IMPORTANT: fill the content attribute -->
+    <meta name="description" content="guide on how to find full length music on internet archive website">
+    <!-- IMPORTANT: fill the content attribute -->
+    <meta name="keywords" content="music, creative common, internet archive music">
+    <!-- IMPORTANT: adjust the relative links as nessecary -->
+    <link rel="stylesheet" type="text/css" href="../styles/start-layout.css">
+    <link rel="stylesheet" type="text/css" href="../styles/tania-css.css">
+
+
+</head>
+
+<body>
+
+    <!--target="_blank" rel="noreferrer noopener"-->
+    <header id="site-top">
+        <a href="../index.html">gumbol.github.io</a>
+    </header>
+    <!-- The site main-nav menu -->
+    <nav class="navigate">
+        <!--	<a class="logo" href="../index.html">
+<img src="../logo64.png" alt="logo"></a>-->
+        <a class="current" href="blog.html">Articles</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="../about.html">About</a>
+
+    </nav>
+
+    <main>
+
+
+        <article class="container">
+            <header>
+                <h1>Find full length music on Internet Archive</h1>
+            </header>
+
+            <p>When i search the <a href="https://www.archive.org/details/audio">Archive.org</a>
+                for music the results i get are almost always sample music.</p>
+            <p>
+                I needed to listen to full length music so i did some research and found
+                out a neat solution. </p>
+            <p>
+                By including the CreativeCommon (CC) license
+                metadata in the search query
+                I always get full length music. But how to search for it you might ask?
+                The first thing i did was to take a look at the
+                <a href="https://www.creativecommons.org/licenses/">CC license types.</a>
+
+            </p>
+            <p>There are 6 CC license types</p>
+            <ul>
+                <li>by</li>
+                <li>by-sa</li>
+                <li>by-nd</li>
+                <li>by-nc</li>
+                <li>by-nc-sa</li>
+                <li>by-nc-nd</li>
+            </ul>
+
+            <p>
+                The syntax for the search query looks like this</p>
+
+            <code><p>
+[&lt;SEARCH TERM&gt;][licenseurl:http*&lt;LICENSE TYPE&gt;*]
+</p></code>
+
+            <p>You can use "by" license as a wild card to search for music that has any
+                of the license types. Or you can use a more specific type.
+                You can also include more than one type in the search query.
+            </p>
+            Example: <code><p>jazz licenseurl:http*by*</p></code>
+
+            <p>To include more than one license type you separate them with "OR" operator</p>
+            Example: <code><p>jazz licenseurl:http*by-nc OR by-nd*</p></code>
+
+            <p> I tried all the CC types
+                and the results were full length music!.</p>
+
+        </article>
+
+    </main>
+
+    <script src="../scripts/custom/date-update.js"></script>
+
+    <section class="blurb">
+        <img class="my-avatar" src="../me2-150w-02.webp" width="150" height="200" alt="Me">
+
+        <div class="author-info">
+
+            <h3>About the author</h3>
+            <p>Hi I am <a href="../about.html">Tarik</a>, I'm a web developer, writer, and open-source creator.
+                This website is my digital canvas — a collection of the things
+                I've learned and created over the years.
+            </p>
+
+            <nav>
+           <!-- <a class="btn3" href="https://.substack.com" target="_blank" rel="noreferrer">
+          </a>-->
+                <a class="coffee-btn" href="https://ko-fi.com/tyah2" target="_blank" rel="noreferrer">Buy me a coffee
+                  </a>
+            </nav>
+        </div>
+    </section>
+
+    <footer>
+
+        <nav class="site-links">
+            <a href="blog.html">Articles</a>
+            <a href="gallery.html">Gallery</a>
+
+            <a href="https://gumbol.github.io/rss.xml">RSS</a>
+
+
+        </nav>
+
+        <nav class="out-links">
+                 <!-- <a class="btn3" href="https://.substack.com" target="_blank" rel="noreferrer">
+          </a>
+          <a href="https://patreon.com/" target="_blank" rel="noopener noreferrer">Patreon</a>-->
+          <a href="https://github.com/gumbol" title="GitHub mascot" target="_blank" rel="noopener noreferrer">
+            <img src="../media/icons/github-32x-01.png" alt="GitHub" width="32">
+        </a>
+
+        </nav>
+
+        <p id="sig">&copy; 2020 Tyah</p>
+
+    </footer>
+</body>
+
+</html>
