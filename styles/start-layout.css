@@ -118,12 +118,12 @@ max-width:44px;
 	width:100%;
 }
 
-.button-style1{
+.btn1{
 	border:2px solid black;
 	background-color:blue;
 }
 
- a:any-link.button-style1{
+ a:any-link.btn1{
 
 	color:white;
 	padding:2px;
@@ -309,7 +309,7 @@ footer{
 	margin-top:0em;
 	/*border-top: 3px solid #931420;*/
 	clear:both;
-	background: url(../love.png) 50% 95% / 4em auto no-repeat, linear-gradient(-1deg, rgba(0,0,0,0.2), 33%, transparent 90%), #EFECEE;
+	background: url(../media/covers/love.png) 50% 95% / 4em auto no-repeat, linear-gradient(-1deg, rgba(0,0,0,0.2), 33%, transparent 90%), #EFECEE;
 	padding: 0 0 3em;
 	}
 

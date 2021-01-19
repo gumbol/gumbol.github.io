@@ -4,7 +4,7 @@
 
 #site-top  {
 
-	background: url(../media/sand.png) 0 150% / 120% 80% no-repeat;
+	background: url(../media/covers/sand.png) 0 150% / 120% 80% no-repeat;
 	min-height: 9em;
 	position: relative;
 	mix-blend-mode: darken;
