@@ -14,11 +14,20 @@
 	<link rel="stylesheet" type="text/css" href="../styles/start-layout.css">
 	<link rel="stylesheet" type="text/css" href="../styles/card-layout.css">
 	<link rel="stylesheet" type="text/css" href="../styles/tania-css.css">
+
 	<style>
-	a {
-		
-			border-bottom: 3px solid #96b4f9;
-		}
+	a{
+		text-decoration: underline;
+		border-bottom: none;
+		text-decoration-style: none;
+		font-style:normal;
+	}
+	a:hover{
+		text-decoration: underline;
+		text-decoration-style: none;
+		font-style:normal;
+		border-bottom: none;
+	}
 	</style>
 
 </head>
@@ -40,84 +49,151 @@
 	</nav>
 
 	<main>
-		<div class="container band">
+		<div id="article-list">
 
-			<a class="card" href="blog-ia-music-search.html">
-				<article>
-					<h1>Find full length music on Internet Archive</h1>
-					<p>Forget sample music this guide will show
-						you how to get full length music.
-					</p>
-					<span>Tarik Alyahya</span>
-				</article>
-			</a>
-	
+			<article-summary data-tags="blog-ia-music-search.html">
 
-			<a class="card" href="blog-robust-web-directory.html">
-				<article>
-					<h1>Create a robust website directory</h1>
+				<div>
 
-					<p>A guide exploring best approaches from
-						top sites and academic institutions
-						to create a robust website directory
-					</p>
-					<span>Tarik Alyahya</span>
-				</article>
-			</a>
+					<div>
+						<img src="../media/covers/sound-wave-90x-01.jpg" loading="lazy" width="90" height="90">
+					</div>
 
-			<a class="card" href="blog-intro-to-display-monitors.html">
-				<article>
-					<h1>How Display monitors work</h1>
-					<p>A guide explaining how pixels, 
-						resolutions, FPS, and aspect ratio,
-						work togather</p>
-					<span>Tarik Alyahya</span>
-				</article>
-			</a>
+					<div>
+						<a href="blog-ia-music-search.html">
+							Find full length music on Internet Archive
+						</a>
+						<br>
+						<span class="lead">
+							Forget sample music this guide will show
+							you how to get full length music.<br>
+							Tarik Alyahya
+						</span>
+					</div>
+				</div>
+
+			</article-summary>
 
 
-			<a class="card" href="blog-intro-to-web-fonts.html">
-				<article>
-					<h1>Intro to web fonts</h1>
+			<article-summary>
+				<div>
 
-					<p>
-						An introduction to web font families
-						with examples
-					</p>
+					<div>
+						<img src="../media/covers/files-90x-01.jpg" loading="lazy" width="90" height="90">
+					</div>
 
-					<span>Tarik Alyahya</span>
-				</article>
-			</a>
+					<div>
+						<a href="blog-robust-web-directory.html">
+							Create a robust website directory
+						</a><br>
+						<span class="lead">
+
+							A guide exploring best approaches from
+							top sites and academic institutions
+							to create a robust website directory.<br>
+							Tarik Alyahya
+						</span>
+					</div>
+				</div>
+
+			</article-summary>
+
+			<article-summary data-tags="blog-intro-to-display-monitors.html">
+				<div>
+
+					<div>
+						<img src="../media/covers/tv-90x-01.png" loading="lazy" width="90" height="90">
+					</div>
+
+					<div>
+						<a href="blog-intro-to-display-monitors.html">
+							How Display monitors work
+						</a><br>
+						<span class="lead">
+							A guide explaining how pixels,
+							resolutions, FPS, and aspect ratio,
+							work togather.<br>
+							Tarik Alyahya
+						</span>
+					</div>
+				</div>
+
+			</article-summary>
+
+			<article-summary data-tags="blog-intro-to-web-fonts.html">
+				<div>
+
+					<div>
+						<img src="../media/covers/fonts-90x-01.jpg" loading="lazy" width="90" height="90">
+					</div>
+
+					<div>
+						<a href="blog-intro-to-web-fonts.html">
+							Intro to web fonts
+						</a><br>
+						<span class="lead">
+							An introduction to web font families
+							with examples.<br>
+							Tarik Alyahya
+						</span>
+					</div>
+				</div>
+
+			</article-summary>
+
+
+			<article-summary data-tags="blog-how-to-handle-meat.html">
+				<div>
+
+					<div>
+						<img src="../media/covers/meat-products-90x-01.jpg" loading="lazy" width="90" height="90">
+					</div>
+
+					<div>
+						<a href="blog-how-to-handle-meat.html">
+							How to handle meat in the kitchen
+						</a><br>
+						<span class="lead">
+							Some tips on how to properly handle meat in the kitchen
+							to avoid contamination.
+							<br>
+							Tarik Alyahya
+						</span>
+					</div>
+				</div>
+
+			</article-summary>
 
 		</div>
+
 
 	</main>
 
 
-	
-		<footer>
-	
-			<nav class="site-links">
-				<a href="blog.html">Articles</a>
-				<a href="gallery.html">Gallery</a>
-	   
-				<a href="https://gumbol.github.io/rss.xml">RSS</a>
-	
-	
-			</nav>
-	
-			<nav class="out-links">
-					<a href="https://.substack.com/subscribe" target="_blank" rel="noopener noreferrer">Newsletter</a>
-				<a href="https://patreon.com/" target="_blank" rel="noopener noreferrer">Patreon</a>
-				<a href="https://github.com/gumbol" title="GitHub" target="_blank" rel="noopener noreferrer">
-					<img src="../github.png" alt="GitHub mascot">
-				</a>
-	
-			</nav>
-	
-			<p id="sig">&copy; 2020 Tyah</p>
-	
-		</footer>
+
+	<footer>
+
+		<nav class="site-links">
+			<a href="blog.html">Articles</a>
+			<a href="gallery.html">Gallery</a>
+
+			<a href="https://gumbol.github.io/rss.xml">RSS</a>
+
+
+		</nav>
+
+		<nav class="out-links">
+			<a href="https://.substack.com/subscribe" target="_blank" rel="noopener noreferrer">Newsletter</a>
+			<a href="https://patreon.com/" target="_blank" rel="noopener noreferrer">Patreon</a>
+			<a href="https://github.com/gumbol" title="GitHub" target="_blank" rel="noopener noreferrer">
+				<img src="../github.png" alt="GitHub mascot">
+			</a>
+
+		</nav>
+
+		<p id="sig">&copy; 2020 Tyah</p>
+
+	</footer>
 </body>
 
 </html>
