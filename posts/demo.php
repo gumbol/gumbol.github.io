@@ -1,4 +1,4 @@
- <?php
+<?php
 
 require_once('StandalonePHPEnkoder.php');
 
@@ -13,5 +13,6 @@ $html = '<p>Why not <a href="mailto:test@test.com?subject=Hello" tile="Email me"
   If you view source you shouldn\'t see any email addresses.</p>';
 
 echo $enkoder->enkodeAllEmails($html);
+echo '<h2> YOOOOO</h2>'
 
 ?>

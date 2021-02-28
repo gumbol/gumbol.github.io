@@ -2,98 +2,56 @@
     width: 100%;
     max-width: 960px;
     display: flex;
+    flex-flow: row;
     flex-wrap:wrap;
     font-size: 100%;
-
 }
 
 .gallery-item{
-    width:49%;
-    margin:4px auto 2px;
-    border:3px solid rgb(27, 62, 95);
-  }
+    max-width:250px;
+    height: 100%;
+    margin:5px auto 5px;
+    border:3px solid rgb(0, 0, 0); 
+}
 
-.gallery-item div{
+.gallery-item h4{
     width:100%;
-    height:10%;
+    padding:10px;
+    text-align: center;
+    vertical-align: middle;
+    border:none;
+    font-size:100%;
+    font-weight: bolder;
+}
 
-}
-.gallery-item div > h4{
-    width:98%;
-    text-align: center;
-    border-bottom:none;
-    font-size:100%;
-    font-weight: bolder;
-}
-h5{
-    font-size:100%;
-    font-weight: bolder;
-}
-.gallery-item > h4{
-   
-    padding:10%;
-    text-align: center;
-    border-bottom:none;
-    font-size:100%;
-    font-weight: bolder;
-}
+
 
 .gallery-item video{
     transform: scaleY(70%);
     width: 100%;
-    margin-bottom:-80px;
+    margin-bottom:-56%;
     transform-origin: top center;
- 
   }
 
-
-
 .gallery-item img{
-    width: 100%;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding:0;
 }
 
 .gallery-item p{
     text-align: center;
     font-size:100%;
-    padding: 10%;
-   
+    width: 100%;
+    margin: 0;
+    padding:0;
 }
 
-/*.gallery-container div {
-    display: inline-block;
-    border: 2px solid black;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
-}*/
-
-  /*.grid-container div:hover img {
-    filter: grayscale(0);
-  }*/
-   /*.grid-container div:hover {
-    border-color: coral;
-  }*/
-
-
-
-/*.gallery-container div img {
-   width:160px;
-   
-    border-radius: 5px;
+h5{
+    font-size:100%;
+    font-weight: bolder;
 }
-.scale{
-    height:460px;
-    transform-origin: bottom center;
-    overflow: hidden;
-}
-.grid-container div p {
-    margin: 5px 0;
-    padding: 0;
-    text-align: center;
-    font-style: italic;
-}
-
-*/
-/* the video element target the video box not the content box */
 
 h4{
     font-family:  Arial, Helvetica, sans-serif;
@@ -102,14 +60,21 @@ h4{
     border-bottom: 2px solid #000;
 }
 
-#isblur{
-    filter:blur(0.75em);}
-    
-#isblur:checked + label > img{
-    filter:blur(0);}
-
-#isblur:checked + label > span{
-    filter:blur(0);}
-p{
+/* the video element target the video box not the content box */
+.match {
+    max-width: 400px;
     width:100%;
 }
+
+.match img{
+    width:100%;
+}
+
+#isblur{
+    filter:blur(0.75em);
+}
+    
+#isblur:checked + label > span{
+    filter:blur(0);
+}
+
