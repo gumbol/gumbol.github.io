@@ -1,3 +1,4 @@
+  //based on an exercise from https://github.com/marijnh/eloquent-javascript 
    function f() {
         let num = document.getElementById("temp").value;
         let txt = document.getElementById("result");

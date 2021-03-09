@@ -1,4 +1,4 @@
-//extracted from github.com/jbierfeldt 
+//generated from https://github.com/jbierfeldt 
 
 const fetch = require('isomorphic-fetch')
 const parseString = require('xml2js').parseString

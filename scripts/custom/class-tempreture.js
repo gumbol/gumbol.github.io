@@ -1,3 +1,4 @@
+//based on an exercise from https://github.com/marijnh/eloquent-javascript
 class Temperature {
   constructor(temp) {
     this.c = (temp - 32) / 1.8;

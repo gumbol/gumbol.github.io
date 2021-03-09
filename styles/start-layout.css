@@ -249,7 +249,7 @@ footer {
   margin-top: 0em;
   /*border-top: 3px solid #931420;*/
   clear: both;
-  background: url(../media/covers/love.png) 50% 95% / 4em auto no-repeat,
+  background: url(../media/page-decor/love.png) 50% 95% / 4em auto no-repeat,
     linear-gradient(-1deg, rgba(0, 0, 0, 0.2), 33%, transparent 90%), #efecee;
   padding: 0 0 3em;
 }
