@@ -1,5 +1,9 @@
 # gumbol.github.io
 
+Thus is now a personal website. I use this website
+as a blogging platform and a code demonstrations.
+It also list all the projects i finished and currently working on
+
 this is the root folder of the website. the structure is as follow:
 
 FILES:
