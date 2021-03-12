@@ -14,12 +14,12 @@
 ## Directory structure
 This is the root folder of the website.
 
-FILES:
-index.html: includes the content for the homepage
+### Files
+* index.html: includes the content for the homepage
 
-FOLDERS:
-- media: Contains the media files of the webpages
-- posts: Contains the markup files that describe the structure of the webpages
-- styles: Contain the CSS files that describe the presentation of the webpages 
-- scripts: Contain the javascript files that describes the behaviour of the webpages 
-- text: Contain the files that describe the content of the webpages.
+### Folders
+- media: Contains the media files of the webpage
+- posts: Contains the markup files that describe the structure of the webpage
+- styles: Contain the CSS files that describe the presentation of the webpage
+- scripts: Contain the javascript files that describes the behaviour of the webpage
+- text: Contain the files that describe the content of the webpage
