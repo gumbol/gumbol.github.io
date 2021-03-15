@@ -5,7 +5,7 @@
 ### [Articles](https://gumbol.github.io/posts/blog.html)
 * Random articles like [how favicons can improve SEO](https://gumbol.github.io/posts/blog-intro-to-favicon.html)
 
-[Projects](https://gumbol.github.io/posts/my-projects.html)
+### [Projects](https://gumbol.github.io/posts/my-projects.html)
 * Lists my programming and non-programming projects
 
 ### [About](https://gumbol.github.io/about.html)
