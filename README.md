@@ -1,4 +1,4 @@
-# gumbol.github.io >> ♤♤
+# gumbol.github.io >>
 
 ## Website Structure
 
