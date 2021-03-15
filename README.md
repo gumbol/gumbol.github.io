@@ -1,4 +1,4 @@
-# gumbol.github.io >>
+# gumbol.github.io >> ♤♤
 
 ## Website Structure
 
@@ -15,10 +15,10 @@
 ## Directory structure
 This is the root folder of the website.
 
-### Files
+#### Files
 * index.html: includes the content for the homepage
 
-### Folders
+#### Folders
 - media: Contains the media files of the webpage
 - posts: Contains the markup files that describe the structure of the webpage
 - styles: Contain the CSS files that describe the presentation of the webpage
