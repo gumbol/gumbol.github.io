@@ -3,8 +3,8 @@
 ## Website Structure
 
 ### [Articles](https://gumbol.github.io/posts/blog.html)
-* Random articles like **how favicons can improve SEO*
-* Other articles describe the learning journy creating an app for example
+* Random articles like **how favicons can improve SEO**
+* Other articles describe the learning journey creating an app for example
 
 ### [Projects](https://gumbol.github.io/posts/my-projects.html)
 * Lists my programming and non-programming projects
