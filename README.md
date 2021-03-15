@@ -3,12 +3,15 @@
 ## Website Structure
 
 ### [Articles](https://gumbol.github.io/posts/blog.html)
-* Include posts about the issues i encountered while creating the apps in the repositories.
+* Random articles like **how favicons can improve SEO*
+* Other articles describe the learning journy creating an app for example
+
+### [Projects](https://gumbol.github.io/posts/my-projects.html)
+* Lists my programming and non-programming projects
 
 ### [About](https://gumbol.github.io/about.html)
-* Includes links for my apps demonstrating the functionalities as well as potential aesthetics.
-
-* It also list all my other non programming projects
+* More about me
+* More resources
 
 
 ## Directory structure
