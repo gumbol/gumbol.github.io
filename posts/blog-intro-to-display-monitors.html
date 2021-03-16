@@ -12,9 +12,8 @@
   <!-- Add less than 5 keywords that are relevant to the content -->
   <meta name="keywords" content="pixels, resolution,frame rate, computer screens, FPS">
   <!-- IMPORTANT: adjust the relative links as nessecary -->
-  <link rel="stylesheet" type="text/css" href="../styles/start-layout.css">
-  <link rel="stylesheet" type="text/css" href="../styles/tania-css.css">
-  <link rel="stylesheet" type="text/css" href="../styles/card-layout.css">
+  <link rel="stylesheet" type="text/css" href="../styles/style.css">
+ 
 
 </head>
 
@@ -25,10 +24,8 @@
   </header>
   <!-- The site main-nav menu -->
   <nav class="navigate">
-    <!--	<a class="logo" href="../index.html">
-			  <img src="../logo64.png" alt="logo"></a>-->
-    <a href="blog.html">Articles</a>
-    <a href="gallery.html">Gallery</a>
+    <a class="current" href="../blog.html">Articles</a>
+    <a href="../my-projects.html">Projects</a>
     <a href="../about.html">About</a>
 
   </nav>
@@ -38,7 +35,7 @@
 
       <header>
         <h1>How Display monitors work</h1>
-        <b><span id="date-update"></span></b>
+        <b><span id="date-updater"></span></b>
       </header>
 
 
@@ -142,11 +139,9 @@
     </article>
   </main>
 
-  <script src="../scripts/custom/date-update.js"></script>
+  <script src="../scripts/custom/date-updater-1.0.0.js"></script>
 
   <section class="blurb">
-    <img class="my-avatar" src="../me2-150w-02.webp" width="150" height="200" alt="Me">
-
     <div class="author-info">
 
       <h3>About the author</h3>
@@ -162,23 +157,23 @@
     </div>
   </section>
 
-  <footer>
+  <footer id="global"> <div>
 
     <nav class="site-links">
-      <a href="blog.html">Articles</a>
-      <a href="gallery.html">Gallery</a>
+      <a href="../blog.html">Articles</a>
+      <a href="../my-projects.html">Projects</a>
     </nav>
 
     <nav class="out-links">
     	<a href="https://github.com/gumbol" title="GitHub mascot" target="_blank" rel="noopener noreferrer">
-				<img src="../media/icons/github-32x-01.png" alt="GitHub" width="32">
+				<img src="../media/icons/github-32x-01.png" alt="my github page" width="32">
 			</a>
 
     </nav>
 
     <p id="sig">&copy; 2020 Tyah</p>
 
-  </footer>
+  </div></footer>
 </body>
 
 </html>

@@ -1,19 +1,16 @@
-Media
+# Media
 
-This folder will hold the media files of the website. There will be sub-folder
-for each node/post that include the media for that node/post.
+* This folder will hold the media files of the website. There will be folder for each post/project that include the media related to each post.
 
-Example:
+* There is 2 general puropose folders: images and icons
 
--cooking/roasted-chicken
-	-roasted-chicken.png
-	-roasted-chicken.mp4
+## Synax example:
 
--audiobooks/the-hobbit
-	-middle-earth-history.pdf
-	-middle-earth-map.jpg
-	-the-hobbit-ch-01.mp3
+### post1folder
+ -post1-image.png
+ -post1-video.mp4
 
-
------------------
-
+### post2folder
+ -post2-doc.pdf
+ -post2-image.jpg
+ -post2-audio.mp3

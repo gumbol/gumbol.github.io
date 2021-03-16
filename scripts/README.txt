@@ -1,7 +1,5 @@
-javascript folder
+# Scripts
 
-This folder will hold javascript files and related libraries
+This folder will include script files like javascript.
 
-Examples:
-contact.js
-form.js
+The naming will be [<name>][-<type>][-<version>]
