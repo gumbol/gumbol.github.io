@@ -15,7 +15,6 @@
 	<link rel="stylesheet" type="text/css" href="styles/card-layout.css">
 
 
-
 	<style>
 		.intro p {
 			font-family: 'Arial Narrow Bold', sans-serif;
@@ -23,11 +22,27 @@
 			font-weight: bolder;
 		}
 
-		.programs li {
-			display: inline-block;
-			margin: 0;
-			padding: 10px;
+		.programs {
+			display: flex;
+
+			flex-wrap: wrap;
+			flex-direction: row;
+
+
 		}
+
+		.programs a {
+			display: inline-block;
+			flex-flow: wrap;
+			flex-grow: 1;
+			margin: 10px 10px 10px 0;
+			border: none;
+			padding: 10px;
+			text-align: center;
+
+			border: 1px solid black
+		}
+
 
 		h1 {
 			margin-top: 50px;
@@ -47,29 +62,24 @@
 			margin-bottom: -2px;
 		}
 
-
 		.btn1 {
-
-			margin: 4px;
-
+			text-align: center;
 		}
 
 		.table-like {
 			display: table;
 			border-spacing: 10px;
 			border-collapse: separate;
-			border-left: 1px solid black;
 
 		}
 
 		.table-like p {
 			display: table-row;
-			width: 100%;
 		}
 
-		.table-like a {
+		.table-like a.btn1 {
 			display: table-cell;
-
+			width: 20%;
 		}
 	</style>
 </head>
@@ -91,10 +101,12 @@
 		<div class="intro container">
 
 			<header>
-				<h1>About me</h1>
+				<h1>About</h1>
+				<hr>
+				<hr>
 			</header>
 
-			<img src="media/images/me2-150w-02.webp" width="200">
+			<img style="border-radius: 90%;" src="media/images/me2-150w-02.webp" width="200">
 
 			<p>I'm Tarik Alyahya, a website developer and writer,
 				with passion for UX design</p>
@@ -102,152 +114,119 @@
 				tutorials, musings, and anything else I want to write about
 				or show the world.</p>
 		</div>
+
 		<div class="container">
 			<h2>Aspirations</h2>
 			<ul>
 				<li>
-					Learn something new everyday.
+					Learn something everyday.
 				</li>
 				<li>
-					Share my learning journey with everyone and to inspire
+					Share my learning journey and inspire
 					others to do the same.
 				</li>
 				<li>
-					Make useful things online and offline.
+					Make useful products.
 				</li>
 
 				<li>
-					Mastering User Experience Design
+					Mastering the User experience design
 				</li>
 
 			</ul>
 
 			<h2>Goals</h2>
 			<ul>
-
 				<li>
-					Write a blog posts a month
+					Write a post a month about
 				</li>
 				<li>
 					Work on a project every month
 				</li>
-
 			</ul>
 
-			<h2>Programming projects</h2>
-
-		
-			<p>
-				<a href="https://gumbol.github.io">This website &gt;&gt;</a>
-			</p>
+			<h2>Web apps projects</h2>
 
 			<div class="table-like">
 				<p>
+					<a href="https://gumbol.github.io">This website &gt;&gt;</a>
+				</p>
+				<p>
 					HTML5 audio player
-
-					<a class="btn1" href="https://github.com/gumbol/html5-audio-player" target="_blank"
-						rel="noreferrer noopener">Source code</a>
-
 					<a class="btn1" href="https://html5-audio-player.herokuapp.com" target="_blank"
 						rel="noreferrer noopener">Demo</a>
-				</p>
-
-				<p>
-					Tempreture conversion app
-					<a class="btn1" href="https://github.com/gumbol/js-tempreture-converter" target="_blank"
+					<a class="btn1" href="https://github.com/gumbol/html5-audio-player" target="_blank"
 						rel="noreferrer noopener">Source code</a>
+				</p>
+				<p>
+					javascript Tempreture converter
 					<a class="btn1" href="https://js-tempreture-converter.herokuapp.com" target="_blank"
 						rel="noreferrer noopener">Demo</a>
-				</p>
-
-				<p>
-					Audiobooks catalogue api
-
-					<a class="btn1" href="https://github.com/gumbol/js-librivox-app" target="_blank"
+					<a class="btn1" href="https://github.com/gumbol/js-tempreture-converter" target="_blank"
 						rel="noreferrer noopener">Source code</a>
+
+				</p>
+				<p>
+					Audiobooks catalog api
 					<a class="btn1" href="https://js-librivox-app.herokuapp.com" target="_blank"
 						rel="noreferrer noopener">Demo
 					</a>
+					<a class="btn1" href="https://github.com/gumbol/js-librivox-app" target="_blank"
+						rel="noreferrer noopener">Source code</a>
 				</p>
-
 			</div>
 
 
-
-
-			<h2>Other projects</h2>
-
+			<h2>Business &amp; Sales projects</h2>
 			<p>
 				<a href="media/projects/pmp-project-tarik.pdf">
-					Product management project &gt;&gt;</a>
+					Product management &gt;&gt;</a>
 			</p>
 
-		
-				<h2>Hobbies</h2>
-	
-
+			<h2>Mini projects</h2>
 			<p>
 				<a href="posts/design-project-plant-house.html">
-				
+
 					<img src="media/icons/greenhouse1-t-full-64x-01.png " alt="" width="64">
-					Plant house design (in progress) &gt;&gt;
+					Plant house design (work in progress) &gt;&gt;
 				</a>
 			</p>
 
 			<p>
-
 				<a href="https://librivox.org/reader/15600?primary_key=15600&search_category=reader&search_page=1&search_form=get_results"
-					target="_blank" rel="noreferrer noopener">
-					Audiobook reading &gt;&gt;</a>
+					target="_blank" rel="noreferrer noopener">Audiobook reading &gt;&gt;</a>
 			</p>
-
 			<p>
-
-				<a href="https://archive.org/details/@tyahy" target="_blank" rel="noreferrer noopener">Photo &amp;
+				<a href="https://archive.org/details/@tyahy" target="_blank" rel="noreferrer noopener">
 					Graphic design &gt;&gt;</a>
 			</p>
-
+			<p>
 
 			<h2>Programs I use</h2>
-			<ul class="programs">
+			<div class="programs">
+				<a href="https://www.openoffice.org" target="_blank" rel="noreferrer noopener"><img
+						src="media/icons/open-office-64x.png" width="16">Open
+					Office</a>
 
-				<li>
-					<a href="https://www.openoffice.org" target="_blank" rel="noreferrer noopener"><img
-							src="media/icons/open-office-64x.png" width="16">Open
-						Office</a>
+				<a href="https://www.gimp.org" target="_blank" rel="noreferrer noopener"><img
+						src="media/icons/gimp-16x.png" width="16">Gimp</a>
 
-				</li>
-				<li>
-					<a href="https://www.gimp.org" target="_blank" rel="noreferrer noopener"><img
-							src="media/icons/gimp-16x.png" width="16">Gimp</a>
-				</li>
+				<a href="https://code.visualstudio.com" target="_blank" rel="noreferrer noopener"><img
+						src="media/icons/vscode-64x.png" width="16">VScode</a>
 
-				<li>
-					<a href="https://code.visualstudio.com" target="_blank" rel="noreferrer noopener"><img
-							src="media/icons/vscode-64x.png" width="16">VScode</a>
-				</li>
-				<li>
-					<a href="https://handbrake.fr" target="_blank" rel="noreferrer noopener"><img
-							src="media/icons/handbrake-32x.png" width="16">Handbreak</a>
-				</li>
+				<a href="https://handbrake.fr" target="_blank" rel="noreferrer noopener"><img
+						src="media/icons/handbrake-32x.png" width="16">Handbreak</a>
 
+				<a href="https://inkscape.org" target="_blank" rel="noreferrer noopener"><img
+						src="media/icons/inkscape-16x.png" width="16">Inkscape</a>
 
-				<li>
-					<a href="https://inkscape.org" target="_blank" rel="noreferrer noopener"><img
-							src="media/icons/inkscape-16x.png" width="16">Inkscape</a>
-				</li>
+				<a href="https://notepad-plus-plus.org">
+					<img src="media/icons/notepad-48x.png" width="16">Notepad++</a>
 
+				<a href="https://www.audacityteam.org">
+					<img src="media/icons/audacity-32x.png" width="16">Audacity</a>
 
-				<li>
-					<a href="https://notepad-plus-plus.org">
-						<img src="media/icons/notepad-48x.png" width="16">Notepad++</a>
-				</li>
-				<li>
-					<a href="https://www.audacityteam.org">
-						<img src="media/icons/audacity-32x.png" width="16">Audacity</a>
-				</li>
-			</ul>
-
+			</div>
 			<h2>People that inspire me</h2>
 			<section class="ppl">
 
