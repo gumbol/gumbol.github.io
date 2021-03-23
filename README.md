@@ -3,7 +3,7 @@
 ## Website Structure
 
 ### [Articles](https://gumbol.github.io/posts/blog.html)
-* Random articles like [how favicons can improve SEO](https://gumbol.github.io/posts/blog-intro-to-favicon.html)
+* Random articles like [how can favicons improve SEO](https://gumbol.github.io/posts/blog-intro-to-favicon.html)
 
 ### [Projects](https://gumbol.github.io/my-projects.html)
 * Lists my programming and non-programming projects
