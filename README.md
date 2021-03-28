@@ -1,4 +1,4 @@
-# gumbol.github.io >>
+# [gumbol.github.io >>](https://gumbol.github.io)
 
 ## Website Structure
 
@@ -16,11 +16,13 @@
 This is the root folder of the website.
 
 #### Files
-* index.html: includes the content for the homepage
+- [index.html:](https://gumbol.github.io) Includes the featured content of the website
+- [projects.html:](https://gumbol.github.io/projects.html) Include the list of the projects i have done
+- [blog.html:](https://gumbol.github.io/blog.html) Include the list of all the websute articles.
 
 #### Folders
-- media: Contains the media files of the webpage
-- posts: Contains the markup files that describe the structure of the webpage
-- styles: Contain the CSS files that describe the presentation of the webpage
-- scripts: Contain the javascript files that describes the behaviour of the webpage
-- text: Contain the files that describe the content of the webpage
+- media: Include the media content of the webpage
+- posts: Include the markup files that describe the structure of the webpage
+- styles: Includes style files that describe the presentation of the webpage
+- scripts: Includes script files that describes the behaviour of the webpage
+- text: Invludes the text content that describe the content of the webpage
