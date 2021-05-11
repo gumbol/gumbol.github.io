@@ -7,9 +7,5 @@ These files can be further structured if there is multiple posts of the same typ
 
 ## naming syntax
 
-[<title>]
-
-<<<<<<< HEAD
-=======
-The file naming will be [<post type>][-<title>] 
->>>>>>> 3033443be58b7704a54c40dc2118740b691f562c
+for content update
+[<prefix>][-<title>] 
