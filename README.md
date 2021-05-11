@@ -1,26 +1,14 @@
-# gumbol.github.io >>
+# gumbol.github.io
 
-## Website Structure
+this is the root folder of the website. the structure is as follow:
 
-### [Articles](https://gumbol.github.io/posts/blog.html)
-* Random articles like [how favicons can improve SEO](https://gumbol.github.io/posts/blog-intro-to-favicon.html)
+FILES:
+index.html: includes the content for the homepage
 
-### [Projects](https://gumbol.github.io/my-projects.html)
-* Lists my programming and non-programming projects
-
-### [About](https://gumbol.github.io/about.html)
-* More about me
-* More resources
-
-## Directory structure
-This is the root folder of the website.
-
-#### Files
-* index.html: includes the content for the homepage
-
-#### Folders
-- media: Contains the media files of the webpage
-- posts: Contains the markup files that describe the structure of the webpage
-- styles: Contain the CSS files that describe the presentation of the webpage
-- scripts: Contain the javascript files that describes the behaviour of the webpage
-- text: Contain the files that describe the content of the webpage
+FOLDERS:
+- media:  Contains the media files of the webpages
+- posts or content: Contains the markup files that describe the structure of the webpages
+- styles or css: Contain the CSS files that describe the presentation of the webpages 
+- scripts or js: Contain the javascript files that describes the behaviour of the webpages 
+- text or data: Contain the files that describe the content of the webpages.
+- layout: Contain third-party css frameworks that are built to be used right away.
