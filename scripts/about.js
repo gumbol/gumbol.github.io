@@ -25,10 +25,10 @@ document.getElementsByTagName("head")[0].appendChild(ant)
 let ant2 = document.createElement("script")
 ant2.setAttribute("defer", "defer");
 ant2.setAttribute("src","https://netlyic.herokuapp.com/script.js")
-document.getElementsByTagName("body")[0].children[0].before(ant2)
+document.getElementsByTagName("head")[0].children[0].before(ant2)
 
 ant2_noscript = document.createElement("no-script")
 image = document.createElement("img")
 image.src = "https://netlyic.herokuapp.com/pixel.gif"
 ant2_noscript.appendChild(image)
-document.getElementsByTagName("body")[0].children[0].before(ant2_noscript)
+document.getElementsByTagName("head")[0].children[0].before(ant2_noscript)
