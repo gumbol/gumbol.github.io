@@ -12,3 +12,23 @@ about[0].children[2].innerHTML= "";
 /*about[0].children[2].innerHTML= ' <a class="coffee-btn"' +
 'href="https://ko-fi.com/tyah2" target="_blank"' + 
 'rel="noreferrer">Buy me a coffee </a>'*/
+
+let ant = document.createElement("script")
+ant.setAttribute("async", "async");
+ant.setAttribute("defer", "defer");
+ant.setAttribute("data-website-id", "87d30269-dd99-49b7-8701-01d7b0093055" )
+ant.setAttribute("src", "https://umami-123.herokuapp.com/umami.js")
+document.getElementsByTagName("head")[0].appendChild(ant)
+
+
+
+let ant2 = document.createElement("script")
+ant2.setAttribute("defer", "defer");
+ant2.setAttribute("src","https://ec2-54-163-254-204.compute-1.amazonaws.com/ingress/2051d9f1-a81a-45ec-8900-aa19693a93cf/script.js")
+document.getElementsByTagName("body")[0].appendChild(ant2)
+
+let ant2-noscript = document.createElement("no-script")
+let image = document.createElement("img")
+image.src = "https://ec2-54-163-254-204.compute-1.amazonaws.com/ingress/2051d9f1-a81a-45ec-8900-aa19693a93cf/pixel.gif")
+ant-noscript.appendChild(image)
+document.getElementsByTagName("body")[0].appendChild(ant2-noscript)

@@ -911,13 +911,13 @@ header h1 {
   font-weight: 400;
   border-width: 0;
   border-bottom: 3px solid white;
-  background: url(../media/images/mug-170x-01.gif) -35% 60% / 4.5em no-repeat,
+  background: url(../media/images/mug-01-170x.gif) -35% 60% / 4.5em no-repeat,
     #04a1a1;
 }
 a.coffee-btn {
   display: inline-block;
   border-color: #04a1a1;
-  background: url(../media/images/mug-170x-01.gif) -35% 60% / 4.5em no-repeat,
+  background: url(../media/images/mug-01-170x.gif) -35% 60% / 4.5em no-repeat,
     #04a1a1;
   color: #fff;
   border-radius: 0;
