@@ -27,8 +27,8 @@ ant2.setAttribute("defer", "defer");
 ant2.setAttribute("src","https://netlyic.herokuapp.com/ingress/2051d9f1-a81a-45ec-8900-aa19693a93cf/script.js")
 document.getElementsByTagName("body")[0].appendChild(ant2)
 
-ant2_noscript = document.createElement("no-script")
-image = document.createElement("img")
+let ant2_noscript = document.createElement("no-script")
+let image = document.createElement("img")
 image.src = "https://netlyic.herokuapp.com/ingress/2051d9f1-a81a-45ec-8900-aa19693a93cf/pixel.gif"
 ant2_noscript.appendChild(image)
 document.getElementsByTagName("body")[0].appendChild(ant2_noscript)
