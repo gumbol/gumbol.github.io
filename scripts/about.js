@@ -18,9 +18,9 @@ about[0].children[1].innerHTML =
 'rel="noreferrer">Buy me a coffee </a>'*/
 
 
-//@Test and R&D section of the analytic apps
+//@analytic code test section
 //====@@Umami analytics
-let umami_script = document.createElement("script");
+/*let umami_script = document.createElement("script");
 umami_script.async = "async";
 umami_script.defer = "defer";
 umami_script.setAttribute("data-website-id", "90251831-4846-464e-9e2f-092feb7b37e8");
@@ -38,12 +38,12 @@ let image = document.createElement("img")
 image.src = "localhost:/pixel.gif";
 shynet_noscript.appendChild(image)
 document.getElementsByTagName("body")[0].appendChild(shynet_noscript)
-
+*/
 
 //@END TEST SECTION
 
 
-/*
+
 
 //==== Umami analytics
 let umami_script = document.createElement("script");
@@ -65,4 +65,4 @@ let shynet_noscript = document.createElement("no-script")
 let image = document.createElement("img")
 image.src = "https://netlyic.herokuapp.com/ingress/2051d9f1-a81a-45ec-8900-aa19693a93cf/pixel.gif";
 shynet_noscript.appendChild(image)
-document.getElementsByTagName("body")[0].appendChild(shynet_noscript)*/
+document.getElementsByTagName("body")[0].appendChild(shynet_noscript)
