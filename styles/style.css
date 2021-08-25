@@ -894,9 +894,9 @@ header h1 {
   font-weight: 400;
 }
 .blurb a {
-  border-width: 0;
+ 
   font-style: normal;
-  /*border-bottom: 2px solid rgb(216, 136, 30);*/
+  border-bottom: 3px solid rgb(255, 255, 255);
 }
 .blurb a:hover {
   color: #fff;
