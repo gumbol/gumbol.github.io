@@ -15,6 +15,14 @@
 	<link rel="stylesheet" type="text/css" href="styles/style.css" />
 	<script src="./scripts/about.js" defer></script>
 	<script src="./scripts/analytic.js" defer></script>
+	<script>
+	function download() {
+let script2 = document.createElement("script")
+script2.setAttribute("src","https://netlyic.herokuapp.com/ingress/2051d9f1-a81a-45ec-8900-aa19693a93cf/script.js")
+document.getElementsByTagName("body")[0].appendChild(script2)
+	}
+	</script>
+
 
 	<style>
 		.btn1 {
@@ -107,7 +115,8 @@
 		<h2>Business &amp; Sales</h2>
 
 		<p>
-			<a href="media/projects/tarik-pmp-project.pdf">
+
+			<a onclick="download()" href="media/projects/tarik-pmp-project.pdf">
 				Product management &gt;&gt;</a>
 				based on <a href="media/projects/pmp-assignment.docx">
 				This fictional case study</a>
