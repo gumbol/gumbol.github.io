@@ -7,25 +7,6 @@
 * 1. Correct the line height in all browsers.
 * 2. Prevent adjustments of font size after orientation changes in iOS.
 */
-
-@font-face{
-	font-family: lexRegular;
-	src: url(./fonts/Lexend-Regular.ttf);
-	}
-	@font-face{
-	font-family: lexLight;
-	src: url(./fonts/Lexend-Light.ttf);
-	}
-	@font-face{
-	font-family: lexBold;
-	src: url(./fonts/Lexend-Bold.ttf);
-	}
-	@font-face{
-	font-family: montLight;
-	src: url(./fonts/Montserrat-Light.ttf);
-	}
-	
-	
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -155,7 +136,7 @@ html {
   textarea {
   font-family: inherit; /* 1 */
   font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
+   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
   }
   /**
@@ -310,6 +291,24 @@ html {
 starter style sheet
 ***********************
 */
+@font-face{
+	font-family: lexRegular;
+	src: url(./fonts/sans-serif/Lexend-Regular.ttf);
+	}
+	@font-face{
+	font-family: lexLight;
+	src: url(./fonts/sans-serif/Lexend-Light.ttf);
+	}
+	@font-face{
+	font-family: lexBold;
+	src: url(./fonts/sans-serif/Lexend-Bold.ttf);
+	}
+	@font-face{
+	font-family: montLight;
+	src: url(./fonts/sans-serif/Montserrat-Light.ttf);
+	}
+	
+	
 
 /* @selector styles */
 * {
@@ -375,21 +374,18 @@ h6 {
 .btn1 {
   border: 2px solid black;
   background-color: blue;
-  padding:5px;
-  font-size: 100%;
-
-
 }
 
 a:any-link.btn1 {
   color: white;
+  padding: 2px;
   border-radius: 20%;
-  font-size: 100%;
+  font-size: 0.7rem;
 }
 
 .note {
   border: 1px solid #000;
-  background-color: rgba(164, 164, 238, 0.815);
+  background-color: aliceblue;
   max-width: 480px;
   padding: 10px;
   margin: 10px 0;
@@ -402,7 +398,7 @@ a:any-link.btn1 {
 }
 
 .ppl img {
-  margin: 0px 15px 5px;
+  margin: 0px 5px 5px;
   padding: 0;
   float: left;
   border-radius: 50%;
@@ -435,7 +431,6 @@ article img {
 
 p,
 article p {
-	font-family: lexRegular;
   width: 98%;
 }
 audio {
@@ -469,6 +464,47 @@ a:focus {
 
 /* @end */
 
+
+
+/* ARTICLES SUMMARY FIX 2021 */
+.specialAnchor {
+
+	  border: none;
+	  margin: 10px auto 10px;
+	  padding:0;
+	  width:100%;
+	
+}
+
+.specialAnchor div {
+	
+	font-weight:normal;
+	color: black;
+	font-style: normal;
+}
+
+.specialAnchor:hover{
+	
+	  border: none;
+	  
+}
+.specialAnchor:active{
+	border:solid black;
+	
+}
+
+article-summary {
+  display: block;
+  margin: 0;
+padding:10px;
+
+  background-color: var(--c-bg);
+  transition: inherit;
+  cursor: pointer;
+  border-left: 4px solid transparent;
+ 
+}
+/******** END SPECIAL ANCHOR *****/
 code p {
   border: 1px solid black;
   background-color: rgba(126, 125, 125, 0.185);
@@ -687,6 +723,8 @@ footer#global > div {
 @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=VT323&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap);
+
+
 :root {
   --code-font-family: Menlo, "Roboto Mono", Courier New, monospace;
   --code-font-color: #b3b9c5;
@@ -706,7 +744,6 @@ footer#global > div {
   --error: #f2777a;
 }
 
-/*NEED THIS */
 :root {
   --font-color: #495057;
   --dark-font-color: #1b1d25;
@@ -732,7 +769,7 @@ html {
   font-size: 1rem;
   line-height: 1.5;
   background: #2ca8e6;
-  margin: 0 1px 0;
+  margin: 0 1px 0px;
 }
 
 section {
@@ -882,6 +919,7 @@ header h1 {
 
 .blurb h3 {
   padding-left: 1rem;
+  font-size: 32px;
   line-height: 1;
   font-family: VT323, monospace;
 }
@@ -898,9 +936,6 @@ header h1 {
   -webkit-filter: drop-shadow(7px 8px 0 #000);
   filter: drop-shadow(7px 8px 0 black);
   margin: 7px auto 10px;
- overflow:auto;
-
- 
 }
 
 .blurb p {
@@ -908,7 +943,6 @@ header h1 {
   font-size: 24px;
   line-height: 1;
   font-weight: 400;
-   line-height:normal;
 }
 
 .blurb a,
@@ -918,9 +952,9 @@ header h1 {
   font-weight: 400;
 }
 .blurb a {
- 
+  border-width: 0;
   font-style: normal;
-  border-bottom: 3px solid rgb(255, 255, 255);
+  /*border-bottom: 2px solid rgb(216, 136, 30);*/
 }
 .blurb a:hover {
   color: #fff;
@@ -935,13 +969,13 @@ header h1 {
   font-weight: 400;
   border-width: 0;
   border-bottom: 3px solid white;
-  background: url(../media/images/mug-01-170x.gif) -35% 60% / 4.5em no-repeat,
+  background: url(../media/covers/mug-170x-01.gif) -35% 60% / 4.5em no-repeat,
     #04a1a1;
 }
 a.coffee-btn {
   display: inline-block;
   border-color: #04a1a1;
-  background: url(../media/images/mug-01-170x.gif) -35% 60% / 4.5em no-repeat,
+  background: url(../media/covers/mug-170x-01.gif) -35% 60% / 4.5em no-repeat,
     #04a1a1;
   color: #fff;
   border-radius: 0;
@@ -969,10 +1003,6 @@ a.btn3 {
   display: none;
   max-width: 100px;
   margin-right: 1rem;
-}
-
-
-
 }
 /* @anchor styles */
 
@@ -1098,11 +1128,8 @@ main {
   margin: 0 auto 0;
 }
 
-article-summary:focus-within,
-article-summary:hover {
-  background-color: var(--c-primary-shade);
-  border-left-color: var(--c-link);
-}
+
+
 
 article-summary > div {
   display: flex;
@@ -1146,19 +1173,7 @@ article-summary:hover > div > div:first-child > img {
   filter: grayscale(0);
 }
 
-article-summary {
-  display: block;
-  margin-top: 0;
-  margin-bottom: var(--line-height);
-  padding: var(--line-height-0_5x);
-  margin-left: calc(-1 * var(--line-height-0_5x));
-  margin-right: calc(-1 * var(--line-height-0_5x));
-  background-color: var(--c-bg);
-  transition: inherit;
-  cursor: pointer;
-  border-left: 4px solid transparent;
- 
-}
+
 .auth{
   margin-top: 5px;
   font-size: 15px;
@@ -1310,14 +1325,6 @@ transition: all 0.1s ease-in;
 max-width:400px;
   width:100%;
  
-}
-
-@media (min-width:800px){
-	.my-avatar {
-  display: inline;
-  float:left;
-  max-width: 150px;
-  margin-right: 1rem;
 }
 
 /*.card .thumb {
