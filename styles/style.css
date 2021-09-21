@@ -7,6 +7,24 @@
 * 1. Correct the line height in all browsers.
 * 2. Prevent adjustments of font size after orientation changes in iOS.
 */
+
+	@font-face{
+	font-family: lexRegular;
+	src: url(../styles/fonts/Lexend-Regular.ttf);
+	}
+	@font-face{
+	font-family: lexLight;
+	src: url(../styles/fonts/Lexend-Light.ttf);
+	}
+	@font-face{
+	font-family: lexBold;
+	src: url(../styles/fonts/Lexend-Bold.ttf);
+	}
+	@font-face{
+	font-family: montLight;
+	src: url(../styles/fonts/Montserrat-Light.ttf);
+	}
+	
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
