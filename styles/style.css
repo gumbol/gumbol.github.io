@@ -154,7 +154,7 @@ html {
   textarea {
   font-family: inherit; /* 1 */
   font-size: 100%; /* 1 */
-   line-height: 1.15; /* 1 */
+  line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
   }
   /**
@@ -323,7 +323,7 @@ html {
 
 /* @body styles */
 body {
-  font-family: Arial, "Times New Roman", Times, sans-serif, serif;
+  font-family: lexRegular, Arial, "Times New Roman", Times, sans-serif, serif;
   color: black;
   background-color: #fffded;
   border-style: solid;
@@ -349,7 +349,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Arial, "SunSans Regular", sans-serif;
+  font-family: lexBold, Arial, "SunSans Regular", sans-serif;
 }
 /* @end */
 
@@ -434,6 +434,7 @@ article img {
 
 p,
 article p {
+	font-family: lexRegular;
   width: 98%;
 }
 audio {
@@ -895,6 +896,9 @@ header h1 {
   -webkit-filter: drop-shadow(7px 8px 0 #000);
   filter: drop-shadow(7px 8px 0 black);
   margin: 7px auto 10px;
+ overflow:auto;
+
+ 
 }
 
 .blurb p {
@@ -902,6 +906,7 @@ header h1 {
   font-size: 24px;
   line-height: 1;
   font-weight: 400;
+   line-height:normal;
 }
 
 .blurb a,
@@ -962,6 +967,10 @@ a.btn3 {
   display: none;
   max-width: 100px;
   margin-right: 1rem;
+}
+
+
+
 }
 /* @anchor styles */
 
@@ -1299,6 +1308,14 @@ transition: all 0.1s ease-in;
 max-width:400px;
   width:100%;
  
+}
+
+@media (min-width:800px){
+	.my-avatar {
+  display: inline;
+  float:left;
+  max-width: 150px;
+  margin-right: 1rem;
 }
 
 /*.card .thumb {
