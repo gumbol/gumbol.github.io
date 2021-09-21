@@ -705,6 +705,7 @@ footer#global > div {
   --error: #f2777a;
 }
 
+/*NEED THIS */
 :root {
   --font-color: #495057;
   --dark-font-color: #1b1d25;
@@ -730,7 +731,7 @@ html {
   font-size: 1rem;
   line-height: 1.5;
   background: #2ca8e6;
-  margin: 0 1px 0px;
+  margin: 0 1px 0;
 }
 
 section {
