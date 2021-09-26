@@ -19,38 +19,37 @@
 	<style>
 
 :root { 
-	--concave-corners-background: rgba(0, 0, 0, .3); 
+--concave-corners-background: rgba(0, 0, 0, .3); 
 --concave-corners-size: 1rem; } 
 
 .concave-corners { 
 	background-color: var(--concave-corners-background); /* Used to position the corners */ 
-position: relative; /* Misc */ 
+position: relative;
 height: 100%; }
 
-.concave-corners__corner { /* Absolute position */ 
-position: absolute; /* Size */ 
+.concave-corners__corner { 
+position: absolute; 
 height: var(--concave-corners-size); 
 width: var(--concave-corners-size); 
 background: #000; } 
 
-.concave-corners__corner--tl { /* Position */ 
+.concave-corners__corner--tl { 
 left: 0; 
 top: 0; 
-/* Border radius */ 
+
 border-radius: 0 0 var(--concave-corners-size) 0; } 
 
-.concave-corners__corner--tr { /* Position */ 
+.concave-corners__corner--tr { 
 right: 0; 
 top: 0; /* Border radius */ 
 border-radius: 0 0 0 var(--concave-corners-size); } 
 
-.concave-corners__corner--bl { /* Position */ 
-bottom: 0; left: 0; /* Border radius */ 
+.concave-corners__corner--bl { 
+bottom: 0; left: 0; 
 border-radius: 0 var(--concave-corners-size) 0 0; } 
-.concave-corners__corner--br { /* Position */ 
+.concave-corners__corner--br { 
 bottom: 0; 
-right: 0; /* 
-Border radius */ 
+right: 0; 
 border-radius: var(--concave-corners-size) 0 0 0; }
 
 		.intro p {
