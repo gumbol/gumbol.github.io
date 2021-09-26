@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Create a robust website directory | Tarik Alyahya</title>
+  <link rel="shortcut icon" href="../logo64.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- IMPORTANT: fill the content attribute -->
+  <meta name="description"
+    content="A guide to optimize website directory or any computer directory. how to name and structure the folders and files">
+  <!-- IMPORTANT: fill the content attribute -->
+  <meta name="keywords" content="directory, website directory, naming files, naming folders">
+  <!-- IMPORTANT: adjust the relative links as nessecary -->
+  <link rel="stylesheet" type="text/css" href="../styles/style.css">
+
+<script src="../scripts/analytic.js" defer></script>
+
+
+</head>
+
+<body>
+	<!--target="_blank" rel="noreferrer noopener"-->
+	<header id="site-top">
+      <a href="../index.html">gumbol.github.io</a>
+    </header>
+    <!-- The site main-nav menu -->
+    <nav class="navigate">
+      <!--	<a class="logo" href="../index.html">
+          <img src="../logo64.png" alt="logo"></a>-->
+      <a class="current" href="../blog.html">Articles</a>
+      <a href="../projects.html">Projects</a>
+ 
+      <a href="../about.html">About</a>
+  
+    </nav>
+
+
+  <main>
+    <div class="container">
+      <article>
+<header>
+        <h1> Create a robust website directory</h1>
+</header>
+
+<div>
+        <p class="note">
+          This guide is based on my research for best practice approaches.
+          The structure mentioned here is by no means the only approach but it generally falls within the recommended
+          design for ease of navigation and scale.</p>
+
+
+        <p>A directory can be broken down into 3 elements</p>
+          <p>Folder Hierarchy</p>
+          <p>File names</p>
+          <p>Folder names</p>
+
+        <h2>Directory structure</h2>
+        <p>The root or the start folder of a website
+          typically have the following
+          structure.</p>
+       
+
+          <p>A <b>js</b> or <b>scripts</b> folder that includes the scripting files that take
+            care of the web page behavior</p>
+          <p>A <b>css</b> or <b>styles</b> folder that includes the stylesheets files that take care of
+            the web page presentation/look</p>
+          <p>A <b>blog</b> or <b>posts</b> or <b>articles</b> folder that includes the html files that take
+            care of the web page structure</p>
+          <p>A <b>media</b>  or <b>images</b> <b>assets</b>folder that includes the media resources of
+            the website that take care of the suppliment content.
+          </p>
+          <p>A <b>texts</b> or <b>data</b> folder that includes the raw or plain data of the web pages before any structuring</p>
+          <p>An  <b>index.html</b> file that represent the website entry or main page</p>
+          <p>An <b>about.html</b> file that provide information about the website itself and its owner(s)</p>
+          <p>A <b>logo.png</b> file</p>
+          <p>A <b>README.txt</b> file that provide information about the
+            directory structure its in. </p>
+			
+			<p class="note">It is
+            best to include one README file in the root directory and sub-directories.
+          </p>
+       
+        <h2>File nameing</h2>
+
+        <p>The name scheme you choose does not matter as long as it complies
+          with the following guidlines:
+        </p>
+
+        
+          <p><b>Names are meaningful</b> and not broad names like
+            "myimage.jpg" or "mypost.html". You want to be able to have a good idea of the content of the file from the name.</p>
+
+          <p><b>Make it short </b> as longer names will not get processed properly on some software and technology. (e.g. bluetooth will not process files with long names). A good range would be around 50 characters.
+          </p>
+          <b>Avoid spaces!!</b> as they have special use in software. They signal the end of a character and can affect the rendering of pages.</p>
+          <p><b>Don't use special characters</b> like  &acd; ! @ # $ % ^ &amp; * (
+            ) ` ; &lt; &gt; ? , &lsqb; &rsqb; { } ‘ “ because <b>with the exception of hyphen and underscore character</b> these
+            characters have explicit programmatic purpose</p>
+
+          <p><b>If using dates use</b> the ISO standard YYYY-MM-DD or YY-MM-DD format.</p>
+		  
+          <p>The most improtant thing to keep in mind when creating a naming scheme is to <b>be consistent.</b> A naming system will not work if its not followed properly.</p>
+        
+       
+          <p>Use <b>Hyphens -, underscore _ or camelCase</b> in the names as they greatly improve readability. 
+
+<p class="note">		  
+A note about hyphens and underscores is that hyphens has SEO support, is more visible on hyperlinks than underscores (as hyperlinks tend to have havw<a>under_scores</a>) and some search engines do not recognize underscores.</p>
+
+<p class="note">CamelCase names might cause processing issues when ported in different operating systems. (i.e linux OS treat my-file and MY-File as two different files but windows OS treat them as the same file)
+</p>
+        <p>Use <b>leading zeros</b> when naming sequentially. File systems use
+          leading zeros (i.e file-01, file-001, etc) to order content.
+        </p>
+        
+
+        <h4>Examples</h4>
+        <p> <b>Example 1: Mixed hyphen,underscore and camelCase</b> thisIsA-blog_post-19-02-15.html</p>
+        <p> <b>Example 2:</b> sunflower-200w-01.png</p>
+
+        <p> For more examples look up
+          <a href="https://www.github.com/gumbol/gumbol.github.io">
+            my website directory.</a></p>
+			
+			<h2>Conclusion</h2>
+			<p>Staying consistent when creating a documentation system is important to keep the system working.
+			</p>
+</div>
+      </article>
+    </div>
+  </main>
+
+ <section class="blurb">
+
+    <div class="author-info">
+	<h3>About the author</h3>
+  <img
+        class="my-avatar"
+        src="../media/images/me-02-150w.webp"
+        width="150"
+        height="200"
+        alt="Me"
+      />
+     
+     <noscript>
+	   <p>Hi my name is <a href="../about.html">Tarik</a> and I'm a technology hobbiest and an occasional writer. This is my spot on the web for my projects and things i learned over the years.</p>
+	   </noscript>
+
+<p></p>
+    </div>
+</section>
+
+<footer id="global"> <div>
+
+    <nav class="site-links">
+        <a href="../blog.html">Articles</a>    
+         <a href="../projects.html">Projects</a></nav>
+ 
+    </nav>
+
+     <nav class="out-links">
+          <a href="https://github.com/gumbol" title="my github page" target="_blank" rel="noopener noreferrer">
+            <img src="../media/icons/github-01-32x.png" alt= "github mascot octocat" width="32" />
+          </a>
+        </nav>
+
+    <p id="sig">&copy; 2020 Tyah</p>
+
+</div></footer>
+</body>
+
+</html>

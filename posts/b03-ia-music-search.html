@@ -14,9 +14,8 @@
   <meta name="keywords" content="music, creative common, internet archive music" />
   <!-- IMPORTANT: adjust the relative links as nessecary -->
   <link rel="stylesheet" type="text/css" href="../styles/style.css">
- <script src="../scripts/author-info.js" defer></script>
-<script src="../scripts/analytic.js" defer></script>
-
+<script src="../scripts/about.js" defer></script>
+ <script src="../scripts/about.js" defer></script> 
 </head>
 
 <body>
@@ -38,72 +37,59 @@
       </header>
 
       <p>
-        When i search the
+        When you search the
         <a href="https://www.archive.org/details/audio">Archive.org</a> for
-        music the results i get are almost always sample music.
+        music the results you get are usually sample music.
+        If you needed to listen to full length music like i did you need to create some special queries.
       </p>
+	    <h2>Creative commons</h2>
       <p>
-        I needed to listen to full length music so i did some research and
-        found out a neat solution.
+        By including a <a href="https://www.creativecommons.org/licenses/">creative common (CC)</a> license metadata in the search query you will get full length music in most cases.
+    
       </p>
-      <p>
-        By including the CreativeCommon (CC) license metadata in the search
-        query I always get full length music. But how to search for it you
-        might ask? The first thing i did was to take a look at the
-        <a href="https://www.creativecommons.org/licenses/">CC license types.</a>
-      </p>
-      <p>There are 6 CC license types</p>
-      
+	   <h2>Types of creative common licenses</h2>
+	   <p>There are 6 CC license that can be used</p>
+	   <div class="spList">
+		
+		<p><b>by</b> (Attribution only) The default setting and least restrictive</p>
+        <p><b>by-sa</b> (Attribution and share alike)</p>
+        <p><b>by-nd</b> (Attribution and no derivatives)</p>
+        <p><b>by-nc</b> (Attribution and non-commercial)</p>
+        <p><b>by-nc-sa</b> (Attribution, non-commercial and share alike)</p>
+        <p><b>by-nc-nd</b> (Attribution, non-commercial and no derivatives)</p>
+		</div>
 
-        <p>by-sa (Attribution and share alike)</p>
-        <p>by-nd (Attribution and no derivatives)</p>
-        <p>by-nc (Attribution and non-commercial)</p>
-        <p>by-nc-sa (Attribution, non-commercial and share alike)</p>
-        <p>by-nc-nd (Attribution, non-commercial and no derivatives)</p>
-		<p>by (Attribution) and its the default setting</p>
+      <p>Once you pick the licenses you like you need to include it in the search query. <b>The syntax for that query would looks something like this:</b></p>
 
-      <p>The syntax for the search query looks like this</p>
-
-      <code><p>
+      <code>
             [&lt;SEARCH TERM&gt;][licenseurl:http*&lt;LICENSE TYPE&gt;*]
-          </p></code>
+       </code>
 
-      <p>
-        You can use "by" license as a wild card to search for music that has
-        any of the license types. Or you can use a more specific type. You can
-        also include more than one type in the search query.
-      </p>
-      Example: <code><p>jazz licenseurl:http*by*</p></code>
+ 
+      Example: <code>jazz licenseurl:http*by*</code>
 
       <p>
         To include more than one license type you separate them with "OR"
         operator
       </p>
-      Example: <code><p>jazz licenseurl:http*by-nc OR by-nd*</p></code>
+      Example: <code>jazz licenseurl:http*by-nc OR by-nd*</code>
 
-      <p>I tried all the CC types and the results were full length music!.</p>
+      <h2>Conclusion</h2>
+	  <p>The internet archive has a great deal of content that without a good grasp of query syntax it would be diffcult to find what you want. Now that you have some basic understanding of how to query using the CC syntax I encourage you to learn more about internet archive query syntax and operations. I hope you found this article helpful.</p>
     </article>
   </main>
 
   <script src="../scripts/custom/date-updater-1.0.0.js"></script>
- <section class="blurb">
+<section class="blurb">
 
-	   <div class="author-info">   
-	  
-          <h3>About the author</h3>
-				        <img
-        class="my-avatar"
-        src="../media/images/me-02-150w.webp"
-        width="150"
-        height="200"
-        alt="Me"
-      />  
-
-       <noscript>
-	   <p>Hi my name is <a href="../about.html">Tarik</a>, I'm a technology hobbiest and an occasional writer. This is my spot on the web for my projects, tutorials, and things i learned over the years.</p>
+    <div class="author-info">
+      <h3>About the author</h3>
+      <noscript>
+	   <p>Hi my name is <a href="../about.html">Tarik</a> and I'm a technology hobbiest and an occasional writer. This is my spot on the web for my projects and things i learned over the years.</p>
 	   </noscript>
-   <p></p>
-   </div>
+<p></p>
+    
+    </div>
   </section>
 
   <footer id="global">
@@ -116,7 +102,7 @@
 
         <nav class="out-links">
           <a href="https://github.com/gumbol" title="my github page" target="_blank" rel="noopener noreferrer">
-            <img src="../media/icons/github-01-32x.png" alt= "github mascot octocat" width="32" />
+            <img src="../media/icons/github-32x-01.png" alt= "github mascot octocat" width="32" />
           </a>
         </nav>
 
