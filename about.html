@@ -17,6 +17,42 @@
 <script src="./scripts/analytic.js" defer></script>
 
 	<style>
+
+:root { 
+	--concave-corners-background: rgba(0, 0, 0, .3); 
+--concave-corners-size: 1rem; } 
+
+.concave-corners { 
+	background-color: var(--concave-corners-background); /* Used to position the corners */ 
+position: relative; /* Misc */ 
+height: 100%; }
+
+.concave-corners__corner { /* Absolute position */ 
+position: absolute; /* Size */ 
+height: var(--concave-corners-size); 
+width: var(--concave-corners-size); 
+background: #000; } 
+
+.concave-corners__corner--tl { /* Position */ 
+left: 0; 
+top: 0; 
+/* Border radius */ 
+border-radius: 0 0 var(--concave-corners-size) 0; } 
+
+.concave-corners__corner--tr { /* Position */ 
+right: 0; 
+top: 0; /* Border radius */ 
+border-radius: 0 0 0 var(--concave-corners-size); } 
+
+.concave-corners__corner--bl { /* Position */ 
+bottom: 0; left: 0; /* Border radius */ 
+border-radius: 0 var(--concave-corners-size) 0 0; } 
+.concave-corners__corner--br { /* Position */ 
+bottom: 0; 
+right: 0; /* 
+Border radius */ 
+border-radius: var(--concave-corners-size) 0 0 0; }
+
 		.intro p {
 			font-family: 'Arial Narrow Bold', sans-serif;
 			letter-spacing: 1px;
@@ -106,19 +142,24 @@
 
 	<main>
 		<div class="intro container">
-
 			<header>
 				<h1>About</h1>
-				<hr>
-				<hr>
 			</header>
-
-
-			<img src="media/images/me02-150w.webp" width="150">
+			<div class="concave-corners">
+				<div class="concave-corners__corner concave-corners__corner--tl"></div>
+				<div class="concave-corners__corner concave-corners__corner--tr"></div> 
+				<div class="concave-corners__corner concave-corners__corner--bl"></div> 
+				<div class="concave-corners__corner concave-corners__corner--br"></div> 
+				<img src="media/images/me02-150w.webp" width="150">
 
 			<p>Hi my name is Tarik, a technology hobbiest and an occasional writer.
 				This is my spot on the web for my projects,
 				tutorials, and things i learned over the years.</p>
+				</div>
+		
+		
+
+		
 		</div>
 
 		<div class="container">
@@ -273,12 +314,11 @@
 					<a class="card" href="https://www.scratch.mit.edu/" target="_blank" rel="noreferrer noopener">
 						<article>
 							<h1>Scratch</h1>
-							<p>
-	A block based programming language app and website.
-							</p>
+							<p>A block based programming language app and website.</p>
 						</article>
 					</a>
 				</div>
+
 			</section>
 		</div>
 
