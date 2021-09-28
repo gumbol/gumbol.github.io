@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Intro to static website directory | Tarik Alyahya</title>
+  <title>Basic static site directory | Tarik Alyahya</title>
   <link rel="shortcut icon" href="../logo64.png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- IMPORTANT: fill the content attribute -->
@@ -15,7 +15,6 @@
   <link rel="stylesheet" type="text/css" href="../styles/style.css">
 <script src="../scripts/author-info.js" defer></script>
 <script src="../scripts/analytic.js" defer></script>
-
 
 </head>
 
@@ -49,63 +48,56 @@
 
          
    <h2>Directory structure</h2>
-<p>The root of the website should include</p>
-<p>A folder that hold the html files.</p>
-<p>A folder that holds the css files.</p>
-<p>A folder to hold the javascript files. (optional)</p>
-<p>A folder to hold the raw data files before any processing.</p>
-<p>A <b>README</b> file that provide information about the directory structure its in.</p>
-<p>An <b>index.html</b> file that represent the website entry or main page</p>
-<p>An <b>about.html</b> file that provide information about the website itself and its owner(s)</p>
-<p>A <b>logo </b> file</p>
+<p>The root folder of the website should include</p>
+<p>- A folder to hold the html files.</p>
+<p>- A folder to hold the css files.</p>
+<p>- A folder to hold supplimental files. (images, documents, etc...)</p>
+<p>- A folder to hold the javascript files.(if you use scripts)</p>
+<p>- A folder to hold the text or raw data files before any processing.</p>
+<p>- A README.txt or README.md to keep metadata about the directory structure</p>
+<p>- An index.html.</p>
+<p>- An about.html.</p>
+<p>- A logo.</p>
 		  
   <h2>Folder naming</h2>
-          <p><b>js</b> or <b>scripts</b> for folders that includes the scripting files</p>
-          <p><b>css</b> or <b>styles</b> for folders that includes the stylesheets files</p>
-          <p><b>blog</b> or <b>posts</b> or <b>articles</b> for folders that includes the html</p>
-          <p><b>media</b> or <b>images</b> or <b>assets</b> for folders that includes supplimental resources.</p>
-          <p><b>texts</b> or <b>data</b> for folders that includes the raw files</p>
-        
- 
-        
-			
+        <p>- <b>blog</b>, <b>posts</b> or <b>articles</b> for the html folder.</p>
+		<p>- <b>css</b> or <b>styles</b> for the css folder.</p>
+		<p>- <b>media</b>, <b>images</b> or <b>assets</b> for supplimental resources folder.</p>
+		<p>- <b>js</b> or <b>scripts</b> for the scripts folder (if you are use more than one type of script language then naming it scripts makes more snese)</p>   
+        <p>- <b>texts</b> or <b>data</b> for the plain text folder</p>
 			<p class="note">It is
-            best to include one README file in the root directory and sub-directories.
+            best to include README file in the root directory and sub-directories.
           </p>
        
         <h2>File nameing</h2>
-
-        <p>The name scheme you choose does not matter as long as it complies
-          with the following guidlines:
-        </p>
-
-        
-          <p><b>Make the names meaningful</b> and not broad names like
+        <p>- <b>Make the names meaningful</b> and not broad names like
             "myimage.jpg" or "mypost.html". You want to be able to have a good idea of the content of the file from the name.</p>
 
-          <p><b>Make it short </b> as longer names will not get processed properly on some software and technology. (e.g. bluetooth will not process files with long names). A good range would be around 50 characters.
+        <p>- <b>Make it short </b> as longer names will not get processed properly on some software and technology. (e.g. bluetooth will not process files with long names). A good range would be around 50 characters.
           </p>
-          <p><b>Avoid spaces!!</b> as they have special use in software. They signal the end of a character and can affect the rendering of pages.</p>
+        <p>- <b>Avoid spaces!!</b> as they have special use in software. They signal the end of a character and can affect the rendering of pages. Instead use <b>hyphens -, underscore _ or camelCase</b> to seperate words</p>
           
-		  <p><b>Don't use special characters</b> like  &acd; ! @ # $ % ^ &amp; * (
+		<p>- <b>Don't use special characters</b> like  &acd; ! @ # $ % ^ &amp; * (
             ) ` ; &lt; &gt; ? , &lsqb; &rsqb; { } ‘ “ because these
             characters have explicit programmatic purpose (with the exception of hyphen and underscore character)</p>
 
-          <p><b>If using dates use</b> the ISO format YYYY-MM-DD or YY-MM-DD.</p>
-		  
-          <p>The most improtant thing to keep in mind when creating a naming scheme is to <b>be consistent.</b> A naming system will not work if its not followed properly.</p>
+        <p>- <b>If using dates use</b> the ISO format YYYY-MM-DD or YY-MM-DD.</p>
+	
+		<p>- <b>Use leading zeros</b> when naming sequentially. File systems use
+          leading zeros (i.e file-01, file-001, etc) to order content.
+        </p>
+        
+		<p>The most improtant thing to keep in mind when creating a naming scheme is to <b>be consistent.</b> A naming system will not work if its not followed properly.</p>
         
        
-          <p>Use <b>Hyphens -, underscore _ or camelCase</b> in the names as they greatly improve readability. 
+  
 
 <p class="note">		  
 A note about hyphens and underscores is that hyphens has SEO support, is more visible on hyperlinks than underscores (as hyperlinks tend to have <a>under_scores</a>) and some search engines do not recognize underscores.</p>
 
 <p class="note">CamelCase names might cause processing issues when ported in different operating systems. (i.e linux OS treat my-file and MY-File as two different files but windows OS treat them as the same file)
 </p>
-        <p>Use <b>leading zeros</b> when naming sequentially. File systems use
-          leading zeros (i.e file-01, file-001, etc) to order content.
-        </p>
+       
         
 <h4>Examples</h4>
   <p> <b>A simple naming style:</b> sunflower-200w-01.png</p>
