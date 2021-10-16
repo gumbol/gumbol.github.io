@@ -294,7 +294,7 @@ display: none;
 starter css
 ***********************
 */
-@font-face{
+	@font-face{
 	font-family: lexRegular;
 	src: url(./fonts/sans-serif/Lexend-Regular.ttf);
 	}
@@ -384,13 +384,23 @@ a:any-link.btn1 {
   font-size: 0.7rem;
 }
 
-.note {
-  border: 1px solid #000;
-  background-color: rgba(164, 164, 238, 0.815);
-  max-width: 480px;
-  padding: 10px;
-  margin: 10px 0;
-}
+  .note{
+	   border: 2px solid rgba(255, 238, 173, .5);
+            border-left: 4px solid rgb(245, 136, 12);
+            padding:5px 15px 15px 15px;
+            max-width: 320px;
+            background-color: rgba(255, 238, 173, 0.2);
+            color: rgb(184, 131, 18);
+           
+         }
+    .note:before{
+        display:block;
+        content: "⧉ Note";
+        padding:0px 0 10px;
+		font-weight: bold;
+      
+    }
+
 
 .note p,
 .note li {
@@ -522,9 +532,62 @@ kbd {
 }
 
 
-article-summary > div {
-   overflow:auto;
+.article-container {
+
+	  border: none;
+	  margin: 10px auto 10px;
+	  padding:0;
+	  width:100%;
+	
 }
+
+.article-container div {
+	
+	font-weight:normal;
+	font-style: normal;
+  color: black;
+}
+
+.article-container:hover{border: none;}
+
+
+.article-container:active {
+
+	/* background-color: var(--c-primary-shade);
+  color: var(--c-active); */
+
+}
+
+.article-container:focus{
+	border: 2px dashed black;
+}
+.article-container:active{border: none;}
+
+article-summary {
+  display: block;
+  margin: 0;
+  padding:10px;
+/*background-color: var(--c-bg);
+  transition: inherit; */
+  cursor: pointer;
+  border-left: 4px solid transparent;
+
+}
+
+article-summary p{
+	margin:0;
+  font-size:1em;
+}
+
+article-summary .title{
+	margin:0;
+	font-size:1.2em;
+	font-family: lexBold;
+}
+
+
+article-summary > div {overflow:auto;}
+
 article-summary > div > div:first-child {
   position: relative;
   background: var(--c-link);
@@ -559,55 +622,18 @@ article-summary:focus-within > a:first-child,
 article-summary:hover > a:first-child {
   color: var(--c-active);
 }
+
 article-summary:focus-within > div > div:first-child > img,
 article-summary:hover > div > div:first-child > img {
   filter: grayscale(0);
 }
 
-
-.specialAnchor {
-
-	  border: none;
-	  margin: 10px auto 10px;
-	  padding:0;
-	  width:100%;
-	
+@media (max-width: 420px){
+  .article-container:focus{
+    border: 2px dashed black;
+    background-color: var(--c-primary-shade);
+    color: var(--c-active);
 }
-
-.specialAnchor div {
-	
-	font-weight:normal;
-	color: black;
-	font-style: normal;
-}
-
-.specialAnchor:hover{
-	
-	  border: none;
-	  
-}
-.specialAnchor:active{
-	border:solid black;
-	
-}
-article-summary p{
-	margin:0;
-font-size:1em;
-}
-
-article-summary .title{
-	margin:0;
-	font-size:1.2em;
-	font-family: lexBold;
-}
-article-summary {
-  display: block;
-  margin: 0;
-  padding:10px;
-  background-color: var(--c-bg);
-  transition: inherit;
-  cursor: pointer;
-  border-left: 4px solid transparent;
 
 }
 
