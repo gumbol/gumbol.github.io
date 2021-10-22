@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Chunk_ | تشنك</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" type="text/css" href="styles/style.css" />
+<script src="./scripts/analytic.js" defer></script>
+</head>
+
+<style>
+body{
+font-family: Verdana, sans-serif;
+font-size:100%;
+line-height: 1.75em;
+background-color: papayawhip;}
+
+
+h1 {
+font-family: "Marko One",
+Georgia, serif;
+font-size: 1.5em;
+color:purple;
+
+text-shadow: .1em .1em .2em lightslategray;}
+
+#title {
+
+
+}
+
+h2 {
+font-size: 1em;
+text-transform: uppercase;
+letter-spacing: .5em;
+color: purple;
+}
+h2 + p {
+text-align: center;
+font-style: italic;}
+
+dt{
+font-weight:bold;
+color:sienna;}
+
+p, dl{
+font-size: 87.5%;}
+
+
+strong {font-style: italic; }
+dt strong {color:maroon;}
+
+h1,h2, #info {
+text-align:center;}
+
+#info p{font-style: italic; color:gray;}
+
+.price{font-family:Georgia, serif;
+font-style: italic;
+color: black;}
+
+.label{font-weight: bold;
+font-variant: small-caps;
+font-style: normal;}
+
+p.warning, sup {
+font-size: x-small;
+color: red;
+}
+#dot {
+font-size:40px;
+color: purple;
+}
+
+.logo {
+padding:5px;
+font-family: "Marko One", Georgia, serif;
+font-size: 1.5em;
+text-align: justify;
+border: 1px solid black ;
+
+text-shadow: .1em .1em .01em rgb(44, 3, 3);
+color:white; font-weight: normal;
+width:55px;
+height:55px;
+background-color: black;
+box-shadow: .1em .1em .1em rgb(182, 16, 16);
+}
+@media (min-width:500px){
+body{text-align: center}
+}
+body{text-align: center}
+
+
+.container{
+display:flex;
+}
+
+.container dd {
+margin:0;
+}
+
+.container div {
+margin:5px;
+padding:5px;
+border:1px solid black;
+}
+.container .new-item strong{
+font-size:80%;}
+</style>
+
+<body>
+
+<div class="logo">ch<br>unk_</div>
+
+<header>
+
+<div id="info">
+<p>Address here<br><span class="label">Hours: Monday through Monday</span> 8:00AM to Midnight</p>
+</div>
+</header>
+	
+<article>
+	<section id="dessert">
+		<h2>Dessert</h2>
+		<p>section detail here</p>
+	<dl>
+	<dt>Cheese Cake</dt>
+		<dd> product detail here
+		<span class="price"> $00.00</span></dd>
+		
+	<dt class="new-item">Fig tart &mdash;
+		<strong> new item!</strong></dt> 
+		<dd>product detail here
+		<span class="price">$00.00</span></dd>
+	</dl>
+	</section>
+	
+	
+	<section id="breads">
+		<h2>Breads</h2>
+		<p>section detail here</p>
+	<dl>
+	<dt>Cheese croissant</dt>
+		<dd> product detail here
+		<span class="price"> $00.00</span></dd>
+		
+	<dt class="new-item">Cheese stuffed Sour bread buns</dt> 
+		<dd>product detail here
+		<span class="price">$00.00</span></dd>
+	</dl>
+	</section>
+	
+	
+
+	<section id="drinks">
+		<h2>Drinks</h2>
+		<p>section detail here</p>
+
+	<dl class="container">
+	<div>	
+	<dt class="new-item">
+		Mango slices &mdash;
+		<strong>new item!</strong>
+	</dt> 
+	<dd>product detail here. <span class="price">$00.00</span></dd>
+	</div>	
+<div>	
+	<dt>Iced coffee</dt>
+	<dd>product detail here. <span class="price">$00.00</span></dd>
+</div>
+<div>
+	<dt>Cappuccino</dt>
+	<dd>product detail here. <span class="price">$00.00</span></dd>	
+</div>
+	</dl>
+	
+	</section>
+
+</article>
+
+
+<p class="warning">*Products may contain dairy products</p>
+
+</body>
+</html>
