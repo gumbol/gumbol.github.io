@@ -91,20 +91,28 @@ body{text-align: center}
 }
 body{text-align: center}
 
-
+dd{
+margin:0;
+}
 .container{
 display:flex;
+flex-wrap:wrap;
+justify-content:center;
+algin-items:center
 }
 
 .container dd {
 margin:0;
+width:100%;
 }
 
 .container div {
 margin:5px;
 padding:5px;
 border:1px solid black;
+width:100px;
 }
+
 .container .new-item strong{
 font-size:80%;}
 </style>
@@ -168,6 +176,14 @@ font-size:80%;}
 <div>	
 	<dt>Iced coffee</dt>
 	<dd>product detail here. <span class="price">$00.00</span></dd>
+</div>
+<div>
+	<dt>Cappuccino</dt>
+	<dd>product detail here. <span class="price">$00.00</span></dd>	
+</div>
+<div>
+	<dt>Cappuccino</dt>
+	<dd>product detail here. <span class="price">$00.00</span></dd>	
 </div>
 <div>
 	<dt>Cappuccino</dt>
